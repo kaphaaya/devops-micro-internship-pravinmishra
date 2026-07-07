@@ -33,7 +33,11 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+Most people are completely wrong about how life, career, and success work. They blindly follow a societal timeline, believing that everything is time bound and that you run out of time to achieve big things once you hit a certain age. It is a limiting mindset, and frankly, it is baffling.
+
+My answer is different. I believe age is a total illusion when it comes to capability and achievement. You can achieve absolutely anything at any age, whether you are starting fresh today or learning something completely new at 80.
+
+The real secret isn't timing or youth. It is showing up, staying consistent, and giving it your absolute all no matter what. While society tells people to slow down and accept their limits, I say live life entirely on your own terms and keep attacking the new, the old, and the evolving. That is exactly how I operate, and it is how I am crushing this DMI internship.
 
 ---
 
@@ -54,12 +58,13 @@ Write each truth in this format:
 ## Truth #1
 
 ### Truth
+You are completely in charge of your own emotions and your brain does not know what to do until you command it.
 
-Add your answer here...
 
 ### Evidence from my life
 
-Add your answer here...
+I used to let disappointments drag me down, but I tested a strict 5-second rule. When something goes wrong, I give myself exactly 5 seconds to feel the sadness or disappointment, then I immediately force my brain to switch gears and hunt for a solution. By shifting from moping to execution instantly, I realized that lingering in negative feelings is a choice, and choosing a positive, solution-oriented mindset gets immediate results.
+
 
 ---
 
@@ -67,25 +72,23 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Someone else's opinion is never law and you are the only person who validates who you are.
 
 ### Evidence from my life
 
-Add your answer here...
+People used to judge and profile me based on the limited parts of myself I chose to show them, which made me overthink my own identity. I realized their judgments were completely skewed, so I stopped cowering and decided never to let anyone impose their ideologies on me. Now, I protect my own sovereignty, stand up for myself regardless of what people think, and treat advice as optional because I run my life by my own rules.
 
----
 
 ## Truth #3
 
 ### Truth
 
-Add your answer here...
+Nobody owes you anything in this world, and you cannot measure other people's behavior by your own standards.
 
 ### Evidence from my life
 
-Add your answer here...
+I used to treat people selflessly and hold them to the same high standards I set for myself, which left me constantly feeling disappointed and betrayed when they fell short. Once I realized that everyone is operating in their own self-interest, I stopped expecting people to act like me. I eliminated all expectations, realized the only person who owes me loyalty is myself, and now I never let someone else's actions drain my energy.
 
----
 
 # Assignment 3. What does your 2.0 version look like?
 
@@ -135,13 +138,8 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
-
 ### Public Link
-
-Paste your link here:
-
-`__________________________`
+(https://open.substack.com/pub/kaphaaya/p/the-woman-who-deleted-the-script?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
 
 ---
 
@@ -165,7 +163,7 @@ This is about self-awareness, not judgment.
 
 ### Answer Format
 
-**Yes / No**
+Yes 
 
 If Yes:
 
@@ -173,7 +171,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+I felt completely exposed and dumb. I thought I was outsmarting the system by using AI to bypass the grind, but when the presentation arrived, the illusion shattered. Standing there unable to explain my own code brought an intense wave of embarrassment and sharp regret. It was a massive wake-up call that shortcuts only breed superficial progress. Passing a class or getting a task done means nothing if you have zero real substance behind it. That specific feeling of being incompetent fueled my pivot to master the material from scratch, turning AI into a tool for real leverage instead of a crutch.
 
 ---
 
@@ -199,16 +197,25 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. The Almanack of Naval Ravikant by Eric Jorgenson
+
+2. The Sovereign Individual by James Dale Davidson and William Rees-Mogg
+
+3. Principles: Life and Work by Ray Dalio
+
+4. Mastery by Robert Greene
+
+5. Deep Work by Cal Newport
+
+6. Zero to One by Peter Thiel
+
+7. The Psychology of Money by Morgan Housel
+
+8. Skin in the Game by Nassim Nicholas Taleb
+
+9. Extreme Ownership by Jocko Willink and Leif Babin
+
+10. Show Your Work! by Austin Kleon
 
 ---
 
@@ -237,16 +244,40 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+1. Learning / Skill
+Course completion and code architecture hours
+
+Technical stacks mastered (Cloud, Web3, DevOps)
+
+Books read and documented
+
+2. Output / Proof
+Projects shipped and GitHub commits deployed
+
+Substack articles and creative writing pieces published
+
+3. Health / Energy
+Daily workouts and physical training sessions
+
+Sleep quality and energy level tracking
+
+Skincare routine consistency and physical well-being metrics
+
+4. Time / Focus
+Deep work hours focused on business and technical scaling
+
+Time spent on remote work delivery versus independent asset creation
+
+Uninterrupted writing and thought-leadership creation windows
+
+Screentime on Social Media
+
+5. Money / Finance
+Personal and business spending tracker
+
+Savings rate and liquidity growth metrics
+
+Tech consultancy revenue and asset acquisition tracking
 
 ---
 
@@ -272,9 +303,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
-
----
+Yes
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
 
@@ -290,7 +319,11 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+1. Monday–Friday (1 Hour Daily): Watch Udemy and technical videos, practice hands-on coding/cloud engineering, and complete 1–2 assignment tasks immediately following study sessions.
+
+2. Saturday (5:30 AM–1:30 PM): 8 hours of uninterrupted, zero-distraction execution dedicated entirely to the live DMI session.
+
+3. Sunday: Weekly review to preview lessons learned, pinpoint areas for technical improvement, and map out the actionable to-do list for the upcoming week.
 
 ---
 
@@ -298,11 +331,13 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+1. Saturdays: 5:30 AM–1:30 PM (Main intensive session)
+
+2. Monday–Friday: 1 hour daily during weekdays (Immediately following technical study sessions)
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+6 sessions per week (5 weekday execution blocks + 1 deep-dive Saturday block)
 
 ---
 
@@ -315,8 +350,10 @@ Examples:
 * Environment setup
 
 #### My Distraction Rules
-
-Add your answer here...
+1. No Phones in active sessions
+2. No socila media scrolling and chatting
+3. Setup environmnet in a quiet place SO I will not be disturbed
+4. Put all devices on DND 
 
 ---
 
@@ -324,28 +361,28 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I can achieve anything i set my mind to.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I need to come to sessions dressed and ready like a professional 
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Concentrate fully and remove all distractions.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/aziz-kafayat_building-a-modern-cloud-infrastructure-company-share-7472186648752177152-7dmw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL:  https://www.linkedin.com/posts/aziz-kafayat_building-a-modern-cloud-infrastructure-company-share-7472186648752177152-7dmw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU
+- Blog / Medium :   https://open.substack.com/pub/kaphaaya/p/the-woman-who-deleted-the-script?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
 
 ---
 
