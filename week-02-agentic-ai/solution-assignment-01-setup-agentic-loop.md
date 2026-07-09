@@ -20,14 +20,14 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-<img width="625" height="257" alt="Screenshot 2" src="https://github.com/user-attachments/assets/5bc89092-a272-4a5d-92eb-fc9a7f183cb0" />
-
+<img width="655" height="43" alt="Screenshot 1" src="https://github.com/user-attachments/assets/86e32c8e-cd65-45fc-871a-d2c439314d6a" />
 
 ---
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-Add your screenshot here.
+<img width="625" height="257" alt="Screenshot 2" src="https://github.com/user-attachments/assets/e1cb5d23-4140-47f1-a5d9-07028111bd38" />
+
 
 ---
 
@@ -41,7 +41,9 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-Add your screenshot here.
+<img width="343" height="393" alt="Screenshot 3" src="https://github.com/user-attachments/assets/0c1fea7e-ddc9-447b-9534-558e7227d440" />
+
+
 
 ---
 
@@ -55,13 +57,16 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-Add your screenshot here.
+<img width="1792" height="1090" alt="Screenshot 4" src="https://github.com/user-attachments/assets/dcc56986-37ea-4e4c-92ee-8ad2c383e2ed" />
+
+<img width="1792" height="1120" alt="Screenshot 4 0" src="https://github.com/user-attachments/assets/b71258b7-ebaa-4ee6-840b-191387590589" />
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/f750a375-2ffc-4ea1-b74f-9251682d41e9" />
+
 
 ---
 
@@ -78,7 +83,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-02-agentic-ai/solution-assignment-01-setup-agentic-loop.md`
 
 ---
 
