@@ -20,7 +20,8 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/2b93ce21-c498-4244-99f2-41c81463c023" />
+
 
 ---
 
@@ -34,19 +35,34 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+Haiku is cheaper and sufficient for the task. Cost optimization is about analyzing Terraform files and suggesting 
+  savings—straightforward pattern matching and numerical analysis. Haiku excels at this because:                    
+  - The task doesn't require complex reasoning or edge cases                                                        
+  - It reads infrastructure files and reports findings (no complex decision-making)                                 
+  - Using a cheaper model for a cost-focused agent demonstrates the principle of efficiency                         
+  - Reduces operational cost of the agent itself (meta-optimization) 
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
-
+Intentional separation of concerns. The security auditor's job is to audit and report, not to fix. Tools: Read,   
+  Grep, Glob only:                                                                                                  
+  - Enforces read-only review mode (prevents accidental modifications during audits)                                
+  - Findings are reported for human review or passed to a different agent (tf-writer) that has write permissions    
+  - Maintains audit integrity—auditing and remediation are separate responsibilities                            
+  - Reduces blast radius if the agent misbehaves                                                                    
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+Flexibility for code generation complexity. model: inherit means tf-writer uses the parent's model choice:
+  - If spawned with Claude Opus, it runs as Opus (maximum reasoning for complex infrastructure)                     
+  - If spawned with Claude Sonnet, it runs as Sonnet (balanced capability)                                          
+  - Allows caller to match the model to the task complexity at invocation time                                      
+  - Tf-writer is generative (writes production code) unlike cost-optimizer (analysis only), so it may need stronger 
+  reasoning depending on requirements                                                                               
+  - inherit gives flexibility without forcing one model choice 
 
 ---
 
@@ -54,13 +70,13 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/4c59dc24-0517-4b46-97b3-b3350b1f67c8" />
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/1b4bb775-8640-4cd4-8e51-fba88231cae0" />
 
 ---
 
@@ -74,13 +90,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/525e91d1-eb14-4674-b02e-a491a4a72cb5" />
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/ba7c3eb5-8417-4533-b165-9de6f26a5085" />
 
 ---
 
@@ -94,7 +110,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 6" src="https://github.com/user-attachments/assets/928ce2ff-f508-46a0-a42e-e790d64ea72c" />
 
 ---
 
@@ -110,7 +126,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-02-agentic-ai/solution-assignment-04-subagents.md
 
 ---
 
