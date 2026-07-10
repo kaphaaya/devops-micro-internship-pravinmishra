@@ -20,7 +20,7 @@ Identify where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/c84175d4-ea45-4973-9081-4da1a82d9e33" />
 
 ---
 
@@ -34,13 +34,13 @@ Store project-specific rules and configurations into Claude’s memory and verif
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/689da8d4-f83e-478a-a99d-e8a975d29987" />
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/0a04373c-455a-4228-a2cd-2be0ed798a27" />
 
 ---
 
@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/41aaf423-2d7d-462c-996c-5459e9582ad8" />
 
 ---
 
@@ -68,13 +68,13 @@ Verify that Claude correctly recalls stored memory after a full session reset.
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/f9901675-6857-43f9-b151-f71c1f58c504" />
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 6" src="https://github.com/user-attachments/assets/49215fcd-1b3d-4653-b1e9-b1b22276eec9" />
 
 ---
 
@@ -91,7 +91,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-02-agentic-ai/solution-assignment-07-memory.md
 
 ---
 
