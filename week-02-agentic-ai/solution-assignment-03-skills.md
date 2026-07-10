@@ -20,7 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/675ce4fc-6d2e-434f-8165-246e591b5078" />
+<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/7e4fb039-1c9e-4f32-9e2e-2e967204afba" />
 
 ---
 
@@ -34,13 +34,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/120e46cb-54b0-4111-bc54-6bfdec6a6b6b" />
+<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/d11fb51d-a4d0-4ce4-8556-5bc0320aef9f" />
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/4da9784b-e8de-4c71-a46f-6647e2cb5bed" />
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/922e7ecf-69cc-4c50-a21c-d30115f18d20" />
 
 ---
 
@@ -54,15 +54,15 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-<img width="1792" height="1120" alt="Screenshot 4 0" src="https://github.com/user-attachments/assets/3447f998-c33b-40d8-8e03-88a76564f524" />
+<img width="1792" height="1120" alt="Screenshot 4 0" src="https://github.com/user-attachments/assets/80c99df7-0a72-406f-b6e3-fc1dddebcaea" />
 
-<img width="1792" height="1120" alt="Screenshot 4 1" src="https://github.com/user-attachments/assets/19baecb4-9389-4390-ac5d-5b978806bb5a" />
+<img width="1792" height="1120" alt="Screenshot 4 1" src="https://github.com/user-attachments/assets/0b2b3553-bb82-416c-a1a3-fe9fb70e48db" />
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/c211040d-91da-492a-8396-3e5847c7a1f4" />
+<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/5e0c26e1-7d74-4f9e-9b4b-94b4ca756c7b" />
 
 ---
 
@@ -76,11 +76,11 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-<img width="1792" height="1120" alt="Screenshot 6 0" src="https://github.com/user-attachments/assets/fbaeb192-c1c1-4c54-852c-3bed86fe5854" />
+<img width="1792" height="1120" alt="Screenshot 6 0" src="https://github.com/user-attachments/assets/70e9fff1-621c-40db-8941-b546cf1621fd" />
 
-<img width="1792" height="1120" alt="Screenshot 6 1" src="https://github.com/user-attachments/assets/11a2c597-df11-42b6-9600-d93ee9c5c4a2" />
+<img width="1792" height="1120" alt="Screenshot 6 1" src="https://github.com/user-attachments/assets/9f8dec10-eaba-4952-8587-f9d69f8a80e9" />
 
-<img width="588" height="672" alt="Screenshot 6 3" src="https://github.com/user-attachments/assets/9442c804-3ccf-42ac-8eb9-f517aa3652f9" />
+<img width="588" height="672" alt="Screenshot 6 3" src="https://github.com/user-attachments/assets/a3b7a7a2-bf00-46e2-9072-d80d6bf0c6b6" />
 
 ---
 
@@ -96,13 +96,13 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 Paste your forked repository URL here:
 
-'https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-02-agentic-ai/solution-assignment-03-skills.md'
+https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-02-agentic-ai/solution-assignment-03-skills.md
 
 ## LinkedIn post URL
 
 Paste your forked repository URL here:
 
-`https://www.linkedin.com/posts/aziz-kafayat_dmibypravinmishra-agenticai-claudecode-share-7480630511191822336-SI2O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU`
+https://www.linkedin.com/posts/aziz-kafayat_dmibypravinmishra-agenticai-claudecode-share-7480630511191822336-SI2O/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU
 ---
 
 # Completion Checklist
