@@ -20,8 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/2b93ce21-c498-4244-99f2-41c81463c023" />
-
+<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/492105e5-edae-4814-a49e-46ce08ce437b" />
 
 ---
 
@@ -70,13 +69,13 @@ Flexibility for code generation complexity. model: inherit means tf-writer uses 
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/4c59dc24-0517-4b46-97b3-b3350b1f67c8" />
+<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/f7312830-173c-48f9-88f5-c69cb7f2e8d2" />
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/1b4bb775-8640-4cd4-8e51-fba88231cae0" />
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/25d17f0e-2057-4b98-bdf0-342e3fa8bbf5" />
 
 ---
 
@@ -90,13 +89,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/525e91d1-eb14-4674-b02e-a491a4a72cb5" />
+<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/13ec6d5f-4f44-4c98-a4a5-fa0ae0852904" />
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/ba7c3eb5-8417-4533-b165-9de6f26a5085" />
+<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/a09cc0a4-c427-40e3-8703-ea76995f63dd" />
 
 ---
 
@@ -110,7 +109,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-<img width="1792" height="1120" alt="Screenshot 6" src="https://github.com/user-attachments/assets/928ce2ff-f508-46a0-a42e-e790d64ea72c" />
+<img width="1792" height="1120" alt="Screenshot 6" src="https://github.com/user-attachments/assets/8703c75d-69cd-44ba-a317-06a82fcdff54" />
 
 ---
 
