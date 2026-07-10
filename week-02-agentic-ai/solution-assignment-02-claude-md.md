@@ -20,7 +20,8 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/3700a4c7-95d1-477b-a6ae-0db0b1a848f7" />
+<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/bea9b0b4-936a-48c0-94af-0f166f996a34" />
+
 ---
 
 # Task 2 — Generate the First Draft with /init
@@ -33,11 +34,11 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/ce052664-6842-4346-baaf-9fa25b9a785c" />
+<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/4a856e38-98a3-4dba-b1d2-9d8a52e2bce0" />
 
-<img width="1792" height="1120" alt="Screenshot 2 1" src="https://github.com/user-attachments/assets/ce9de1a7-1674-4093-b4b0-e2acfab6e40d" />
+<img width="1792" height="1120" alt="Screenshot 2 1" src="https://github.com/user-attachments/assets/32f56b7d-cb54-4e0f-90a9-6637e239a16e" />
 
-<img width="1792" height="1120" alt="Screenshot 2 2" src="https://github.com/user-attachments/assets/866ebb9e-7349-4505-a784-a25adcab084e" />
+<img width="1792" height="1120" alt="Screenshot 2 2" src="https://github.com/user-attachments/assets/c8972352-3900-45ff-a86d-565080ff111e" />
 
 ---
 
@@ -51,13 +52,14 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-<img width="1792" height="1120" alt="Screenshot 3 0" src="https://github.com/user-attachments/assets/ab44a4a4-80c5-4423-a90e-9e05d2e28da8" />
+<img width="1792" height="1120" alt="Screenshot 3 0" src="https://github.com/user-attachments/assets/fe573d39-aedc-4ed2-b119-0dac49bf4a89" />
 
-<img width="1792" height="1120" alt="Screenshot 3 1" src="https://github.com/user-attachments/assets/5cf7dfc8-fe83-443d-b07e-2fc8d8116f6f" />
+<img width="1792" height="1120" alt="Screenshot 3 1" src="https://github.com/user-attachments/assets/74094c01-86de-4ac5-9e78-32e8fe02bf44" />
 
-<img width="1792" height="1120" alt="Screenshot 3 2" src="https://github.com/user-attachments/assets/4a7a294e-e288-4b51-b85e-ed615e83c942" />
+<img width="1792" height="1120" alt="Screenshot 3 2" src="https://github.com/user-attachments/assets/612399e6-9a66-4a55-ae60-6e595d33422f" />
 
-<img width="1792" height="1120" alt="Screenshot 3 3" src="https://github.com/user-attachments/assets/0f245a0f-5776-4f46-a5f5-1449fd086419" />
+<img width="1792" height="1120" alt="Screenshot 3 3" src="https://github.com/user-attachments/assets/810b7ceb-6893-4f1b-b9da-26e2c6405da4" />
+
 ---
 
 # Task 4 — Test the After State
@@ -70,13 +72,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/415aec27-4d35-489f-bcf1-ecd4d65f85ba" />
+<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/52d04190-d37f-46d6-b113-3d154999ba5b" />
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/19fe43c1-8c00-4b2b-bbbd-635d8332c25f" />
+<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/bade221b-ec5a-45b2-9f7f-d58569128967" />
 
 ---
 
@@ -90,9 +92,9 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-<img width="1792" height="1120" alt="Screenshot 5 1" src="https://github.com/user-attachments/assets/6abf0499-7269-4a19-b672-46e77972bc40" />
+<img width="1792" height="1120" alt="Screenshot 5 1" src="https://github.com/user-attachments/assets/28f949ab-cecb-469f-aae3-865fdae3b4f7" />
 
-<img width="1792" height="1120" alt="Screenshot 5 2" src="https://github.com/user-attachments/assets/df814d2c-d5ef-4efc-a225-7323b68db193" />
+<img width="1792" height="1120" alt="Screenshot 5 2" src="https://github.com/user-attachments/assets/4bc765f8-1455-4a70-a91a-bf3212f1ee81" />
 
 ---
 
@@ -108,7 +110,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 Paste your forked repository URL here:
 
-`https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-02-agentic-ai/solution-assignment-02-claude-md.md`
+https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-02-agentic-ai/solution-assignment-02-claude-md.md
 
 ---
 
