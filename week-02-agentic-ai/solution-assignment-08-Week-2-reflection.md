@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+<img width="790" height="963" alt="Screenshot 1 0" src="https://github.com/user-attachments/assets/0b5dc72f-ca4b-4e04-95ec-8befc12024ee" />
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+https://open.substack.com/pub/kaphaaya/p/reflection-week-2-with-dmi-claude?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
 
 ---
 
@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+<img width="1168" height="993" alt="Screenshot 2 0" src="https://github.com/user-attachments/assets/7837dd2e-fbfb-4918-97dc-7bc1c53b7a86" />
 
 ---
 
@@ -101,14 +101,39 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
-```
+This week, I dove deep into Claude Code, Skills, Subagents, MCP, Hooks, Permissions, and Memory through my DevOps Micro Internship. Eight assignments. Heavy concepts. But here's what actually stood out:
 
+I thought I already knew most of this. I've been using Claude Code for months, I'm a cloud computing person. Figured I'd breeze through.
+I was wrong. And that's exactly what made this week powerful.
+
+What I actually learned:
+-Skills aren't random tools - they're intentional guardrails and superpowers
+-Subagents let you create specialized versions of Claude for specific jobs
+-MCP is the bridge between Claude and your actual systems
+-Hooks and Permissions aren't just features - they're wisdom wrapped in code
+-Memory structure matters. A lot.
+
+But the real lesson? Showing up, even at 7:53 PM before an exam, changes everything.
+
+I started my cloud engineering journey knowing nothing. Imposter syndrome was brutal. But I showed up. Every day. I created projects nobody asked for. I studied concepts without external pressure. And one day, I walked into a room and realized I already knew what everyone was discussing.
+
+That consistency - before my first cloud job, before credentials - that was my real credential.
+
+Right now, I'm juggling a demanding job, multiple courses, AWS/PMP certification prep, Web3 development, and more. Not once have I thought about quitting this internship. Not once. Because I know what consistency builds.
+
+One habit I'm implementing: Remove the fluff. Be obsessively specific about what AI needs to know, what I need to learn, what matters. Precision creates power.
+
+Here's my challenge to you: Whatever you're building that seems impossible, commit to showing up consistently. Not perfectly. Not always energized. Just consistently.
+
+The person you become through that consistency is worth far more than the comfort of staying still.
+
+This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( [https://lnkd.in/e4RPn3U4) ).
+```
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+https://www.linkedin.com/posts/aziz-kafayat_this-week-i-dove-deep-into-claude-code-ugcPost-7481427735060385792-HRpz/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU
 
 ---
 
