@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common'
 import { ConfigModule } from '@nestjs/config'
 import { TypeOrmModule } from '@nestjs/typeorm'
 import { dataSourceOptions } from './database/typeorm.config'
+import { AuthModule } from './modules/auth'
 
 @Module({
   imports: [
@@ -10,6 +11,8 @@ import { dataSourceOptions } from './database/typeorm.config'
       envFilePath: process.env.NODE_ENV === 'production' ? '.env.production' : '.env.local',
     }),
     TypeOrmModule.forRoot(dataSourceOptions),
+    // Feature modules
+    AuthModule,
   ],
   controllers: [],
   providers: [],
