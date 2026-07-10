@@ -1,0 +1,95 @@
+{
+  "version": "1",
+  "extends": ["//"],
+  "globalDependencies": [
+    "**/.env.local",
+    "**/.env"
+  ],
+  "tasks": {
+    "dev": {
+      "cache": false,
+      "interactive": true
+    },
+    "build": {
+      "outputs": [
+        "dist/**",
+        ".next/**",
+        "build/**"
+      ],
+      "cache": true,
+      "dependsOn": [
+        "^build",
+        "db:generate"
+      ]
+    },
+    "test": {
+      "outputs": [
+        "coverage/**"
+      ],
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "test:watch": {
+      "cache": false,
+      "interactive": true,
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "test:coverage": {
+      "outputs": [
+        "coverage/**"
+      ],
+      "cache": true,
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "lint": {
+      "cache": true,
+      "outputs": [
+        ".eslintcache"
+      ]
+    },
+    "lint:fix": {
+      "cache": false
+    },
+    "type-check": {
+      "cache": true
+    },
+    "db:migrate": {
+      "cache": false,
+      "inputs": [
+        "src/database/migrations/**"
+      ]
+    },
+    "db:seed": {
+      "cache": false,
+      "dependsOn": [
+        "db:migrate"
+      ]
+    },
+    "db:generate": {
+      "cache": true,
+      "outputs": [
+        "src/generated/**",
+        "prisma/generated/**"
+      ]
+    },
+    "storybook": {
+      "cache": false,
+      "interactive": true
+    },
+    "storybook:build": {
+      "outputs": [
+        "storybook-static/**"
+      ],
+      "cache": true
+    },
+    "clean": {
+      "cache": false
+    }
+  }
+}
