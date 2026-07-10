@@ -20,7 +20,7 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/2e911001-e111-4ef6-a3b4-cf33fb92e647" />
 
 ---
 
@@ -34,7 +34,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/517d7926-0b85-4ff7-9c40-ffe16aa1aefd" />
 
 ---
 
@@ -48,7 +48,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/35a7fd1e-cb96-4b7b-b31b-f763b37ccd36" />
 
 ---
 
@@ -62,7 +62,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/197ffacc-69f0-4ba7-a46c-a2d89baa1dd5" />
 
 ---
 
@@ -76,7 +76,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing your real GitHub repositories (you may blur individual repo names if preferred)
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/305353a8-a446-4ce4-9140-bc4f6dfeeb3d" />
 
 ---
 
@@ -94,7 +94,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-02-agentic-ai/solution-assignment-05-mcp.md)
 
 ---
 
