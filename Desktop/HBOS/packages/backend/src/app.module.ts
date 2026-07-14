@@ -6,6 +6,7 @@ import { AuthModule } from './modules/auth'
 import { TenantsModule } from './modules/tenants'
 import { RolesModule } from './modules/roles'
 import { ProductsModule } from './modules/products'
+import { CustomersModule } from './modules/customers'
 
 @Module({
   imports: [
@@ -19,6 +20,7 @@ import { ProductsModule } from './modules/products'
     TenantsModule,
     RolesModule,
     ProductsModule,
+    CustomersModule,
   ],
   controllers: [],
   providers: [],
