@@ -5,6 +5,7 @@ import { dataSourceOptions } from './database/typeorm.config'
 import { AuthModule } from './modules/auth'
 import { TenantsModule } from './modules/tenants'
 import { RolesModule } from './modules/roles'
+import { ProductsModule } from './modules/products'
 
 @Module({
   imports: [
@@ -17,6 +18,7 @@ import { RolesModule } from './modules/roles'
     AuthModule,
     TenantsModule,
     RolesModule,
+    ProductsModule,
   ],
   controllers: [],
   providers: [],
