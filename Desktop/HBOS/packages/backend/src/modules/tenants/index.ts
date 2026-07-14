@@ -1,0 +1,7 @@
+export * from './tenants.module'
+export * from './tenants.service'
+export * from './tenants.controller'
+export * from './entities/tenant.entity'
+export * from './dto/create-tenant.dto'
+export * from './dto/update-tenant.dto'
+export * from './dto/tenant.dto'

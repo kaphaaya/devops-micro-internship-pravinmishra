@@ -3,6 +3,7 @@ import { ConfigModule } from '@nestjs/config'
 import { TypeOrmModule } from '@nestjs/typeorm'
 import { dataSourceOptions } from './database/typeorm.config'
 import { AuthModule } from './modules/auth'
+import { TenantsModule } from './modules/tenants'
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { AuthModule } from './modules/auth'
     TypeOrmModule.forRoot(dataSourceOptions),
     // Feature modules
     AuthModule,
+    TenantsModule,
   ],
   controllers: [],
   providers: [],
