@@ -1,0 +1,111 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: 'class',
+  content: [
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          300: '#7dd3fc',
+          400: '#38bdf8',
+          500: '#0ea5e9',
+          600: '#0284c7',
+          700: '#0369a1',
+          800: '#075985',
+          900: '#0c3d66',
+          950: '#051e3e',
+        },
+        secondary: {
+          50: '#faf5ff',
+          100: '#f3e8ff',
+          200: '#e9d5ff',
+          300: '#d8b4fe',
+          400: '#c084fc',
+          500: '#a855f7',
+          600: '#9333ea',
+          700: '#7e22ce',
+          800: '#6b21a8',
+          900: '#581c87',
+          950: '#3f0f5c',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        mono: ['Fira Code', 'monospace'],
+      },
+      fontSize: {
+        xs: '0.75rem',
+        sm: '0.875rem',
+        base: '1rem',
+        lg: '1.125rem',
+        xl: '1.25rem',
+        '2xl': '1.5rem',
+        '3xl': '1.875rem',
+        '4xl': '2.25rem',
+        '5xl': '3rem',
+      },
+      spacing: {
+        xs: '0.25rem',
+        sm: '0.5rem',
+        md: '1rem',
+        lg: '1.5rem',
+        xl: '2rem',
+        '2xl': '2.5rem',
+        '3xl': '3rem',
+        '4xl': '4rem',
+      },
+      boxShadow: {
+        xs: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
+        sm: '0 1px 3px 0 rgb(0 0 0 / 0.1)',
+        md: '0 4px 6px -1px rgb(0 0 0 / 0.1)',
+        lg: '0 10px 15px -3px rgb(0 0 0 / 0.1)',
+        xl: '0 20px 25px -5px rgb(0 0 0 / 0.1)',
+      },
+      borderRadius: {
+        none: '0',
+        xs: '0.25rem',
+        sm: '0.375rem',
+        md: '0.5rem',
+        lg: '0.75rem',
+        xl: '1rem',
+        full: '9999px',
+      },
+      transitionDuration: {
+        fast: '150ms',
+        default: '200ms',
+        slow: '300ms',
+      },
+      animation: {
+        fadeIn: 'fadeIn 0.3s ease-in',
+        slideInDown: 'slideInDown 0.3s ease-out',
+        slideInUp: 'slideInUp 0.3s ease-out',
+        pulse: 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideInDown: {
+          '0%': { transform: 'translateY(-10px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        slideInUp: {
+          '0%': { transform: 'translateY(10px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        pulse: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '.5' },
+        },
+      },
+    },
+  },
+  plugins: [],
+}

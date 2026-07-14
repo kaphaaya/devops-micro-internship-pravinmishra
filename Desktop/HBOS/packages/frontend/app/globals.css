@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root variables */
+:root {
+  --primary: #0ea5e9;
+  --primary-dark: #0284c7;
+  --secondary: #8b5cf6;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-tertiary: #9ca3af;
+
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-tertiary: #f3f4f6;
+
+  --border-color: #e5e7eb;
+  --border-color-light: #f3f4f6;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-primary: #f3f4f6;
+    --text-secondary: #d1d5db;
+    --text-tertiary: #9ca3af;
+
+    --bg-primary: #111827;
+    --bg-secondary: #1f2937;
+    --bg-tertiary: #374151;
+
+    --border-color: #374151;
+    --border-color-light: #1f2937;
+  }
+}
+
+/* Base styles */
+* {
+  @apply box-border;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-feature-settings: "rlig" 1 "calt" 1;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold tracking-tight;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-xl;
+}
+
+h5 {
+  @apply text-lg;
+}
+
+h6 {
+  @apply text-base;
+}
+
+p {
+  @apply text-base leading-relaxed;
+}
+
+a {
+  @apply text-primary hover:text-primary-dark transition-colors;
+}
+
+/* Forms */
+input,
+textarea,
+select {
+  @apply px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  @apply text-gray-400;
+}
+
+/* Utility classes */
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.text-truncate {
+  @apply overflow-hidden text-overflow-ellipsis whitespace-nowrap;
+}
+
+.transition-all {
+  @apply transition-all duration-200;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.animate-slideInDown {
+  animation: slideInDown 0.3s ease-out;
+}
+
+.animate-slideInUp {
+  animation: slideInUp 0.3s ease-out;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-color);
+}

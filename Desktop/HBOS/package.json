@@ -1,0 +1,57 @@
+{
+  "name": "hbos",
+  "version": "0.0.1",
+  "description": "Hospitality Business Operating System - Enterprise platform for hospitality businesses",
+  "private": true,
+  "license": "PROPRIETARY",
+  "author": "HBOS Team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hospitality/hbos.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "test:coverage": "turbo run test:coverage",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "type-check": "turbo run type-check",
+    "db:migrate": "turbo run db:migrate --scope=@hbos/backend",
+    "db:seed": "turbo run db:seed --scope=@hbos/backend",
+    "db:generate": "turbo run db:generate --scope=@hbos/backend",
+    "storybook": "turbo run storybook --scope=@hbos/design-system",
+    "storybook:build": "turbo run storybook:build --scope=@hbos/design-system",
+    "clean": "turbo run clean && rm -rf node_modules .turbo",
+    "start:dev": "docker-compose up -d && pnpm install && pnpm db:migrate && pnpm dev"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "turbo": "^1.10.16",
+    "typescript": "^5.3.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "typescript": "^5.3.3"
+    },
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@babel/preset-react"
+      ]
+    }
+  }
+}

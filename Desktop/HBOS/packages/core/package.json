@@ -1,0 +1,30 @@
+{
+  "name": "@hbos/core",
+  "version": "0.0.1",
+  "description": "HBOS Core - Shared types, utilities, and constants across all packages",
+  "private": true,
+  "license": "PROPRIETARY",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "sideEffects": false
+}

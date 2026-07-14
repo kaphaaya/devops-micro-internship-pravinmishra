@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+coverage/
+.turbo/
+
+# Runtime
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Database
+postgres_data/
+redis_data/
+*.sql.backup
+
+# Docker
+docker-compose.override.yml
+
+# Storybook
+storybook-static/
+
+# Testing
+.nyc_output/
+.jest_cache/
+.vitest/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE temp files
+*.sublime-project
+*.sublime-workspace
+
+# Local development
+.vscode/settings.json
+.vscode/extensions.json
+
+# Generated types
+src/generated/
+src/**/*.generated.ts
+prisma/generated/
+
+# Temp files
+*.tmp
+*.bak
+~*
+
+# Sensitive data (should not exist, but just in case)
+*.pem
+*.key
+*.cert
+!.github/workflows/
