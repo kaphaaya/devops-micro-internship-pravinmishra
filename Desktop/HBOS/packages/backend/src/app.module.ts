@@ -4,6 +4,7 @@ import { TypeOrmModule } from '@nestjs/typeorm'
 import { dataSourceOptions } from './database/typeorm.config'
 import { AuthModule } from './modules/auth'
 import { TenantsModule } from './modules/tenants'
+import { RolesModule } from './modules/roles'
 
 @Module({
   imports: [
@@ -15,6 +16,7 @@ import { TenantsModule } from './modules/tenants'
     // Feature modules
     AuthModule,
     TenantsModule,
+    RolesModule,
   ],
   controllers: [],
   providers: [],
