@@ -111,14 +111,29 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+Because Nginx is the only process serving HTTP traffic on port 80 in this setup, its failure means:
+
+-Any user attempting to visit the site would receive a connection error or a timeout since nothing would be listening on that port anymore
+
+-If the failure occurs during a manual deployment or a configuration change, the site could remain down indefinitely until an engineer manually intervenes to diagnose and fix the issue
+
+-These failures are often caused by config syntax errors, such as a missing semicolon, which prevents Nginx from successfully loading its new configuration files
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+A basic rollback plan is essential for maintaining production uptime and ensuring that a server can be quickly restored if a configuration change or deployment fails.
 
+-Before making any configuration change, I will run sudo nginx -t first. This command validates the configuration syntax and catches most errors before they can affect the live service during a restart.
+
+-If a restart is attempted and fails, the first step is to identify the exact cause by checking the service status and system logs using:
+1. systemctl status nginx --no-pager
+2. sudo journalctl -u nginx --no-pager -n 50
+
+-If the failure is due to a bad configuration change, the fix is to revert the config file back to its last known-good version. This is ideally handled through a backup copy or version control (like Git)
+
+-The simplest safeguard is to keep a backup copy of the working configuration before making any changes. This allows for an immediate rollback without the need to debug complex issues under the pressure of a production outage.
 ---
 
 # Task 3 — Logs & Request Trace
