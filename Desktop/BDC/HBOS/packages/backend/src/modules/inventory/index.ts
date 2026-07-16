@@ -1,0 +1,8 @@
+export { InventoryModule } from './inventory.module'
+export { InventoryService } from './services/inventory.service'
+export { Inventory } from './entities/inventory.entity'
+export { InventoryAudit } from './entities/inventory-audit.entity'
+export { InventoryDto, InventoryAuditDto } from './dto/inventory.dto'
+export { CreateInventoryDto } from './dto/create-inventory.dto'
+export { UpdateInventoryDto } from './dto/update-inventory.dto'
+export { AdjustInventoryDto } from './dto/adjust-inventory.dto'

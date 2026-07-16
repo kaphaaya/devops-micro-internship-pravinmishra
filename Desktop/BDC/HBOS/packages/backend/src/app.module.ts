@@ -8,6 +8,7 @@ import { RolesModule } from './modules/roles'
 import { ProductsModule } from './modules/products'
 import { CustomersModule } from './modules/customers'
 import { OrdersModule } from './modules/orders'
+import { InventoryModule } from './modules/inventory'
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import { OrdersModule } from './modules/orders'
     ProductsModule,
     CustomersModule,
     OrdersModule,
+    InventoryModule,
   ],
   controllers: [],
   providers: [],
