@@ -47,20 +47,35 @@ Add your screenshot here.
 Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
+- The primary proof that Nginx is listening on 0.0.0.0:80 is found in the output of the sudo ss -tulpen command.
+                       [ " ino:8667 sk:5 cgroup:/system.slice/chrony.service v6only:1 <->                                            
+tcp        LISTEN      0           511                       0.0.0.0:80                  0.0.0.0:* "]
 
-Write your answer here.
+-This address [0.0.0.0] signifies that Nginx is bound to all network interfaces, not just the localhost. This allows the server to accept HTTP connections from any IP address, including external traffic from the internet.
+
+-The presence of the process name 'nginx' alongside the port in the output specifically confirms that Nginx is the service holding that port open.
 
 ---
 
 **2. What proves SSH is active on port 22?**
+-Port 22 is found in the output of the sudo ss -tulpen command
+["tcp        LISTEN      0           4096                      0.0.0.0:22                  0.0.0.0:*          users:(("sshd",pid=18655,fd=3),("systemd",pid=1,fd=122)) "]  
 
-Write your answer here.
+-The presence of sshd (the SSH daemon) alongside the port number confirms that the SSH service is the specific process holding the port open.
+
+-The address 0.0.0.0 signifies that the service is listening across all network interfaces, which allows for remote login to the server (for example, via ssh ubuntu@<public-ip>).
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+No unexpected ports were found. Everything running on this server directly aligns with the deployment stack I executed.
+
+-Port 80 (0.0.0.0:80): This is the Nginx web server listening for incoming HTTP connections on all network interfaces.
+
+-Port 22 (0.0.0.0:22 and [::]:22): This is the SSH daemon (sshd) listening on both IPv4 and IPv6.
+
+-Port 323 (UDP): This is chronyd managing Network Time Protocol (NTP) synchronization to keep your server's clock accurate. This was new to me but I realised it checks the time and its locally bound so it will always be there.
 
 ---
 
