@@ -9,6 +9,7 @@ import { ProductsModule } from './modules/products'
 import { CustomersModule } from './modules/customers'
 import { OrdersModule } from './modules/orders'
 import { InventoryModule } from './modules/inventory'
+import { PaymentsModule } from './modules/payments'
 
 @Module({
   imports: [
@@ -25,6 +26,7 @@ import { InventoryModule } from './modules/inventory'
     CustomersModule,
     OrdersModule,
     InventoryModule,
+    PaymentsModule,
   ],
   controllers: [],
   providers: [],
