@@ -1,6 +1,6 @@
 # HBOS Phase 1 MVP - Implementation Status
 
-**Status**: 80% Complete (was 65%)
+**Status**: 85% Complete (was 80%)
 **Timeline**: Weeks 5-12 (Currently: Week 3-4 of Phase 1)
 
 ---
@@ -105,6 +105,22 @@
 - [x] Database migration with RLS policies
 - [x] Unit tests (15+ test cases)
 - [x] Module documentation & API examples
+
+### Inventory Module (Complete)
+- [x] Inventory entity with quantity tracking
+- [x] InventoryAudit entity for immutable audit trail
+- [x] Inventory service (15+ methods)
+- [x] Inventory controller (7 REST endpoints)
+- [x] Stock level tracking (on hand, reserved, available)
+- [x] Inventory adjustments (received, return, damage, expired, count)
+- [x] Low stock status detection and alerts
+- [x] Reorder level configuration
+- [x] Multi-location inventory support
+- [x] Order integration (decrementForOrder)
+- [x] Audit history with filtering
+- [x] Database migration with RLS policies
+- [x] Unit tests (15+ test cases)
+- [x] Module documentation & workflow examples
 
 ### Common Infrastructure
 - [x] JWT Authentication Guard
@@ -230,18 +246,26 @@
 
 ---
 
-#### 6. **Inventory Module (Basic)** (Core Feature)
-- [ ] Inventory entity (stock levels)
-- [ ] Inventory service
-- [ ] Inventory controller
-- [ ] Get stock level endpoint
-- [ ] Adjust stock endpoint
-- [ ] Low stock alerts
-- [ ] Inventory for product
-- [ ] Database migrations
-- [ ] Tests
+#### 6. **Inventory Module** (Core Feature) ✅
+- [x] Inventory entity with quantity tracking (on hand, reserved, available)
+- [x] InventoryAudit entity with immutable audit trail
+- [x] Inventory service (15+ methods)
+- [x] Inventory controller (7 REST endpoints)
+- [x] Get stock level endpoint (per product/location)
+- [x] Adjust stock endpoint (received, return, damage, expired, count)
+- [x] Low stock alerts (automatic status detection)
+- [x] Reorder level and reorder quantity configuration
+- [x] Inventory for product endpoint (with location filter)
+- [x] Audit history with full change tracking
+- [x] Multi-location inventory support
+- [x] Order integration (decrementForOrder method)
+- [x] Database migrations with RLS policies
+- [x] Tests (15+ test cases)
+- [x] Module documentation & workflow examples
 
-**Why**: Track stock from orders
+**Why**: Track stock from orders, prevent overselling, manage reorders
+
+**Completed**: 2026-07-16 - Ready for Payments module
 
 ---
 
@@ -556,8 +580,8 @@
 4. ✅ Product management (done)
 5. ✅ Order creation & management (done)
 6. ✅ Customer tracking (done)
-7. [ ] Basic inventory (in progress)
-8. [ ] Payment processing (upcoming)
+7. ✅ Basic inventory (done)
+8. [ ] Payment processing (in progress)
 9. [ ] Dashboard with KPIs (upcoming)
 10. [ ] Basic admin UI (upcoming)
 
@@ -583,9 +607,9 @@ Phase 1: MVP Core
   │  ├─ Roles/Perms        ████████████████████ 100% ✅
   │  ├─ Products           ████████████████████ 100% ✅
   │  ├─ Customers          ████████████████████ 100% ✅
-  │  ├─ Orders             ████████████████████ 100% ✅ ← COMPLETED
-  │  ├─ Inventory          ░░░░░░░░░░░░░░░░░░░░ 0% ← NEXT
-  │  └─ Payments           ░░░░░░░░░░░░░░░░░░░░ 0%
+  │  ├─ Orders             ████████████████████ 100% ✅
+  │  ├─ Inventory          ████████████████████ 100% ✅ ← COMPLETED
+  │  └─ Payments           ░░░░░░░░░░░░░░░░░░░░ 0% ← NEXT
   │
   ├─ Frontend             ░░░░░░░░░░░░░░░░░░░░ 5%
   │  ├─ Components         ░░░░░░░░░░░░░░░░░░░░ 0%
@@ -611,5 +635,5 @@ Phase 1: MVP Core
 
 ---
 
-**Last Updated**: 2026-07-16 (Orders module complete - 80% of Phase 1 done)
-**Estimated Phase 1 Completion**: Week 6-7 (6 core modules complete, Inventory & Payments next)
+**Last Updated**: 2026-07-16 (Inventory module complete - 85% of Phase 1 done)
+**Estimated Phase 1 Completion**: Week 5-6 (7 core modules complete, Payments next)
