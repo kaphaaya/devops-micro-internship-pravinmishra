@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
+| **Name** | Aziz Olaide Kafayat |
 | **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Location** | Lagos, Nigeria |
+| **Background** | Cloud, DevOps, Communications, Legal, and Project Management |
+| **Goal** | To become a world class Clound Engineering Professional |
 
 ---
 
