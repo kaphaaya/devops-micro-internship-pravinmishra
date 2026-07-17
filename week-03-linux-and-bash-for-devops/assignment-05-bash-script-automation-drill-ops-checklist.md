@@ -277,25 +277,25 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
+- The -d option lets me check if a path exists and whether it's a directory. If the directory is actually there, then the condition is true and I can do something with it.
 
 ---
 
 **2. What does `-f` check in Bash?**
 
-Add your answer here.
+- The -f option lets me check if a path exists and whether it's a regular file. If the file is there, then the condition is true and I can work with it.
 
 ---
 
 **3. Why should file and directory paths be stored in variables?**
 
-Add your answer here.
+- Storing paths in variables makes my script way cleaner and easier to update. If I hardcode the path in multiple places and then need to change it later, I'd have to go find and fix every single instance. But if I put it in a variable, I only change it one time and it updates everywhere in my script.
 
 ---
 
 **4. What happens if the file does not exist?**
 
-Add your answer here.
+- If the file isn't there, the -f check fails and becomes false. When that happens, the commands in my else section will run instead. So I could display a message like "File does not exist: ../test-folder/student-info.txt" to let the user know what went wrong.
 
 ---
 
@@ -337,25 +337,25 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-Add your answer here.
+- An if-else statement lets my script make decisions based on what's happening. If a condition is true, I run one block of commands. If that condition is false, I run a different block of commands instead. It's how I add logic to my scripts.
 
 ---
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
+-ge means greater than or equal to. So when I write [ "$score" -ge 70 ], I'm checking whether the score is 70 or higher. If it is, the condition is true.
 
 ---
 
 **3. Why should conditions be tested with different values?**
 
-Add your answer here.
+- I need to test my conditions with different values to make sure all the possible outcomes work the way I expect them to. In this case, I'd test with 85 to see if the Pass result works, then test with 55 to see if the Retry result works. I should also test the exact boundary value of 70 to make sure it correctly produces Pass, since that's the cutoff point.
 
 ---
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
+- Conditionals help my automation scripts make smart decisions about what to do next based on what's actually happening. For example, my script could check if a service is running, if a file exists, or if the disk is running out of space. Then based on what it finds, it can take the right action without me having to manually do it.
 
 ---
 
@@ -391,25 +391,29 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
+- A function is basically a group of commands that I name and organize together to do one specific job. Once I create it, I can just call that function by name whenever I need it to run, instead of rewriting all those commands over and over.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
+- Functions help me break down a big script into smaller, manageable pieces. That makes it way easier for me to read what's going on, fix problems, and keep everything organized. Plus if I need to do the same task multiple times, I just call the function again instead of writing it all out again.
 
 ---
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+I created four functions in my script:
 
+1. print_header prints the assignment header.
+2. print_user_details prints my full name and the assignment name.
+3. check_files checks whether the required directory and file exist.
+4. print_tools uses a loop to print each tool stored in the array.
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
+- My script uses variables to store my name, the assignment name, and the paths I need. I use an array to store the tool names and a loop to print them one by one. I use conditionals to check if files and directories exist. And I use functions to organize all these pieces into separate tasks that work together.
 
 ---
 
