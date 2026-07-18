@@ -25,8 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](<img width="1788" height="974" alt="task-1-chatgpt" src="https://github.com/user-attachments/assets/6b122fab-ad45-4701-bbf4-7f8eea437cde" />
-)
+<img width="1788" height="974" alt="task-1-chatgpt" src="https://github.com/user-attachments/assets/6b122fab-ad45-4701-bbf4-7f8eea437cde" />
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
@@ -226,10 +225,8 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+Paste your LinkedIn post URL here: https://www.linkedin.com/posts/aziz-kafayat_pravin-mishra-the-cloudadvisory-linkedin-activity-7440368747514753024-EkUc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU)
 
-```(https://www.linkedin.com/posts/aziz-kafayat_pravin-mishra-the-cloudadvisory-linkedin-activity-7440368747514753024-EkUc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU)
-```
 
 ---
 
