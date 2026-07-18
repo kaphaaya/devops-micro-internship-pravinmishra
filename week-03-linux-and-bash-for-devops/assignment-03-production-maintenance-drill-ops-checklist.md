@@ -20,25 +20,29 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+<img width="1789" height="533" alt="Screenshot 1" src="https://github.com/user-attachments/assets/42f6738f-f148-4ce8-9a22-38092243466d" />
+
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+<img width="779" height="340" alt="Screenshot 2" src="https://github.com/user-attachments/assets/d7a1e2bb-831f-4a89-b3ed-19abed92ac15" />
+
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/7148a114-2f79-4398-95bb-1bb5877cfe6b" />
+
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+<img width="770" height="422" alt="Screenshot 4" src="https://github.com/user-attachments/assets/e5a18920-e3cd-4656-9dc3-2b849f398a32" />
+
 
 ---
 
@@ -89,19 +93,21 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+<img width="772" height="414" alt="Screenshot 1png" src="https://github.com/user-attachments/assets/6882acb8-c922-454d-8ede-914e927f08c5" />
+
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+<img width="765" height="423" alt="Screenshot 2" src="https://github.com/user-attachments/assets/5225bfde-1135-4e66-80c6-9c2c7152d6ce" />
+
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+<img width="771" height="426" alt="Screenshot 3" src="https://github.com/user-attachments/assets/c9de7114-373e-4931-8b5a-3f55d59f4e2c" />
 
 ---
 
@@ -146,19 +152,22 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/1cb8d140-b47b-4618-8c69-cc21f80526a8" />
+
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/202c8ba2-0130-4536-8a8e-a7a5b220995c" />
+
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/c512f105-2249-4e7f-9ff8-59a1d4622e79" />
+
 
 ---
 
@@ -216,25 +225,29 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+<img width="602" height="391" alt="Screenshot 1" src="https://github.com/user-attachments/assets/dd15c56a-5540-47d3-8c2b-543f2f8ed40e" />
+
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+<img width="590" height="314" alt="Screenshot 2" src="https://github.com/user-attachments/assets/6db7c497-aba3-4681-af94-fa429f483155" />
+
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/7fe2e953-c0ab-4fbc-8c9a-351916871a1c" />
+
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/9fb48bbe-a4be-4a6c-ab1a-a37e7d55159a" />
+
 
 ---
 
@@ -264,19 +277,21 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 1" src="https://github.com/user-attachments/assets/cf7defd8-37d8-4410-9b69-25624c106e42" />
+
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 2" src="https://github.com/user-attachments/assets/113edab9-6ff9-4d8f-a176-75c37651292e" />
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/00b26ea2-84a4-4e95-b146-13890fcf5288" />
+
 
 ---
 
@@ -307,19 +322,21 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+<img width="870" height="384" alt="Screenshot 1" src="https://github.com/user-attachments/assets/52b1bd9e-be0d-418d-afcc-0fa415953806" />
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+<img width="871" height="390" alt="Screenshot 2" src="https://github.com/user-attachments/assets/3846d5b1-78b0-4bd8-8f03-c5ad7a72ba3d" />
+
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+<img width="860" height="387" alt="Screenshot 3" src="https://github.com/user-attachments/assets/7c19db05-f55a-4387-82a2-7796cdeddcd7" />
+
 
 ---
 
@@ -353,13 +370,15 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+<img width="864" height="385" alt="Screenshot 1" src="https://github.com/user-attachments/assets/6f8e9784-9d53-487b-82de-362997b4c216" />
+
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+<img width="865" height="387" alt="Screenshot 2" src="https://github.com/user-attachments/assets/1ab6fa7c-d924-4641-8d01-4c750f34190c" />
+
 
 ---
 
@@ -436,13 +455,14 @@ Answer the following in your own words:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/aziz-kafayat_devops-cloudengineering-nginx-activity-7483905491161628672-8Hau?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="809" height="776" alt="Linkedin Screenshot" src="https://github.com/user-attachments/assets/f37960a5-2eae-42d5-a266-3bc2ba948d74" />
+
 
 ---
 
