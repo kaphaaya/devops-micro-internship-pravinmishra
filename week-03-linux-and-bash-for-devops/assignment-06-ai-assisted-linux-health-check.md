@@ -20,13 +20,16 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
+<img width="914" height="379" alt="Screenshot 1" src="https://github.com/user-attachments/assets/aa6c39fc-d117-43eb-ab7d-48baa0b6e590" />
+
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
+<img width="755" height="32" alt="Screenshot 2" src="https://github.com/user-attachments/assets/b1d1363a-3eb3-4c8a-9420-54e8cfd2f8c7" />
+
+<img width="491" height="251" alt="Screenshot 2 1" src="https://github.com/user-attachments/assets/5a223da6-2d82-412c-9059-e3c5e1d78b69" />
 
 ---
 
@@ -61,7 +64,8 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 3" src="https://github.com/user-attachments/assets/57b32c7d-bb20-46c4-8aeb-0e748b17c6e9" />
+
 
 ---
 
@@ -95,7 +99,8 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/6b96181d-b455-4be7-96bf-c30904d3e72f" />
+
 
 ---
 
@@ -128,25 +133,29 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/6dae2df2-7abc-497a-b97d-d1bbbac21d88" />
+
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 6" src="https://github.com/user-attachments/assets/cee575d9-a663-4335-a4a0-abe6948c7fc4" />
+
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 7" src="https://github.com/user-attachments/assets/6ea57ae6-19b8-484d-9077-78d28eddcaf3" />
+
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+<img width="916" height="322" alt="Screenshot 8" src="https://github.com/user-attachments/assets/7c73597b-7e26-4132-b41f-51f4428eedbb" />
+
 
 ---
 
@@ -194,13 +203,15 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 9" src="https://github.com/user-attachments/assets/fe69b8d3-7d44-4baf-832d-2e2c33de06fb" />
+
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 10" src="https://github.com/user-attachments/assets/c76568a0-5559-4f0e-a2aa-8b0ff2b4469f" />
+
 
 ---
 
@@ -246,13 +257,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 11" src="https://github.com/user-attachments/assets/5685c6a7-83a4-43fc-a30f-fab3c318fa31" />
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 12" src="https://github.com/user-attachments/assets/84f165ff-8364-4c20-950c-2640ab296676" />
 
 ---
 
@@ -294,19 +305,22 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
+<img width="921" height="378" alt="Screenshot 13" src="https://github.com/user-attachments/assets/615b5503-fe66-4918-97dc-e72daa8371dd" />
+
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 14" src="https://github.com/user-attachments/assets/12909a27-2f8b-45d7-8e0c-fd54b4374401" />
+
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
+<img width="1792" height="501" alt="Screenshot 15" src="https://github.com/user-attachments/assets/2fc87860-4a81-4994-84c5-202df3b6ee2e" />
+
 
 ---
 
@@ -354,25 +368,29 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-Add your screenshot here.
+<img width="927" height="389" alt="Screenshot 16" src="https://github.com/user-attachments/assets/a8e7f0d8-10b7-429b-bcf6-7e690e80f515" />
+
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 17" src="https://github.com/user-attachments/assets/f8053ce1-2f91-45d1-92ee-9e80051aad41" />
+
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 18" src="https://github.com/user-attachments/assets/fa5ec4b0-1fff-4c9a-9cde-a29191035b35" />
+
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 19" src="https://github.com/user-attachments/assets/81d7a330-0e21-4dc1-a122-d4f9ab99772a" />
+
 
 ---
 
@@ -490,7 +508,8 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="568" height="927" alt="Linkedin Post" src="https://github.com/user-attachments/assets/c8d7144e-effe-4584-93c6-56c96400dedc" />
+
 
 ---
 
