@@ -130,10 +130,10 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | |  |
-| 01 | Success Mindset | ✅ Completed| ✅ Solved|  | |  |  | 
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | | |
-| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved |  |  |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved ||  |
+| 01 | Success Mindset | ✅ Completed| ✅ Solved| https://www.linkedin.com/posts/aziz-kafayat_building-a-modern-cloud-infrastructure-company-share-7472186648752177152-7dmw/ |Blog: https://open.substack.com/pub/kaphaaya/p/the-woman-who-deleted-the-script | 
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/aziz-kafayat_this-week-i-dove-deep-into-claude-code-ugcPost-7481427735060385792-HRpz/ | https://open.substack.com/pub/kaphaaya/p/reflection-week-2-with-dmi-claude|
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aziz-kafayat_just-completed-a-real-world-linux-incident-ugcPost-7484065105391988736-XjcV/ |  |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
