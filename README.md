@@ -130,10 +130,10 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | ✅ Completed | ✅ Completed |
-| 01 | Success Mindset | ✅ Completed| ✅ Solved| ✅ Completed | ✅ Completed |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | ✅ Completed | ✅ Completed |
-| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | ✅ Completed | ✅ Completed |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | |  |
+| 01 | Success Mindset | ✅ Completed| ✅ Solved|  | |  |  | 
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | | |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved |  |  |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
