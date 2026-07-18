@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | Aziz Olaide Kafayat |
-| **LinkedIn** | [aziz-olaide-kafayat](https://www.linkedin.com/in/aziz-kafayat/) |
+| **LinkedIn** | [aziz-kafayat](https://www.linkedin.com/in/aziz-kafayat/) |
 | **Location** | Lagos, Nigeria |
 | **Background** | Cloud, DevOps, Communications, Legal, and Project Management |
 | **Goal** | To become a world class Clound Engineering Professional |
