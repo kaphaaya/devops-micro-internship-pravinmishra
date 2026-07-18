@@ -20,13 +20,17 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+<img width="547" height="52" alt="Screenshot 1" src="https://github.com/user-attachments/assets/40aadb9c-23f3-474f-850a-d528ad4c0236" />
+
+<img width="554" height="143" alt="Screenshot 1a" src="https://github.com/user-attachments/assets/74ff1777-0a48-4f8c-a36f-efddd08e1ca6" />
+
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+<img width="576" height="374" alt="Screenshot 2" src="https://github.com/user-attachments/assets/77b1c4c2-692b-4757-9dba-32757791a03b" />
+
 
 ---
 
@@ -61,19 +65,22 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+<img width="582" height="379" alt="Screenshot 1" src="https://github.com/user-attachments/assets/1b8d0948-b900-4627-9ace-428773ea8029" />
+
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+<img width="582" height="379" alt="Screenshot 2" src="https://github.com/user-attachments/assets/499887c6-e672-4805-b772-26695820ac86" />
+
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+<img width="575" height="138" alt="Screenshot 3" src="https://github.com/user-attachments/assets/b6d89f84-b7be-4720-be34-15018e8eeba6" />
+
 
 ---
 
@@ -110,13 +117,15 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+<img width="909" height="333" alt="Screenshot 1" src="https://github.com/user-attachments/assets/b858ea45-f25d-4970-b777-efb36d19aaef" />
+
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+<img width="905" height="353" alt="Screenshot 2" src="https://github.com/user-attachments/assets/8b237b22-21bd-4e8a-94ad-6262dbf81289" />
+
 
 ---
 
@@ -152,13 +161,14 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+<img width="917" height="317" alt="Screenshot 1" src="https://github.com/user-attachments/assets/cd48b3f3-93d1-456d-bc3f-dcc82c3b153e" />
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+<img width="813" height="244" alt="Screenshot 2" src="https://github.com/user-attachments/assets/e3f7d144-98dc-440c-b9be-db0960f09c97" />
+
 
 ---
 
@@ -201,13 +211,15 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+<img width="919" height="376" alt="Screenshot 1" src="https://github.com/user-attachments/assets/60114d0c-ba89-462e-9b5b-96c691a2d117" />
+
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+<img width="901" height="282" alt="Screenshot 2" src="https://github.com/user-attachments/assets/7699b7ff-d39f-4765-9623-d7fc3ff139a6" />
+
 
 ---
 
@@ -255,19 +267,22 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+<img width="922" height="227" alt="Screenshot  1" src="https://github.com/user-attachments/assets/dbfa57d0-920e-4fca-9234-52453150807c" />
+
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+<img width="917" height="216" alt="Screenshot 2" src="https://github.com/user-attachments/assets/f1c1b6ac-a955-4ec4-a052-fb057fb75742" />
+
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+<img width="736" height="28" alt="Screenshot 3" src="https://github.com/user-attachments/assets/09b52d34-be41-4675-b3b9-c2f2b954d864" />
+
 
 ---
 
@@ -277,25 +292,25 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
+- The -d option lets me check if a path exists and whether it's a directory. If the directory is actually there, then the condition is true and I can do something with it.
 
 ---
 
 **2. What does `-f` check in Bash?**
 
-Add your answer here.
+- The -f option lets me check if a path exists and whether it's a regular file. If the file is there, then the condition is true and I can work with it.
 
 ---
 
 **3. Why should file and directory paths be stored in variables?**
 
-Add your answer here.
+- Storing paths in variables makes my script way cleaner and easier to update. If I hardcode the path in multiple places and then need to change it later, I'd have to go find and fix every single instance. But if I put it in a variable, I only change it one time and it updates everywhere in my script.
 
 ---
 
 **4. What happens if the file does not exist?**
 
-Add your answer here.
+- If the file isn't there, the -f check fails and becomes false. When that happens, the commands in my else section will run instead. So I could display a message like "File does not exist: ../test-folder/student-info.txt" to let the user know what went wrong.
 
 ---
 
@@ -309,25 +324,30 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+<img width="915" height="374" alt="Screenshot 1" src="https://github.com/user-attachments/assets/60e6a732-9f0b-45b8-b9d1-7ca2499920f8" />
+
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+<img width="901" height="367" alt="Screenshot 2" src="https://github.com/user-attachments/assets/f479ee77-16ef-4c55-989f-122303bd4df8" />
+
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+<img width="913" height="368" alt="Screenshot 3" src="https://github.com/user-attachments/assets/0bf4f524-021c-43aa-97b8-0545f98941ca" />
+
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+<img width="913" height="368" alt="Screenshot 4" src="https://github.com/user-attachments/assets/c3d0b23a-1025-483c-ba92-1bcf8b879258" />
+
+
 
 ---
 
@@ -337,25 +357,25 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-Add your answer here.
+- An if-else statement lets my script make decisions based on what's happening. If a condition is true, I run one block of commands. If that condition is false, I run a different block of commands instead. It's how I add logic to my scripts.
 
 ---
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
+-ge means greater than or equal to. So when I write [ "$score" -ge 70 ], I'm checking whether the score is 70 or higher. If it is, the condition is true.
 
 ---
 
 **3. Why should conditions be tested with different values?**
 
-Add your answer here.
+- I need to test my conditions with different values to make sure all the possible outcomes work the way I expect them to. In this case, I'd test with 85 to see if the Pass result works, then test with 55 to see if the Retry result works. I should also test the exact boundary value of 70 to make sure it correctly produces Pass, since that's the cutoff point.
 
 ---
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
+- Conditionals help my automation scripts make smart decisions about what to do next based on what's actually happening. For example, my script could check if a service is running, if a file exists, or if the disk is running out of space. Then based on what it finds, it can take the right action without me having to manually do it.
 
 ---
 
@@ -369,19 +389,22 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+<img width="876" height="105" alt="Screenshot 1" src="https://github.com/user-attachments/assets/e3bb2d6c-581c-44da-a6ae-6d82a9514aee" />
+
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+<img width="910" height="364" alt="Screenshot 2" src="https://github.com/user-attachments/assets/1e12eda4-abef-4917-8d3d-23f560ac3fb5" />
+
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+<img width="911" height="380" alt="Screenshot 3" src="https://github.com/user-attachments/assets/b171d8bb-51a3-4526-9ce9-96ec87dbaf7e" />
+
 
 ---
 
@@ -391,25 +414,29 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
+- A function is basically a group of commands that I name and organize together to do one specific job. Once I create it, I can just call that function by name whenever I need it to run, instead of rewriting all those commands over and over.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
+- Functions help me break down a big script into smaller, manageable pieces. That makes it way easier for me to read what's going on, fix problems, and keep everything organized. Plus if I need to do the same task multiple times, I just call the function again instead of writing it all out again.
 
 ---
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+I created four functions in my script:
 
+1. print_header prints the assignment header.
+2. print_user_details prints my full name and the assignment name.
+3. check_files checks whether the required directory and file exist.
+4. print_tools uses a loop to print each tool stored in the array.
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
+- My script uses variables to store my name, the assignment name, and the paths I need. I use an array to store the tool names and a loop to print them one by one. I use conditionals to check if files and directories exist. And I use functions to organize all these pieces into separate tasks that work together.
 
 ---
 
@@ -421,13 +448,14 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/aziz-kafayat_just-crushed-a-bash-script-automation-activity-7484027098958045184-ICMf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+<img width="800" height="632" alt="Linkedin Screenshot" src="https://github.com/user-attachments/assets/ae23cc41-5b38-4e89-91b7-162513a31a66" />
+
 
 ---
 
