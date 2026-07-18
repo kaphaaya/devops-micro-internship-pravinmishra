@@ -67,16 +67,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Your stack (uncomment each badge as you earn it):**
 
-<!-- Week 00 → Internet & Networking Basics -->
-[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)
-
-<!-- Week 01 → Success Mindset -->
-[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)
-
-<!-- Week 02 → Agentic AI with Claude Code -->
-[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)
-
-<!-- Week 03 → Linux & Bash for DevOps -->
+[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
 <!-- Week 04 → Git & GitHub -->
@@ -130,7 +121,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aziz-kafayat_pravin-mishra-the-cloudadvisory-linkedin-activity-7440368747514753024-EkUc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU)| — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aziz-kafayat_pravin-mishra-the-cloudadvisory-linkedin-activity-7440368747514753024-EkUc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU)| https://open.substack.com/pub/kaphaaya/p/reflection-week-00-of-dmi-the-night?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
 | 01 | Success Mindset | ✅ Completed| ✅ Solved| https://www.linkedin.com/posts/aziz-kafayat_building-a-modern-cloud-infrastructure-company-share-7472186648752177152-7dmw/ | https://open.substack.com/pub/kaphaaya/p/the-woman-who-deleted-the-script | 
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aziz-kafayat_this-week-i-dove-deep-into-claude-code-ugcPost-7481427735060385792-HRpz/ | https://open.substack.com/pub/kaphaaya/p/reflection-week-2-with-dmi-claude|
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aziz-kafayat_just-completed-a-real-world-linux-incident-ugcPost-7484065105391988736-XjcV/ | https://open.substack.com/pub/kaphaaya/p/reflection-week-3-linux-and-bash?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
