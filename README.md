@@ -125,7 +125,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 01 | Success Mindset | ✅ Completed| ✅ Solved| https://www.linkedin.com/posts/aziz-kafayat_building-a-modern-cloud-infrastructure-company-share-7472186648752177152-7dmw/ | https://open.substack.com/pub/kaphaaya/p/the-woman-who-deleted-the-script | 
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aziz-kafayat_this-week-i-dove-deep-into-claude-code-ugcPost-7481427735060385792-HRpz/ | https://open.substack.com/pub/kaphaaya/p/reflection-week-2-with-dmi-claude|
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aziz-kafayat_just-completed-a-real-world-linux-incident-ugcPost-7484065105391988736-XjcV/ | https://open.substack.com/pub/kaphaaya/p/reflection-week-3-linux-and-bash?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
-| 04 | Git & GitHub | &nbsp; 🔄 In Progress &nbsp; | &nbsp; 🔄 In Progress &nbsp; | &nbsp; 🔄 In Progress &nbsp; | &nbsp; 🔄 In Progress &nbsp; |
+| 04 | Git & GitHub | 🔄 In Progres | 🔄 In Progress | 🔄 In Progress  | 🔄 In Progress |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
