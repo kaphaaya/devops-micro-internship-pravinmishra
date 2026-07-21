@@ -20,13 +20,14 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+<img width="1140" height="388" alt="Screenshot 1" src="https://github.com/user-attachments/assets/eca07c6c-ff5c-42e8-90b8-b8d5d6581c04" />
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+<img width="1134" height="392" alt="Screenshot 2" src="https://github.com/user-attachments/assets/caddd377-f2ba-4d58-b741-0744c5879fff" />
+
 
 ---
 
@@ -34,7 +35,12 @@ Add your screenshot here.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+- When I initialize a Git repository in a project (by running git init), Git creates a hidden .git folder in my project directory. This folder is where Git stores everything it needs to track my project's history and changes. I'm talking about:
+
+1. Commit history – Every change I've ever made, stored as snapshots
+2. Branches – Different versions of my code that I'm working on
+3. Configuration – Settings specific to this repository
+4. Objects – The actual data files that represent my commits, trees, and blobs
 
 ---
 
@@ -48,7 +54,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+<img width="894" height="384" alt="Screenshot 3" src="https://github.com/user-attachments/assets/c87e6197-f6da-4ee2-a8b4-ba261dff0831" />
 
 ---
 
@@ -62,7 +68,7 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+<img width="888" height="380" alt="Screenshot 4" src="https://github.com/user-attachments/assets/6bb11aea-5b8f-4a35-9da4-02acc569f174" />
 
 ---
 
