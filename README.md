@@ -18,7 +18,7 @@
 | **LinkedIn** | [aziz-kafayat](https://www.linkedin.com/in/aziz-kafayat/) |
 | **Location** | Lagos, Nigeria |
 | **Background** | Cloud, DevOps, Communications, Legal, and Project Management |
-| **Goal** | To become a world class Clound Engineering Professional |
+| **Goal** | To become a world class Cloud Engineering Professional |
 
 ---
 
