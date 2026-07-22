@@ -20,13 +20,13 @@ Confirm that Git works and that you are inside the correct `CodeTrack` repositor
 
 #### Screenshot 1 — Output of `pwd` showing you're inside `CodeTrack`
 
-Add your screenshot here.
-
+<img width="845" height="378" alt="Screenshot 1" src="https://github.com/user-attachments/assets/bbbc7940-b1f6-4681-b7c4-6dd1d558af4b" />
 ---
 
 #### Screenshot 2 — Output of `git status` showing no "not a git repository" error
 
-Add your screenshot here.
+<img width="840" height="379" alt="Screenshot 2" src="https://github.com/user-attachments/assets/3be4bae2-4952-4b2e-b928-2fc76821ce33" />
+
 
 ---
 
@@ -40,7 +40,8 @@ Create the two starter UI files inside `CodeTrack`.
 
 #### Screenshot 3 — Output of `ls` showing `index.html` and `style.css`
 
-Add your screenshot here.
+<img width="848" height="384" alt="Screenshot 3" src="https://github.com/user-attachments/assets/ed9430a3-f58f-40d5-883e-537fe867dfb9" />
+
 
 ---
 
@@ -54,7 +55,9 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
 
-Add your screenshot here.
+<img width="1441" height="895" alt="Screenshot 4" src="https://github.com/user-attachments/assets/0d9b769d-fa26-49a4-8e41-c6991ebfdda2" />
+
+<img width="1442" height="898" alt="Screenshot 4 1" src="https://github.com/user-attachments/assets/9eab04a8-f25e-4b50-af3f-27d1c649523a" />
 
 ---
 
@@ -68,13 +71,14 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
+<img width="852" height="391" alt="Screenshot 5" src="https://github.com/user-attachments/assets/9d5fd179-8b32-4719-aa0c-4daa187bb54e" />
 
 ---
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-Add your screenshot here.
+<img width="844" height="389" alt="Screenshot 6" src="https://github.com/user-attachments/assets/aac1d80a-3668-4700-9afc-dc98fb3be821" />
+
 
 ---
 
@@ -88,13 +92,15 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+<img width="853" height="388" alt="Screenshot 7" src="https://github.com/user-attachments/assets/48d6ec03-7645-4b31-855c-010033dc0f8f" />
+
 
 ---
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
+<img width="849" height="376" alt="Screenshot 8" src="https://github.com/user-attachments/assets/6f0876b1-3fcb-4471-8aef-5b17d0b8d7b0" />
+
 
 ---
 
@@ -108,25 +114,30 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
+<img width="1785" height="997" alt="Screenshot 9" src="https://github.com/user-attachments/assets/9d3e81b5-f2b9-48f9-b317-363990bf8990" />
+
 
 ---
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+<img width="849" height="388" alt="Screenshot 10" src="https://github.com/user-attachments/assets/e1b99378-e219-40c3-a984-267042d786d9" />
+
 
 ---
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+<img width="846" height="385" alt="Screenshot 11" src="https://github.com/user-attachments/assets/5152a3e8-eef7-40bc-b829-5c58f4ea6a0d" />
+
+
 
 ---
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
+<img width="839" height="390" alt="Screenshot 12" src="https://github.com/user-attachments/assets/a71eb7aa-807b-4d03-b7c2-c601adcb232d" />
+
 
 ---
 
@@ -140,19 +151,20 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output of `systemctl status nginx --no-pager` showing Nginx `active (running)`
 
-Add your screenshot here.
+<img width="890" height="379" alt="Screenshot 13" src="https://github.com/user-attachments/assets/9c21f0c5-dc02-46c1-8979-29f2f20278b0" />
+
 
 ---
 
 #### Screenshot 14 — Output of `curl -I http://localhost` showing `HTTP/1.1 200 OK`
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 15 — Browser showing the CodeTrack site loaded at `http://<EC2_PUBLIC_IP>`, with your Full Name and Group Name visible
 
-Add your screenshot here.
+<img width="1361" height="928" alt="Screenshot 15" src="https://github.com/user-attachments/assets/0968df6a-82c4-406f-88a9-c1b1f036e55a" />
+
 
 ---
 
@@ -164,13 +176,13 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/aziz-kafayat_spun-up-a-fresh-ec2-instance-wrestled-with-ugcPost-7485666168025030656-mDAN/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7485666171032252416&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU
 
 ---
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-Add your screenshot here.
+<img width="793" height="923" alt="Linkedin Screenshot" src="https://github.com/user-attachments/assets/664ab7df-ab66-439b-91e7-857dde7f6f9c" />
 
 ---
 
