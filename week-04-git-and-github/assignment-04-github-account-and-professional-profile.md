@@ -20,13 +20,15 @@ Confirm that you have a working GitHub account and can access your GitHub dashbo
 
 #### Screenshot 1 — GitHub dashboard or Home page showing you're signed in, with your username visible
 
-Add your screenshot here.
+<img width="1780" height="988" alt="Screenshot 1" src="https://github.com/user-attachments/assets/41807c86-263a-4fba-94c3-c92228322686" />
+
 
 ---
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-Add your screenshot here.
+<img width="1776" height="1057" alt="Screenshot 2" src="https://github.com/user-attachments/assets/2ff76dd2-b293-4326-985c-9711fd8b0fb4" />
+
 
 ---
 
@@ -40,19 +42,22 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-Add your screenshot here.
+<img width="1778" height="999" alt="Screenshot 3" src="https://github.com/user-attachments/assets/d2da43a4-f8d4-4b8a-8777-802565a731de" />
+
 
 ---
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
 
-Add your screenshot here.
+<img width="1781" height="995" alt="Screenshot 4" src="https://github.com/user-attachments/assets/5ee46d34-bf1c-405b-95e0-eecd2fea9a79" />
+
 
 ---
 
 #### Screenshot 5 — Your forked repository page with your username and repository name visible in the URL
 
-Add your screenshot here.
+<img width="1069" height="1043" alt="Screenshot 5" src="https://github.com/user-attachments/assets/7aa0686b-e8f7-42d3-9bc5-d04f2be7d714" />
+
 
 ---
 
@@ -66,7 +71,8 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 #### Screenshot 6 — Your public GitHub profile showing your username and professional bio
 
-Add your screenshot here.
+<img width="1331" height="994" alt="Screenshot 6" src="https://github.com/user-attachments/assets/dc14a09a-0f91-4a5e-ba21-3018f98b88ac" />
+
 
 ---
 
@@ -82,7 +88,7 @@ Add your screenshot here.
 
 Paste your GitHub profile URL here:
 
-`Add your URL here`
+https://github.com/kaphaaya
 
 ---
 
