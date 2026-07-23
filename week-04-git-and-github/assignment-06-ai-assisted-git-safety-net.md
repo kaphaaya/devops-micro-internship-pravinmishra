@@ -35,7 +35,7 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+- When I create a separate branch, I get a safe space to work without messing with the main code. I can experiment, test, and make changes freely, then submit a clean Pull Request with just my work.
 
 ---
 
@@ -57,7 +57,7 @@ Add your screenshot here.
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+- I'm using a file with actual security problems like hardcoded passwords and debugging leftover to test how the pre-commit hook and Claude Code skill catch them before I commit. It's showing me how these automated checks work in real life to keep bad code out of the repo.
 
 ---
 
@@ -85,13 +85,13 @@ Add your screenshot here.
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+- If the hook only lived in .git/hooks/, it would be local to my machine and wouldn't get shared when someone else clones the repo. By tracking it in the hooks/ directory and configuring git to point there with core.hooksPath, everyone on the team gets the same hook automatically. It ensures the safety standard travels with the code.
 
 ---
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+- Both intercept an action right before it happens. PreToolUse blocks Claude Code tool use before it runs, and the pre-commit hook blocks git commits before they're created. They're both gatekeepers using fixed rules to catch problems early. They don't guess or negotiate, they just follow their rules and give the same answer every time. Both prevent bad stuff from reaching the next stage.
 
 ---
 
@@ -113,13 +113,13 @@ Add your screenshot here.
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
-Add your answer here.
+- The hook has a pattern that looks for AKIA at the start of a string, which is how AWS access keys begin. My fake key started with AKIA, so the regex matched it immediately. The hook doesn't need to know if it's real or fake, it just spots the pattern that real AWS keys follow and blocks it.
 
 ---
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
 
-Add your answer here.
+- No, it couldn't. If I named a variable password = "mysecret123" or api_key = "actualtoken", the hook would miss it completely. Fixed rules can only catch what they're specifically told to look for. They're good at spotting known patterns like AWS keys or common secret formats, but they're blind to context. Someone could hide a real secret behind a generic variable name and sail right past. That's why you need both the hook and human review, and why the Claude Code skill does the judgment work the fixed rule can't.
 
 ---
 
@@ -147,13 +147,13 @@ Add your screenshot here.
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
+- Read and Bash let me gather and analyze the staged diff, but no Write means I can't actually make changes. I can look at the code, spot problems, draft suggestions, but I can't commit, push, or touch the repo. It mirrors the agentic loop: I gather and analyze, then you act. The restriction keeps me honest, making sure the final decision stays human.
 
 ---
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
+- The hook caught the AKIA pattern because that's its single job, one regex rule. The skill caught that too, but it also flagged the debug statement (like console.log or print()) that the hook never looked for. The hook is literal and fast, the skill is semantic and thoughtful. The hook prevents obvious disasters, the skill catches things that need judgment, like unclear intent or mixed concerns in one commit. Together they're stronger than either alone.
 
 ---
 
@@ -181,7 +181,7 @@ Add your screenshot here.
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
-Add your answer here.
+- I removed the fake AWS key that started with AKIA from the file. I also deleted the debug statement that was left in the code. Once those two things were gone, the staged file no longer matched any of the hook's patterns, so it let the commit through.
 
 ---
 
@@ -211,19 +211,19 @@ Add your PR URL here...
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
+- I read through the draft the skill produced and edited a few things. The skill suggested some technical details that were accurate but too verbose for the title. I shortened it and made it clearer what the actual change was about. I also made the description more direct and less formal, so it reads like my own voice and not an AI template. The skill gives you a solid starting point, but you need to shape it into something that actually matches how you'd write.
 
 ---
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
-Add your answer here.
+- A lot. The skill could have misunderstood what my changes were really for, or made assumptions about impact that weren't true. It might have flagged things that aren't actually problems, or missed context about why I made certain choices. Reviewers would immediately know it was AI-generated and wouldn't trust it. Worse, I'd be putting my name on something I didn't actually review or vouch for. The whole point of the skill is to help me think, not to replace my thinking.
 
 ---
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
+- A lot. The skill could have misunderstood what my changes were really for, or made assumptions about impact that weren't true. It might have flagged things that aren't actually problems, or missed context about why I made certain choices. Reviewers would immediately know it was AI-generated and wouldn't trust it. Worse, I'd be putting my name on something I didn't actually review or vouch for. The whole point of the skill is to help me think, not to replace my thinking.
 
 ---
 
@@ -237,31 +237,30 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
+- Both the pre-commit hook and /pr-ready skill represent Gather. They read the staged diff and collect information about what changed.
 
 ---
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
-
+- The hook analyzes using fixed rules, checking for known secret patterns and file sizes. The skill analyzes using judgment, flagging debug statements, mixed concerns, and unclear intent. Both happen before I act.
 ---
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
+- Human Act is me reviewing the skill's output, deciding to fix the issues, staging the clean code, and running the commit and push myself. The hook and skill inform me, but they can't decide what's actually safe or what my intent was. Only I can read the flags, think about context, and decide "yes, this is ready." If Claude could commit and push, I'd lose control of what actually goes into my repo.
 
 ---
 
 **4. Which step is Verify?**
 
-Add your answer here.
+- Verify is the hook letting the commit through after it's clean, and the PR showing up in my repo with the changes applied. The actual code is now there, the gates passed, and the review can happen.
 
 ---
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
+- The hook is fast and reliable but blind to context; it only catches known patterns. The skill sees intent and judgment but could miss obvious mistakes. Together they catch both obvious disasters and subtle problems that need thinking.
 
 ---
 
@@ -275,7 +274,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+https://www.linkedin.com/posts/aziz-kafayat_week-4-of-dmi-just-shipped-something-that-ugcPost-7486163707547430912-z5nj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU
 
 ---
 
@@ -305,7 +304,7 @@ Add 3-5 bullet points on what you learned this week.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+https://github.com/kaphaaya/devops-micro-internship-interviews
 
 ---
 
