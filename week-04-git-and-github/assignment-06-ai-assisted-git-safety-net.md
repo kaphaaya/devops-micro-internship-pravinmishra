@@ -27,7 +27,8 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-Add your screenshot here.
+
+<img width="837" height="382" alt="Screenshot 1 1" src="https://github.com/user-attachments/assets/b8554216-f11e-46cd-a239-cb96b7ace771" />
 
 ---
 
@@ -49,7 +50,8 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
-Add your screenshot here.
+<img width="893" height="381" alt="Screenshot 1" src="https://github.com/user-attachments/assets/91757a20-64ea-49d0-8399-327045504d01" />
+
 
 ---
 
@@ -71,13 +73,15 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
 
-Add your screenshot here.
+<img width="837" height="378" alt="Screenshot 2" src="https://github.com/user-attachments/assets/86e0fe67-f272-4e0c-ae8d-8d73ec593365" />
+
 
 ---
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-Add your screenshot here.
+<img width="1148" height="905" alt="Screenshot 3" src="https://github.com/user-attachments/assets/79a4329b-2ddc-432c-b7f4-3f9d189fd8d6" />
+
 
 ---
 
@@ -105,7 +109,8 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 
 #### Screenshot 4 — Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file
 
-Add your screenshot here.
+<img width="848" height="379" alt="Screenshot 4" src="https://github.com/user-attachments/assets/6d30ef48-66f6-4aa6-a2dc-b6ba8100100e" />
+
 
 ---
 
@@ -133,13 +138,15 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 5" src="https://github.com/user-attachments/assets/3b6c4896-bc29-4781-8528-ee285dee9719" />
+
 
 ---
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
-Add your screenshot here.
+<img width="834" height="391" alt="Screenshot 6" src="https://github.com/user-attachments/assets/287e6b8c-f12b-4887-8e90-056eba2bb98d" />
+
 
 ---
 
@@ -167,13 +174,15 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-Add your screenshot here.
+<img width="844" height="385" alt="Screenshot 7" src="https://github.com/user-attachments/assets/fc4f367a-708e-4ad9-9686-ccf146988ece" />
+
 
 ---
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 8" src="https://github.com/user-attachments/assets/cb53fc87-2afc-40c4-a5f5-5ada82d164e5" />
+
 
 ---
 
@@ -197,13 +206,14 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
-Add your screenshot here.
+<img width="1377" height="990" alt="Screenshot 9" src="https://github.com/user-attachments/assets/2bb5e5c0-c9fa-49a6-9fba-a80f060baa15" />
+
 
 ---
 
 #### PR Link
 
-Add your PR URL here...
+https://github.com/kaphaaya/devops-micro-internship-interviews/pull/1
 
 ---
 
@@ -282,9 +292,12 @@ https://www.linkedin.com/posts/aziz-kafayat_week-4-of-dmi-just-shipped-something
 
 Add 3-5 bullet points on what you learned this week.
 
--
--
--
+- Layered defenses work better than single gates. One catches what the other misses
+- Restricting tools (no Write access) keeps automation honest and humans in control
+- Shared, tracked hooks beat local setup every time. Code safety scales when it's versioned
+- The best AI help knows exactly when to stop and ask you to decide
+- This pattern (Gather → Analyze → Human Act) works for git workflows, security, and due diligence
+
 
 ---
 
