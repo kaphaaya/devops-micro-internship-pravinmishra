@@ -20,7 +20,8 @@ Create a private, team-managed Scrum project named `DevOps Micro-Internship Webs
 
 #### Screenshot 1 — Project confirmation or project sidebar showing the project name and key
 
-Add your screenshot here.
+<img width="1792" height="998" alt="Screenshot 1" src="https://github.com/user-attachments/assets/f0dd45ff-71fa-4c4c-bea2-34ef42728e90" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Create the Epic `Polish DMI Website UI & Deploy` to group the website UI and dep
 
 #### Screenshot 2 — Backlog showing the Epic panel enabled and the Epic visible
 
-Add your screenshot here.
+<img width="1792" height="998" alt="Screenshot 2" src="https://github.com/user-attachments/assets/7c7d3068-c14b-4abd-acfe-7845db21ece6" />
+
 
 ---
 
@@ -48,13 +50,15 @@ Create all six required Stories (S1–S6) under the Epic, each with its descript
 
 #### Screenshot 3 — Backlog showing the Epic and all six Stories under it
 
-Add your screenshot here.
+<img width="1790" height="1079" alt="Screenshot 3" src="https://github.com/user-attachments/assets/6ab702bb-206a-4bcf-9097-df4503cf7835" />
+
 
 ---
 
 #### Screenshot 4 — One opened Story showing its Story point estimate, acceptance criteria, and label
 
-Add your screenshot here.
+<img width="1792" height="988" alt="Screenshot 4" src="https://github.com/user-attachments/assets/74148b31-cb6d-4699-98a1-05c9f81844e9" />
+
 
 ---
 
@@ -68,13 +72,15 @@ Break down S2 (Primary button color refresh) and S4 (Footer with version and dat
 
 #### Screenshot 5 — S2 showing all four Sub-tasks
 
-Add your screenshot here.
+<img width="1792" height="995" alt="Screenshot 5" src="https://github.com/user-attachments/assets/e1f88378-6c64-4fbc-9fe7-6ba7bc7ce4ab" />
+
 
 ---
 
 #### Screenshot 6 — S4 showing all four Sub-tasks
 
-Add your screenshot here.
+<img width="1792" height="991" alt="Screenshot 6" src="https://github.com/user-attachments/assets/a07af840-9478-4b1d-aff2-1e890c683120" />
+
 
 ---
 
@@ -88,7 +94,10 @@ Apply the `frontend` label to S1, S2, S3, S5, and S6, and the `devops` label to 
 
 #### Screenshot 7 — Backlog or Story details showing labels applied to at least two visible Stories
 
-Add your screenshot here.
+<img width="1791" height="996" alt="Screenshot 7 0" src="https://github.com/user-attachments/assets/2447d755-0eb1-4ee9-b6d8-0e713f88541e" />
+
+<img width="1792" height="999" alt="Screenshot 7 1" src="https://github.com/user-attachments/assets/0fc7efa7-6735-4c8b-b900-43afd2744d4c" />
+
 
 ---
 
@@ -102,13 +111,15 @@ Create a one-week Sprint, move two or three Stories into it (approximately 3–5
 
 #### Screenshot 8 — Sprint 1 before starting, showing the selected Stories and Story Points
 
-Add your screenshot here.
+<img width="1792" height="997" alt="Screenshot 8" src="https://github.com/user-attachments/assets/fbbd99ba-1652-40f6-814f-3d2012e35073" />
+
 
 ---
 
 #### Screenshot 9 — Active Sprint board showing the started Sprint and Sprint Goal
 
-Add your screenshot here.
+<img width="1792" height="998" alt="Screenshot 9" src="https://github.com/user-attachments/assets/4bbcbf6b-62a0-4f10-8f35-9353b8f261dc" />
+
 
 ---
 
@@ -122,13 +133,15 @@ Filter Jira work by the `frontend` and `devops` labels and review Stories with S
 
 #### Screenshot 10 — Filter for label = frontend showing the filtered results
 
-Add your screenshot here.
+<img width="1792" height="994" alt="Screenshot 10" src="https://github.com/user-attachments/assets/0fb37ab5-f94c-4254-9676-80a839e4b541" />
+
 
 ---
 
 #### Screenshot 11 — Filter for label = devops showing the filtered results
 
-Add your screenshot here.
+<img width="1792" height="996" alt="Screenshot 11" src="https://github.com/user-attachments/assets/64c29643-5bfa-4f3f-816d-d410b6848bff" />
+
 
 ---
 
@@ -142,7 +155,8 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 #### Screenshot 12 — Burndown Chart page opened for Sprint 1
 
-Add your screenshot here.
+<img width="1792" height="997" alt="Screenshot 12" src="https://github.com/user-attachments/assets/410051ab-e182-4898-8980-4472f5fcde06" />
+
 
 ---
 
