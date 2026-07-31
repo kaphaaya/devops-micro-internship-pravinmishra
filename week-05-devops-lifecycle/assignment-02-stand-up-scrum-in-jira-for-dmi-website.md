@@ -10,7 +10,7 @@ In this assignment, you will configure a private, team-managed Scrum Space in Ji
 
 ---
 
-# # Task 1 — Create the Jira Space (Team-Managed Scrum)
+# Task 1 — Create the Jira Space (Team-Managed Scrum)
 
 ## Goal
 
