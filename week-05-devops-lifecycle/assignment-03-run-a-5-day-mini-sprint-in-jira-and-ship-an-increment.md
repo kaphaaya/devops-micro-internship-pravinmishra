@@ -20,13 +20,15 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 
 #### Screenshot 1 — Sprint 1 created with the Story inside it
 
-Add your screenshot here.
+<img width="1792" height="995" alt="Screenshot 1" src="https://github.com/user-attachments/assets/c732ec26-3bc6-4da2-8b71-ee061e9bd77a" />
+
 
 ---
 
 #### Screenshot 2 — Active Sprint board showing the Sprint Goal
 
-Add your screenshot here.
+<img width="1792" height="1000" alt="Screenshot 2" src="https://github.com/user-attachments/assets/c909cb8e-935a-4b17-a732-52029de200e3" />
+
 
 ---
 
@@ -40,25 +42,29 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 3 — Jira board showing the Day 1 Sub-task in Done
 
-Add your screenshot here.
+<img width="1789" height="998" alt="Screenshot 3" src="https://github.com/user-attachments/assets/3053a9c7-dfdc-4b5a-bdcb-a081b73b58f4" />
+
 
 ---
 
 #### Screenshot 4 — Successful Git commit output
 
-Add your screenshot here.
+<img width="1284" height="319" alt="Screenshot 4" src="https://github.com/user-attachments/assets/11a11d42-ae09-4e25-932e-6f8fe9f6a44a" />
+
 
 ---
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
-Add your screenshot here.
+<img width="1792" height="1076" alt="Screenshot 5" src="https://github.com/user-attachments/assets/161e5b01-c900-4dde-b739-3233dee445fa" />
+
 
 ---
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
-Add your screenshot here.
+<img width="1792" height="1000" alt="Screenshot 6" src="https://github.com/user-attachments/assets/662e4c13-78c6-4d50-884e-c75e0eb7581b" />
+
 
 ---
 
@@ -72,19 +78,21 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 7 — Code editor showing the footer and date logic or deployment-time template snippet
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 7" src="https://github.com/user-attachments/assets/63508c94-89ac-4a88-8888-40eb743921f1" />
+
 
 ---
 
 #### Screenshot 8 — EC2 browser view showing the updated footer with the current date
 
-Add your screenshot here.
+<img width="1792" height="998" alt="Screenshot 8" src="https://github.com/user-attachments/assets/8d5b85f8-3a43-4dd7-8313-742901c79051" />
+
 
 ---
 
 #### Screenshot 9 — README snippet documenting the footer and date behavior
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 9" src="https://github.com/user-attachments/assets/d51f04d5-7de8-4eef-8690-af5003340f46" />
 
 ---
 
