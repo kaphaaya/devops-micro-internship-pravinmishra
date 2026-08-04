@@ -1,4 +1,4 @@
-# Assignment 3 — Run a 5-Day Mini-Sprint in Jira and Ship an Increment
+<img width="468" height="863" alt="Linkedin shot 2" src="https://github.com/user-attachments/assets/a4c2181c-8b6d-49ad-a11e-39a0a9ef0a93" /><img width="830" height="947" alt="Linkedin Screenshot" src="https://github.com/user-attachments/assets/955965c4-7fdd-4ffd-8cd1-353c961fecae" />![Linkedin shot 2](https://github.com/user-attachments/assets/f4084c53-0a94-440f-b691-39e477295930)# Assignment 3 — Run a 5-Day Mini-Sprint in Jira and Ship an Increment
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -20,13 +20,15 @@ Create the footer Story (`Add footer with version and deploy date`, 1 point, `fr
 
 #### Screenshot 1 — Sprint 1 created with the Story inside it
 
-Add your screenshot here.
+<img width="1792" height="995" alt="Screenshot 1" src="https://github.com/user-attachments/assets/3c6c4eee-1d7c-4726-97e2-dcdd5ee0216c" />
+
 
 ---
 
 #### Screenshot 2 — Active Sprint board showing the Sprint Goal
 
-Add your screenshot here.
+<img width="1792" height="1000" alt="Screenshot 2" src="https://github.com/user-attachments/assets/36c4bcc6-f92e-441f-835a-3078635cfe73" />
+
 
 ---
 
@@ -40,25 +42,29 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 3 — Jira board showing the Day 1 Sub-task in Done
 
-Add your screenshot here.
+<img width="1789" height="998" alt="Screenshot 3" src="https://github.com/user-attachments/assets/7ff31a44-a07e-45ec-9413-d9f11d00ad9b" />
+
 
 ---
 
 #### Screenshot 4 — Successful Git commit output
 
-Add your screenshot here.
+<img width="1284" height="319" alt="Screenshot 4" src="https://github.com/user-attachments/assets/63ed5a03-58c7-404e-a926-67ce2ae4e5fd" />
+
 
 ---
 
 #### Screenshot 5 — EC2 browser view showing the complete footer text, with the URL visible
 
-Add your screenshot here.
+<img width="1792" height="1076" alt="Screenshot 5" src="https://github.com/user-attachments/assets/63d53551-b41a-4429-b778-67d20f1942d4" />
+
 
 ---
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
-Add your screenshot here.
+<img width="1792" height="1000" alt="Screenshot 6" src="https://github.com/user-attachments/assets/8698bcf9-8d04-4843-a352-9d928ffdcd3b" />
+
 
 ---
 
@@ -72,25 +78,29 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 7 — Code editor showing the footer and date logic or deployment-time template snippet
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 7" src="https://github.com/user-attachments/assets/57127f1c-3b9a-4855-b055-2cb132acf8d8" />
+
 
 ---
 
 #### Screenshot 8 — EC2 browser view showing the updated footer with the current date
 
-Add your screenshot here.
+<img width="1792" height="998" alt="Screenshot 8" src="https://github.com/user-attachments/assets/d8fada0f-1e83-4292-860e-e1e7e273d751" />
+
 
 ---
 
 #### Screenshot 9 — README snippet documenting the footer and date behavior
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 9" src="https://github.com/user-attachments/assets/d1921cbb-ae07-4574-95e1-c2f8c4ed5041" />
+
 
 ---
 
 #### Screenshot 10 — Jira Story comment showing the Day 2 Daily Scrum update
 
-Add your screenshot here.
+<img width="1792" height="995" alt="Screenshot 10" src="https://github.com/user-attachments/assets/49d9bb41-92e1-4358-aaab-101d3dbbfcc2" />
+
 
 ---
 
@@ -104,19 +114,20 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-Add your screenshot here.
+<img width="1792" height="1080" alt="Screenshot 11" src="https://github.com/user-attachments/assets/90f56d00-8389-4457-9931-a48ea91a4693" />
 
 ---
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-Add your screenshot here.
+<img width="1779" height="1058" alt="Screenshot 12" src="https://github.com/user-attachments/assets/9b1b0e79-b96f-4410-9bc5-cb96310f9b0f" />
+
 
 ---
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-Add your screenshot here.
+<img width="1792" height="891" alt="Screenshot 13" src="https://github.com/user-attachments/assets/66eecb37-06f6-4d27-8a55-0404872b9928" />
 
 ---
 
@@ -130,7 +141,8 @@ Replace the existing homepage tagline with the required DMI Website call-to-acti
 
 #### Screenshot 14 — EC2 browser view showing "Start your DevOps Journey here" and the clickable "Visit the DMI Website" link
 
-Add your screenshot here.
+<img width="1792" height="997" alt="Screenshot 14" src="https://github.com/user-attachments/assets/09c39c21-c4a0-4c3b-a877-a797b0c03e68" />
+
 
 ---
 
@@ -144,19 +156,24 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-Add your screenshot here.
+<img width="1792" height="1000" alt="Screenshot 15" src="https://github.com/user-attachments/assets/8a4ad661-ba53-4a21-b65b-c4b78ba0bf38" />
+
+
+
 
 ---
 
 #### Screenshot 16 — Jira retrospective comment
 
-Add your screenshot here.
+<img width="1792" height="995" alt="Screenshot 16" src="https://github.com/user-attachments/assets/7e540fc8-a00f-4921-a53d-d8972b8106b1" />
+
 
 ---
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
-Add your screenshot here.
+<img width="1788" height="1070" alt="Screenshot 17" src="https://github.com/user-attachments/assets/e553481c-ac82-4322-94eb-5d9f124738d5" />
+
 
 ---
 
@@ -180,13 +197,18 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/feed/update/urn:li:activity:7490375951801856000/
 
 ---
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
-Add your screenshot here.
+<img width="830" height="947" alt="Linkedin Screenshot" src="https://github.com/user-attachments/assets/ae44bfa0-4096-4a07-a58e-45177bb74bf8" />
+
+
+<img width="468" height="863" alt="Linkedin shot 2" src="https://github.com/user-attachments/assets/84e78838-daee-4197-8827-52f6ef01321b" />
+
+
 
 ---
 
