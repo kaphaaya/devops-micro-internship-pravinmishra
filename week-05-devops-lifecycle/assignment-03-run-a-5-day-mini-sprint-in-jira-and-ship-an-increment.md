@@ -98,7 +98,7 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 10 — Jira Story comment showing the Day 2 Daily Scrum update
 
-Add your screenshot here.
+<img width="1792" height="995" alt="Screenshot 10" src="https://github.com/user-attachments/assets/cecf8103-8b26-4457-87f7-83d9763af978" />
 
 ---
 
@@ -112,19 +112,22 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-Add your screenshot here.
+<img width="1792" height="1080" alt="Screenshot 11" src="https://github.com/user-attachments/assets/fd086a2b-6568-4f73-9ef5-4eec04c47dc3" />
+
 
 ---
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-Add your screenshot here.
+<img width="1779" height="1058" alt="Screenshot 12" src="https://github.com/user-attachments/assets/ec13815e-1911-403b-8dbb-e52efe54c44d" />
+
 
 ---
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-Add your screenshot here.
+<img width="1792" height="891" alt="Screenshot 13" src="https://github.com/user-attachments/assets/42a47575-d30f-427c-a5cc-f006c8be0491" />
+
 
 ---
 
@@ -138,7 +141,8 @@ Replace the existing homepage tagline with the required DMI Website call-to-acti
 
 #### Screenshot 14 — EC2 browser view showing "Start your DevOps Journey here" and the clickable "Visit the DMI Website" link
 
-Add your screenshot here.
+<img width="1792" height="997" alt="Screenshot 14" src="https://github.com/user-attachments/assets/6e411236-fbee-419c-bf58-82060b1bf877" />
+
 
 ---
 
@@ -152,19 +156,22 @@ Record a two-to-three-minute demo video of the shipped footer, add a retrospecti
 
 #### Screenshot 15 — Burndown Chart for Sprint 1
 
-Add your screenshot here.
+<img width="1792" height="1000" alt="Screenshot 15" src="https://github.com/user-attachments/assets/411beac6-18fb-4621-9c1d-1337783653b1" />
+
 
 ---
 
 #### Screenshot 16 — Jira retrospective comment
 
-Add your screenshot here.
+<img width="1792" height="995" alt="Screenshot 16" src="https://github.com/user-attachments/assets/ac5a3f78-67da-42ad-a802-70f2c3773c83" />
+
 
 ---
 
 #### Screenshot 17 — Final EC2 browser view showing the complete footer requirement
 
-Add your screenshot here.
+<img width="1788" height="1070" alt="Screenshot 17" src="https://github.com/user-attachments/assets/b596809c-181c-4a78-ac19-cf62e617f28b" />
+
 
 ---
 
@@ -188,13 +195,15 @@ Publish a LinkedIn post about your five-day mini-Sprint, including your GitHub r
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/aziz-kafayat_devops-aws-cloudengineering-ugcPost-7490375948727644160-NBFM/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU
 
 ---
 
 #### LinkedIn Screenshot 1 — Published LinkedIn post showing the post content and at least one required link or proof image
 
-Add your screenshot here.
+<img width="830" height="947" alt="Linkedin Screenshot" src="https://github.com/user-attachments/assets/ecee584f-43a0-4d60-80a7-0407219d3958" />
+
+<img width="468" height="863" alt="Linkedin shot 2" src="https://github.com/user-attachments/assets/8d2d9dbf-f528-475d-b790-6f2fb6293f45" />
 
 ---
 
