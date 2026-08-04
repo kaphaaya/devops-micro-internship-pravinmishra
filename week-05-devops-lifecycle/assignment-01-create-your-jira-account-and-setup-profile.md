@@ -35,15 +35,15 @@ Confirm your email address if Atlassian requests verification.
 
 #### Screenshot 2 (if applicable) — Confirmation screen after email verification, or the inbox showing the Atlassian verification email subject
 
+<img width="1511" height="870" alt="Screenshot 2" src="https://github.com/user-attachments/assets/bfa682bd-cabb-4ece-a3f4-446698472dfa" />
+
 ---
 
 ### Notes
 
 If you signed up with Google and no separate email verification was required, include the following statement instead of Screenshot 2:
 
-> I signed up using Google, and Atlassian did not require separate email verification.
-
-Add any additional notes here.
+I signed up using Google, and Atlassian did not require separate email verification.I already had an existing Atlassian account that was previously disabled. When I logged in using my Google account credentials, Atlassian automatically provided a 14-day free trial without requiring additional email verification. No separate verification step was needed since the account was already established
 
 ---
 
