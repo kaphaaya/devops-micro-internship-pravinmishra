@@ -29,7 +29,9 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
+We went with Team Mode for this one. I wanted the real experience of working inside a team, not just running solo through Jira. Here's how we split the roles:
+
+
 
 ---
 
@@ -43,6 +45,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
+We created a Team managed Scrum project and named it Gotto Job. Simple step, but it set the foundation for everything else.
 
 <img width="1913" height="913" alt="screenshot 2" src="https://github.com/user-attachments/assets/7ef8ab43-1e47-4d54-b774-fc1a003d6c4f" />
 
@@ -59,6 +62,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
+We grouped our work under one Epic: Improve Gotto Job UI discoverability and trust. Everything we built after this rolled up under that one goal.
 
 <img width="2239" height="1237" alt="screenshot 3" src="https://github.com/user-attachments/assets/e7681e6a-4a52-4e65-bd36-ce99787e5a35" />
 
@@ -74,6 +78,8 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 ### Evidence
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
+
+As a team, we wrote out our stories together and ranked them by value. We looked at what would actually help someone using Gotto Job first, then estimated the effort with Fibonacci points.
 
 <img width="1911" height="925" alt="screenshot 4" src="https://github.com/user-attachments/assets/79615832-5c3f-48d3-bb65-417aab447c84" />
 
@@ -100,6 +106,7 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
+This is where it got interesting. We didn't just throw numbers at stories, we actually talked through them.
 
 <img width="1911" height="905" alt="W5-A4-T5-S6A" src="https://github.com/user-attachments/assets/75813e97-f367-4fa7-a196-8df9a5e3095c" />
 
@@ -129,6 +136,8 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
+We created Sprint 1, pulled in stories that added up to roughly 3 to 6 points, set our Sprint Goal, and broke each story into Build, Verify, Deploy, and Screenshot sub tasks so we all knew exactly what done looked like.
+
 <img width="1912" height="915" alt="W5-A4-T8-S10" src="https://github.com/user-attachments/assets/c1d60160-5586-43f7-8e53-b6eccc0c5152" />
 
 
@@ -150,6 +159,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 ### Evidence
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
+Opened it up and confirmed it existed for Sprint 1. Empty at this point, but the tracking was in place.
 
 <img width="1913" height="913" alt="W5-A4-T7-S9" src="https://github.com/user-attachments/assets/0845773a-b013-489b-8da6-837fc7321b78" />
 
@@ -165,6 +175,8 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 ### Evidence
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
+
+This is the part I'm proud of. I fixed the typography on the job listings, cleaning up the hierarchy so the job title and key details actually stood out instead of blending together. Once it was ready, I opened a pull request and sent it to Rohan, who reviewed it and merged it into main. Watching something I touched go from a local change to a live deployed fix, through an actual PR review, was honestly the best part of this whole exercise.
 
 <img width="1912" height="915" alt="W5-A4-T8-S10" src="https://github.com/user-attachments/assets/555a100b-2b05-485a-a084-c93fb8af78ea" />
 
@@ -194,6 +206,13 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 ### Evidence
 
 #### Screenshot 13 — Jira retro comment visible
+What went well: the team stayed engaged for the full session and everyone showed up ready to contribute.
+
+What to improve: communication around who was doing what could have been tighter early on.
+
+Scrum pillar observed: Transparency. The backlog and sprint board stayed visible to everyone the entire time, no surprises.
+
+Scrum value: Commitment. Everyone stayed in it for the full 90 minutes, no one checked out halfway through.
 
 <img width="1910" height="914" alt="W5-A4-T9-S13A" src="https://github.com/user-attachments/assets/8e7651ba-1a42-4085-ae9d-b6abdc0c0c34" />
 
