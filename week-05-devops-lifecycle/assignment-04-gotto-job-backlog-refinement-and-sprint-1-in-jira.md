@@ -116,18 +116,9 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-This is where it got interesting. We didn't just throw numbers at stories, we actually talked through them.
 
-| Story | Final Estimate | Reason |
-|-------|-----------------|--------|
-| Story 1 | 2 | We landed on 2 because it needed a small feature plus real testing to confirm it worked. There was a quick back and forth on whether it was a 1 or 2, but the extra validation tipped it to 2. |
-| Story 2 | 2 | Similar story here, moderate build plus testing. We debated 1 versus 2 and agreed the implementation work justified the 2. |
-| Story 3 | 1 | This one was simple. Low complexity, quick to build, everyone agreed on 1 without much back and forth. |
-| Story 4 | 2 | Touched a few components and needed verification after, so more than a quick fix but not a big lift either. |
-| Story 5 | 2 | Build plus test, moderate effort, more than a one point task. |
-| Story 6 | 3 | This was the biggest one. Build, deploy, and validate all in one story, plus the coordination it took made it the most complex thing we tackled. |
-| Story 7 | 2 | Needed implementation plus confirming it actually worked post deployment. Minor discussion, moderate work. |
-| Story 8 | 2 | Implementation plus final check before we called it done. More than a quick change, still manageable in the sprint. |
+
+
 
 <img width="1911" height="905" alt="W5-A4-T5-S6A" src="https://github.com/user-attachments/assets/75813e97-f367-4fa7-a196-8df9a5e3095c" />
 
@@ -143,8 +134,18 @@ This is where it got interesting. We didn't just throw numbers at stories, we ac
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+This is where it got interesting. We didn't just throw numbers at stories, we actually talked through them.
 
+| Story | Final Estimate | Reason |
+|-------|-----------------|--------|
+| Story 1 | 2 | We landed on 2 because it needed a small feature plus real testing to confirm it worked. There was a quick back and forth on whether it was a 1 or 2, but the extra validation tipped it to 2. |
+| Story 2 | 2 | Similar story here, moderate build plus testing. We debated 1 versus 2 and agreed the implementation work justified the 2. |
+| Story 3 | 1 | This one was simple. Low complexity, quick to build, everyone agreed on 1 without much back and forth. |
+| Story 4 | 2 | Touched a few components and needed verification after, so more than a quick fix but not a big lift either. |
+| Story 5 | 2 | Build plus test, moderate effort, more than a one point task. |
+| Story 6 | 3 | This was the biggest one. Build, deploy, and validate all in one story, plus the coordination it took made it the most complex thing we tackled. |
+| Story 7 | 2 | Needed implementation plus confirming it actually worked post deployment. Minor discussion, moderate work. |
+| Story 8 | 2 | Implementation plus final check before we called it done. More than a quick change, still manageable in the sprint. |
 ---
 
 # Task 6 — Sprint Planning: Create Sprint 1 + Sprint Goal + Scope
