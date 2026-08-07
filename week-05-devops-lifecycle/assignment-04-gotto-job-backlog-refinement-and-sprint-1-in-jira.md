@@ -21,7 +21,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-| Role | What They Did | Team Member |
+| Role | What We Did | Team Member |
 |------|----------------|-------------|
 | Scrum Masters | Kept us inside the 90 minute time box, made sure we followed the Scrum process, wrote up the Sprint Goal, and kept the backlog and sprint visible to everyone | Jacquelina Shalinie Stanley, Rohan Kumar Das, Aziz Olaide Kafayat, Nebeolisa Chiemelie Kelvin, Oluwabunmi Olowoyeye |
 | Product Owner | Prioritized the backlog based on what would actually matter to a user, how visible it was, how much it built trust, and how much effort it would take | Jacquelina Shalinie Stanley |
