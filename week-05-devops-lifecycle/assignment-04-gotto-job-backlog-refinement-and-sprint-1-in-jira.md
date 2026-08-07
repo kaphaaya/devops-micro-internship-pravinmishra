@@ -20,7 +20,8 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+<img width="2255" height="1264" alt="screenshot 1" src="https://github.com/user-attachments/assets/e96a65ab-d854-4b26-ba65-a72de7105ebf" />
+
 
 ---
 
@@ -42,7 +43,9 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
+
+<img width="1913" height="913" alt="screenshot 2" src="https://github.com/user-attachments/assets/7ef8ab43-1e47-4d54-b774-fc1a003d6c4f" />
+
 
 ---
 
@@ -56,7 +59,9 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+
+<img width="2239" height="1237" alt="screenshot 3" src="https://github.com/user-attachments/assets/e7681e6a-4a52-4e65-bd36-ce99787e5a35" />
+
 
 ---
 
@@ -70,13 +75,18 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+<img width="1911" height="925" alt="screenshot 4" src="https://github.com/user-attachments/assets/79615832-5c3f-48d3-bb65-417aab447c84" />
+
+
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+
+
+<img width="1911" height="925" alt="W5-A4-T4-S5" src="https://github.com/user-attachments/assets/752178c3-fd84-4f71-82ad-763180a6cdcf" />
+
 
 ---
 
@@ -90,7 +100,14 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+
+<img width="1911" height="905" alt="W5-A4-T5-S6A" src="https://github.com/user-attachments/assets/75813e97-f367-4fa7-a196-8df9a5e3095c" />
+
+<img width="1911" height="911" alt="W5-A4-T5-S6B" src="https://github.com/user-attachments/assets/35e47b2c-4958-4c2c-901b-5a96efe95c31" />
+
+<img width="1894" height="904" alt="W5-A4-T5-S6C" src="https://github.com/user-attachments/assets/3aa0dad6-9c98-4eae-8530-9c310ddd0dee" />
+
+
 
 ---
 
@@ -112,13 +129,15 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+<img width="1912" height="915" alt="W5-A4-T8-S10" src="https://github.com/user-attachments/assets/c1d60160-5586-43f7-8e53-b6eccc0c5152" />
+
+
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+<img width="1907" height="915" alt="W5-A4-T6-S8" src="https://github.com/user-attachments/assets/1ffc5487-99da-42e8-84ad-b6d577e98fbf" />
 
 ---
 
@@ -132,7 +151,8 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+<img width="1913" height="913" alt="W5-A4-T7-S9" src="https://github.com/user-attachments/assets/0845773a-b013-489b-8da6-837fc7321b78" />
+
 
 ---
 
@@ -146,19 +166,22 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-Add your screenshot here.
+<img width="1912" height="915" alt="W5-A4-T8-S10" src="https://github.com/user-attachments/assets/555a100b-2b05-485a-a084-c93fb8af78ea" />
+
 
 ---
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
+<img width="1470" height="728" alt="W5-A4-T8-S11" src="https://github.com/user-attachments/assets/f68fb20b-f11d-4074-ae0c-bc05ec6e6126" />
+
 
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
+<img width="1902" height="995" alt="W5-A4-T8-S12" src="https://github.com/user-attachments/assets/92b0a717-d55b-4729-94cf-5680002f2aee" />
+
 
 ---
 
@@ -172,7 +195,9 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
+<img width="1910" height="914" alt="W5-A4-T9-S13A" src="https://github.com/user-attachments/assets/8e7651ba-1a42-4085-ae9d-b6abdc0c0c34" />
+
+<img width="1912" height="909" alt="W5-A4-T9-S13B" src="https://github.com/user-attachments/assets/f3799803-af32-46e1-8cfe-60274ee02cd2" />
 
 ---
 
