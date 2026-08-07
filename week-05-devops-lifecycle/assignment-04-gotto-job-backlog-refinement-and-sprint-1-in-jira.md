@@ -21,14 +21,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-| Role | What We Did | Team Member |
-|------|----------------|-------------|
-| Scrum Masters | Kept us inside the 90 minute time box, made sure we followed the Scrum process, wrote up the Sprint Goal, and kept the backlog and sprint visible to everyone | Jacquelina Shalinie Stanley, Rohan Kumar Das, Aziz Olaide Kafayat, Nebeolisa Chiemelie Kelvin, Oluwabunmi Olowoyeye |
-| Product Owner | Prioritized the backlog based on what would actually matter to a user, how visible it was, how much it built trust, and how much effort it would take | Jacquelina Shalinie Stanley |
-| Dev Lead 1 | Went through the Gotto Job codebase and shipped a UI only fix, no backend touched, for stories 7 and 8 | Aziz Olaide Kafayat |
-| Dev Lead 2 | Went through the Gotto Job codebase and shipped a UI only fix for stories 1, 2 and 3 | Nebeolisa Chiemelie Kelvin |
-| Dev Lead 3 | Went through the Gotto Job codebase and shipped a UI only fix for stories 4, 5 and 6 | Oluwabunmi Olowoyeye |
-| DevOps Lead | Committed the change with Git, pushed it live, verified it worked, and documented the deployment | Rohan Kumar Das |
+
 
 <img width="2255" height="1264" alt="screenshot 1" src="https://github.com/user-attachments/assets/e96a65ab-d854-4b26-ba65-a72de7105ebf" />
 
@@ -41,7 +34,14 @@ Write one line for each role: PO (what you prioritized), SM (how you ensured pro
 
 We went with Team Mode for this one. I wanted the real experience of working inside a team, not just running solo through Jira. Here's how we split the roles:
 
-
+| Role | What We Did | Team Member |
+|------|----------------|-------------|
+| Scrum Masters | Kept us inside the 90 minute time box, made sure we followed the Scrum process, wrote up the Sprint Goal, and kept the backlog and sprint visible to everyone | Jacquelina Shalinie Stanley, Rohan Kumar Das, Aziz Olaide Kafayat, Nebeolisa Chiemelie Kelvin, Oluwabunmi Olowoyeye |
+| Product Owner | Prioritized the backlog based on what would actually matter to a user, how visible it was, how much it built trust, and how much effort it would take | Jacquelina Shalinie Stanley |
+| Dev Lead 1 | Went through the Gotto Job codebase and shipped a UI only fix, no backend touched, for stories 7 and 8 | Aziz Olaide Kafayat |
+| Dev Lead 2 | Went through the Gotto Job codebase and shipped a UI only fix for stories 1, 2 and 3 | Nebeolisa Chiemelie Kelvin |
+| Dev Lead 3 | Went through the Gotto Job codebase and shipped a UI only fix for stories 4, 5 and 6 | Oluwabunmi Olowoyeye |
+| DevOps Lead | Committed the change with Git, pushed it live, verified it worked, and documented the deployment | Rohan Kumar Das |
 
 ---
 
