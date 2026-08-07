@@ -16,9 +16,19 @@ In this 90-minute, time-boxed exercise, you will act as a Scrum team — or run 
 
 Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, Scrum Master, Dev Lead, DevOps Lead) was handled.
 
+
 ### Evidence
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
+
+| Role | What They Did | Team Member |
+|------|----------------|-------------|
+| Scrum Masters | Kept us inside the 90 minute time box, made sure we followed the Scrum process, wrote up the Sprint Goal, and kept the backlog and sprint visible to everyone | Jacquelina Shalinie Stanley, Rohan Kumar Das, Aziz Olaide Kafayat, Nebeolisa Chiemelie Kelvin, Oluwabunmi Olowoyeye |
+| Product Owner | Prioritized the backlog based on what would actually matter to a user, how visible it was, how much it built trust, and how much effort it would take | Jacquelina Shalinie Stanley |
+| Dev Lead 1 | Went through the Gotto Job codebase and shipped a UI only fix, no backend touched, for stories 7 and 8 | Aziz Olaide Kafayat |
+| Dev Lead 2 | Went through the Gotto Job codebase and shipped a UI only fix for stories 1, 2 and 3 | Nebeolisa Chiemelie Kelvin |
+| Dev Lead 3 | Went through the Gotto Job codebase and shipped a UI only fix for stories 4, 5 and 6 | Oluwabunmi Olowoyeye |
+| DevOps Lead | Committed the change with Git, pushed it live, verified it worked, and documented the deployment | Rohan Kumar Das |
 
 <img width="2255" height="1264" alt="screenshot 1" src="https://github.com/user-attachments/assets/e96a65ab-d854-4b26-ba65-a72de7105ebf" />
 
@@ -107,6 +117,17 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
 This is where it got interesting. We didn't just throw numbers at stories, we actually talked through them.
+
+| Story | Final Estimate | Reason |
+|-------|-----------------|--------|
+| Story 1 | 2 | We landed on 2 because it needed a small feature plus real testing to confirm it worked. There was a quick back and forth on whether it was a 1 or 2, but the extra validation tipped it to 2. |
+| Story 2 | 2 | Similar story here, moderate build plus testing. We debated 1 versus 2 and agreed the implementation work justified the 2. |
+| Story 3 | 1 | This one was simple. Low complexity, quick to build, everyone agreed on 1 without much back and forth. |
+| Story 4 | 2 | Touched a few components and needed verification after, so more than a quick fix but not a big lift either. |
+| Story 5 | 2 | Build plus test, moderate effort, more than a one point task. |
+| Story 6 | 3 | This was the biggest one. Build, deploy, and validate all in one story, plus the coordination it took made it the most complex thing we tackled. |
+| Story 7 | 2 | Needed implementation plus confirming it actually worked post deployment. Minor discussion, moderate work. |
+| Story 8 | 2 | Implementation plus final check before we called it done. More than a quick change, still manageable in the sprint. |
 
 <img width="1911" height="905" alt="W5-A4-T5-S6A" src="https://github.com/user-attachments/assets/75813e97-f367-4fa7-a196-8df9a5e3095c" />
 
@@ -232,13 +253,17 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/aziz-kafayat_devops-agile-scrum-ugcPost-7491489842002923521-h8Nn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+<img width="555" height="919" alt="Screenshot 2026-08-07 at 14 50 23" src="https://github.com/user-attachments/assets/f4a232f2-0fda-4e1b-9326-e7b023bac3e4" />
+
+<img width="791" height="826" alt="Screenshot 2026-08-07 at 14 50 39" src="https://github.com/user-attachments/assets/b672779a-ee33-441b-b041-4fb0de5bf6c1" />
+
+
 
 ---
 
