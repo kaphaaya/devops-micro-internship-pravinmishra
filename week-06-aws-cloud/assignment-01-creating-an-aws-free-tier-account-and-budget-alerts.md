@@ -30,7 +30,9 @@ In the Billing Dashboard, create a monthly Cost Budget with a name, amount, and 
 
 #### Screenshot 1 — AWS Budget setup page showing the budget name, budget amount, and alert thresholds
 
-Add your screenshot here.
+<img width="1782" height="964" alt="Screenshot 1" src="https://github.com/user-attachments/assets/a4860800-e147-4d7f-b3fa-39d49098c80e" />
+
+<img width="1792" height="725" alt="Screenshot 1 0" src="https://github.com/user-attachments/assets/9d15e671-9146-437b-a623-d90a1aee5637" />
 
 ---
 
@@ -40,7 +42,15 @@ Answer the following in your own words:
 
 **1. Why is it important to set up budget alerts when using an AWS account?**
 
-Write your answer here.
+Budget alerts are crucial for my AWS account because costs can escalate without warning. AWS charges me for every resource I use, and if I'm not careful, I could accidentally leave instances running or misconfigure services without realizing it until I get a surprise bill.
+
+For example, when I was learning about EC2 instances while studying for my Cloud Engineering Diploma, I once forgot to terminate a t2.large instance over a weekend. That simple oversight cost me more than I expected. With budget alerts in place, I would have been notified immediately and could have shut it down before the charges accumulated.
+
+Another scenario is data transfer costs. I didn't realize initially that transferring large amounts of data out of AWS incurs charges. If I'm working on a Web3 project and need to move data between regions or out of AWS entirely, those costs add up quickly. Budget alerts would alert me if I'm approaching unexpected spending in that area.
+
+I also use AWS to experiment and learn new services as part of my cloud engineering studies. Without budget alerts, I could spin up multiple resources to test things and forget about them. The alerts give me a safety net—they notify me when I'm approaching my spending limit so I can review what's running and make decisions about what to keep or terminate.
+
+Essentially, budget alerts protect me from financial surprises and help me stay in control of my AWS spending while I'm actively learning and building.
 
 ---
 
