@@ -20,7 +20,8 @@ Download or clone the portfolio website template from GitHub and confirm `index.
 
 #### Screenshot 1 — File Explorer or terminal showing the template folder contents with `index.html` visible
 
-Add your screenshot here.
+<img width="842" height="385" alt="Screenshot 1" src="https://github.com/user-attachments/assets/f994896d-33f5-419c-a51a-9af3849f5e5d" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Create a globally unique S3 bucket in your chosen AWS region.
 
 #### Screenshot 2 — S3 bucket created screen showing the bucket name and region
 
-Add your screenshot here.
+<img width="1791" height="967" alt="Screenshot 2" src="https://github.com/user-attachments/assets/b32d097b-9207-436d-881e-0e136c2e4b0d" />
+
 
 ---
 
@@ -48,7 +50,8 @@ Upload the contents of the template folder (not the folder itself) so `index.htm
 
 #### Screenshot 3 — S3 bucket Objects view showing `index.html` at the top or root level
 
-Add your screenshot here.
+<img width="1792" height="944" alt="Screenshot 3" src="https://github.com/user-attachments/assets/d492397a-78b2-47e1-bbbb-4952844af02e" />
+
 
 ---
 
@@ -62,7 +65,8 @@ Enable S3 Static Website Hosting with `index.html` as the index document and `er
 
 #### Screenshot 4 — Static website hosting enabled screen showing the Website endpoint
 
-Add your screenshot here.
+<img width="1792" height="997" alt="Screenshot 4" src="https://github.com/user-attachments/assets/6fba7885-fba1-4314-a2dd-ff56f0632f02" />
+
 
 ---
 
@@ -76,7 +80,8 @@ Adjust Block Public Access settings and save a bucket policy that grants public 
 
 #### Screenshot 5 — Bucket policy page showing the policy saved successfully, with the bucket name visible
 
-Add your screenshot here.
+<img width="1792" height="993" alt="Screenshot 5" src="https://github.com/user-attachments/assets/88922e80-6861-4a6e-82b4-323eb26dfdc6" />
+
 
 ---
 
@@ -90,7 +95,8 @@ Load the site through the S3 website endpoint and confirm the homepage, images, 
 
 #### Screenshot 6 — Browser showing the live website with the S3 website endpoint visible in the address bar
 
-Add your screenshot here.
+<img width="1792" height="1081" alt="Screenshot 6" src="https://github.com/user-attachments/assets/c0410f97-6fae-4a73-a969-0f63aa6c46bd" />
+
 
 ---
 
@@ -104,7 +110,10 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 #### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
 
-Add your screenshot here.
+<img width="1792" height="996" alt="Screenshot 7 1" src="https://github.com/user-attachments/assets/95ccbc28-bd6b-4a61-918e-83b3f09ec54f" />
+
+<img width="1792" height="1077" alt="Screenshot 7 2" src="https://github.com/user-attachments/assets/5a838108-811a-4a02-8c69-444ddf29d736" />
+
 
 ---
 
@@ -118,15 +127,15 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Template downloaded/cloned with `index.html` confirmed (Screenshot 1)
-- [ ] Task 2: Globally unique S3 bucket created (Screenshot 2)
-- [ ] Task 3: Website files uploaded with `index.html` at bucket root (Screenshot 3)
-- [ ] Task 4: Static website hosting enabled (Screenshot 4)
-- [ ] Task 5: Public-read bucket policy saved (Screenshot 5)
-- [ ] Task 6: Live website verified through the S3 website endpoint (Screenshot 6)
-- [ ] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
-- [ ] S3 Website Endpoint URL included
-- [ ] No sensitive account information exposed
+- [✅ ] Task 1: Template downloaded/cloned with `index.html` confirmed (Screenshot 1)
+- [✅ ] Task 2: Globally unique S3 bucket created (Screenshot 2)
+- [✅ ] Task 3: Website files uploaded with `index.html` at bucket root (Screenshot 3)
+- [✅ ] Task 4: Static website hosting enabled (Screenshot 4)
+- [✅ ] Task 5: Public-read bucket policy saved (Screenshot 5)
+- [✅ ] Task 6: Live website verified through the S3 website endpoint (Screenshot 6)
+- [✅ ] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
+- [✅ ] S3 Website Endpoint URL included
+- [✅ ] No sensitive account information exposed
 
 ---
 
