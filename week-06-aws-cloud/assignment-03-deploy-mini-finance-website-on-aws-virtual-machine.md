@@ -52,8 +52,6 @@ Start the web server and confirm the Mini Finance website is accessible through 
 
 Take one screenshot showing the Mini Finance website running in the browser.
 
-Add your screenshot here.
-
 <img width="1792" height="1078" alt="Screenshot 1" src="https://github.com/user-attachments/assets/08f64475-cea6-4340-b35b-ccc51392d94e" />
 
 
@@ -75,13 +73,13 @@ http://ec2-3-252-52-255.eu-west-1.compute.amazonaws.com/
 
 # Completion Checklist
 
-- [ ] EC2 instance launched in a public subnet with SSH (22) and HTTP (80) allowed
-- [ ] Connected to the instance via SSH
-- [ ] Web server (Nginx or Apache) installed
-- [ ] Mini Finance repository cloned and files copied to the web server root
-- [ ] Web server started and website verified in the browser (Screenshot 1)
-- [ ] EC2 Public IP URL included
-- [ ] No sensitive data exposed
+- [✅] EC2 instance launched in a public subnet with SSH (22) and HTTP (80) allowed
+- [✅] Connected to the instance via SSH
+- [✅] Web server (Nginx or Apache) installed
+- [✅] Mini Finance repository cloned and files copied to the web server root
+- [✅] Web server started and website verified in the browser (Screenshot 1)
+- [✅] EC2 Public IP URL included
+- [✅] No sensitive data exposed
 
 ---
 
