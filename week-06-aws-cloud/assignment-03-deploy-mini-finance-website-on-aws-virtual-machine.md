@@ -54,13 +54,14 @@ Take one screenshot showing the Mini Finance website running in the browser.
 
 Add your screenshot here.
 
----
+<img width="1792" height="1078" alt="Screenshot 1" src="https://github.com/user-attachments/assets/08f64475-cea6-4340-b35b-ccc51392d94e" />
+
 
 #### Public IP URL
 
 Paste the public IP address of your EC2 instance here (e.g. `http://3.91.105.10`):
 
-`Add your URL here`
+http://ec2-3-252-52-255.eu-west-1.compute.amazonaws.com/
 
 ---
 
