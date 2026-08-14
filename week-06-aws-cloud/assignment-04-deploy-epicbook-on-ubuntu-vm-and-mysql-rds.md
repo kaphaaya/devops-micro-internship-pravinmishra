@@ -210,9 +210,8 @@ Verify the frontend loads publicly, the backend responds through Nginx, and EC2 
 
 #### Screenshot 19 — Browser showing the EpicBook application loaded with the public IP visible
 
-<img width="1792" height="997" alt="Screenshot 19 0" src="https://github.com/user-attachments/assets/5bb4a83f-b3e9-45d3-b745-8446c4b0b6ca" />
+<img width="972" height="391" alt="Screenshot 19" src="https://github.com/user-attachments/assets/337fffe2-a71a-4463-8eac-64225a770fa4" />
 
-<img width="1792" height="1077" alt="Screenshot 19" src="https://github.com/user-attachments/assets/27f8d94b-dadb-45bc-838d-f1416b87325b" />
 
 
 ---
@@ -226,8 +225,8 @@ Verify the frontend loads publicly, the backend responds through Nginx, and EC2 
 
 #### Screenshot 21 — Terminal showing the successful database connectivity test using `SELECT 1;` or similar
 
-<img width="957" height="382" alt="Screenshot 21" src="https://github.com/user-attachments/assets/75b6db84-5b24-4105-a340-c580c9cbf1a0" />
 
+<img width="972" height="391" alt="Screenshot 19" src="https://github.com/user-attachments/assets/6bc8b802-a0b4-4853-a578-4d0826f00f2a" />
 
 ---
 
