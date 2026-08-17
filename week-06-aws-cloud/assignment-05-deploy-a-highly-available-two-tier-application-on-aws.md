@@ -252,19 +252,28 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 Summarize the VPC and subnets across the two Availability Zones.
 
-Write your answer here.
+* VPC (ha-vpc) with 4 subnets across 2 Availability Zones
+    * 2 public subnets for ALB and EC2 instances
+    * 2 private subnets for RDS database
 
 Summarize the ALB and Auto Scaling Group setup.
 
-Write your answer here.
+* Application Load Balancer (ALB) spanning both AZs, listening on port 80
+* Auto Scaling Group with 2 EC2 instances running WordPress
 
 Summarize the private Multi-AZ RDS setup.
 
-Write your answer here.
+* RDS MySQL database in private subnets
+* Security groups enforcing least-privilege access (ALB → Web → RDS)
 
 Summarize the results of both high-availability tests.
 
-Write your answer here.
+* Test A (Single Instance Failure): Terminated one EC2 instance. ASG automatically launched a replacement. The site stayed online the entire time, served by the surviving instance.
+
+* Test B (AZ Failure): Stopped one instance in AZ-1a. The ALB routed all traffic to the surviving instance in AZ-1b. WordPress continued loading without interruption. Restored the stopped instance and ASG returned to 2/2 Healthy.
+
+-Why This Is High Availability: No single point of failure exists. If one instance dies, traffic shifts to the other. If one entire AZ fails, the other AZ's instance keeps the app running. The database persists on RDS independent of instance failures.
+
 
 ---
 
