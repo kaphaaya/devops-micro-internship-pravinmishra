@@ -56,8 +56,7 @@ Security Groups x5 (web-alb-sg, web-ec2-sg, internal-alb-sg, app-ec2-sg, db-sg),
 Database:
 Amazon RDS for MySQL 8.4 (Multi-AZ primary with automatic standby failover, plus one read replica for read scaling)
 
-Developer Tools:
-PM2 (process manager), Nginx (reverse proxy), Node.js, Next.js, Git
+Developer Tools: PM2 (process manager), Nginx (reverse proxy), Node.js, Next.js, Git
 ---
 
 # Task 3 — Public Entry Point
