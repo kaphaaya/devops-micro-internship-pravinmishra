@@ -56,7 +56,8 @@ Security Groups x5 (web-alb-sg, web-ec2-sg, internal-alb-sg, app-ec2-sg, db-sg),
 Database:
 Amazon RDS for MySQL 8.4 (Multi-AZ primary with automatic standby failover, plus one read replica for read scaling)
 
-Developer Tools: PM2 (process manager), Nginx (reverse proxy), Node.js, Next.js, Git
+Developer Tools: 
+PM2 (process manager), Nginx (reverse proxy), Node.js, Next.js, Git
 ---
 
 # Task 3 — Public Entry Point
@@ -69,7 +70,6 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 #### Public ALB DNS
 
-Paste your public ALB DNS name here:
 
 http://web-public-alb-1545575364.eu-west-1.elb.amazonaws.com
 
@@ -171,7 +171,7 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 -Curl for layer-by-layer connectivity testing, 
 -PM2 for process management, Nginx for reverse proxying, 
 -MySQL client for direct database verification, 
--bBrowser Developer Tools (Console and Network tabs) for frontend debugging, 
+-Browser Developer Tools (Console and Network tabs) for frontend debugging, 
 -and Claude for real-time troubleshooting and architectural guidance throughout the build.
 
 ---
