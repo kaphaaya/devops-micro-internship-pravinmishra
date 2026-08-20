@@ -68,15 +68,7 @@ This is not a course. It is an internship-style program — real deployments, re
 **Your stack (uncomment each badge as you earn it):**
 
 
-[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-github/)[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
-
-
-
-<!-- Week 06 → AWS Cloud -->
-<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
-
-<!-- Week 07 → Azure Cloud -->
-<!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
+[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-github/)[![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)[![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)[![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
 
 <!-- Week 08 → Terraform -->
 <!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
@@ -123,8 +115,8 @@ This is not a course. It is an internship-style program — real deployments, re
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aziz-kafayat_just-completed-a-real-world-linux-incident-ugcPost-7484065105391988736-XjcV/ | https://open.substack.com/pub/kaphaaya/p/reflection-week-3-linux-and-bash?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_week-4-of-dmi-microinternship-git-github-ugcPost-7485327772236640257-KGbG/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7485327774422065153&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://open.substack.com/pub/kaphaaya/p/muscle-memory-and-commands-why-git?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
 | 05 | DevOps Lifecycle & Agile | ⏳ Pending | ⏳ Pending | https://www.linkedin.com/posts/aziz-kafayat_devops-aws-cloudengineering-activity-7488603916989911041-g1r3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://open.substack.com/pub/kaphaaya/p/the-90-minute-sprint-what-happens?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
-| 06 | AWS Cloud | 🔄 In Progress | 🔄 In Progress | 🔄 In Progress | 🔄 In Progress |
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_devops-aws-cloudengineering-ugcPost-7496253564076343296-2lnK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://kaphaaya.substack.com/p/from-a-budget-alert-to-a-three-tier?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
+| 07 | Azure Cloud | 🔄 In Progress | 🔄 In Progress| 🔄 In Progress | 🔄 In Progress |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
