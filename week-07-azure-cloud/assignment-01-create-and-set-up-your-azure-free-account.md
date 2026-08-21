@@ -30,13 +30,14 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+<img width="1792" height="998" alt="Screenshot 1" src="https://github.com/user-attachments/assets/c8636c5b-1f06-4076-aba6-990061c505bc" />
+
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+<img width="1790" height="1080" alt="Screenshot 2" src="https://github.com/user-attachments/assets/26b0c554-68a3-4100-81c8-2491c7050ecf" />
 
 ---
 
@@ -44,7 +45,7 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+- I plan to start by exploring Azure's core compute and storage services: Virtual Machines, Blob Storage, and Azure Functions, since these map closely to AWS services I already know (EC2, S3, and Lambda). Comparing them side by side will help me understand Azure's naming conventions and how they differ from AWS's more literal naming style. I'm also curious about Azure Resource Manager and Resource Groups, since Azure organizes and groups resources differently than AWS does with tags and accounts. Alongside this, I want to dig into the Azure Pricing Calculator and Cost Management tools to compare pricing models against AWS, so I can build a clear picture of how costs stack up between the two platforms as I keep learning.
 
 ---
 
@@ -57,12 +58,12 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Azure Free Account created with identity, phone, and payment verification completed
-- [ ] Microsoft Agreement and Offer Terms accepted
-- [ ] Azure Portal accessed successfully (Screenshot 1)
-- [ ] Free Trial subscription confirmed (Screenshot 2)
-- [ ] Reflection paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [✅] Azure Free Account created with identity, phone, and payment verification completed
+- [✅] Microsoft Agreement and Offer Terms accepted
+- [✅] Azure Portal accessed successfully (Screenshot 1)
+- [✅] Free Trial subscription confirmed (Screenshot 2)
+- [✅] Reflection paragraph written (Notes)
+- [✅] No sensitive information exposed
 
 ---
 
