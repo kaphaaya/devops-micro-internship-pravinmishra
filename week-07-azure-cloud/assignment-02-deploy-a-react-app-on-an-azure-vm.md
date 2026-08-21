@@ -20,7 +20,8 @@ Create the Azure Resource Group `react-app-rg` in a region close to you.
 
 #### Screenshot 1 — Resource Group overview showing the name and region
 
-Add your screenshot here.
+<img width="1792" height="999" alt="Screenshot 1" src="https://github.com/user-attachments/assets/9dd1c76c-642f-4123-aad1-4c0d3a604b7c" />
+
 
 ---
 
@@ -34,13 +35,15 @@ Create an Ubuntu 20.04 LTS VM (size B1s) with a Network Security Group allowing 
 
 #### Screenshot 2 — Azure VM overview page showing the VM name, Resource Group, and region
 
-Add your screenshot here.
+<img width="1792" height="997" alt="Screenshot 2" src="https://github.com/user-attachments/assets/8261cf23-3a9e-47fb-aa93-72d81517a2a9" />
+
 
 ---
 
 #### Screenshot 3 — Network Security Group inbound rules showing ports 22 and 80 allowed
 
-Add your screenshot here.
+<img width="1792" height="999" alt="Screenshot 3" src="https://github.com/user-attachments/assets/a1f1b297-b156-49e5-829d-d54ad86bde64" />
+
 
 ---
 
@@ -54,7 +57,8 @@ Connect to the VM over SSH and confirm the Linux prompt is visible.
 
 #### Screenshot 4 — Terminal showing a successful SSH login with the prompt visible
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="Screenshot 4" src="https://github.com/user-attachments/assets/c7e380fe-614d-43ea-9827-5eddea30c11a" />
+
 
 ---
 
@@ -68,7 +72,8 @@ Update Ubuntu and install Git, Node.js, and npm.
 
 #### Screenshot 5 — Terminal output showing `node -v` and `npm -v`
 
-Add your screenshot here.
+<img width="870" height="386" alt="Screenshot 5" src="https://github.com/user-attachments/assets/e6808d33-efba-48e2-a90c-7f69d82d281c" />
+
 
 ---
 
@@ -82,7 +87,8 @@ Clone `my-react-app`, install dependencies, and run `npm run build` to produce t
 
 #### Screenshot 6 — Terminal showing successful `npm run build` completion and `ls -la build` output
 
-Add your screenshot here.
+<img width="855" height="887" alt="Screenshot 6" src="https://github.com/user-attachments/assets/29d14c6d-b945-4e6a-9f62-77e828ae0b39" />
+
 
 ---
 
@@ -96,13 +102,15 @@ Install Nginx and configure it to serve the `build/` directory with `try_files $
 
 #### Screenshot 7 — Successful `sudo nginx -t` output
 
-Add your screenshot here.
+<img width="867" height="864" alt="Screenshot 7" src="https://github.com/user-attachments/assets/23debbbe-4a3e-431d-b0df-21961d2898e0" />
+
 
 ---
 
 #### Screenshot 8 — Nginx configuration snippet showing the build root and `try_files` directive
 
-Add your screenshot here.
+<img width="864" height="635" alt="Screenshot 8" src="https://github.com/user-attachments/assets/21ef036c-2db6-4142-9e32-8d7db93f41b3" />
+
 
 ---
 
@@ -116,7 +124,8 @@ Confirm the React app loads through the VM's public IP, navigation works, and a 
 
 #### Screenshot 9 — Browser showing the React app with the public IP visible in the address bar
 
-Add your screenshot here.
+<img width="1792" height="1075" alt="Screenshot 9" src="https://github.com/user-attachments/assets/f881c35e-2959-422e-9f7d-2d22fa2c95f9" />
+
 
 ---
 
@@ -130,7 +139,7 @@ Restrict the SSH Network Security Group rule to your IP if not already restricte
 
 #### Screenshot 10 (optional) — Network Security Group rule showing SSH restricted to your IP
 
-Add your screenshot here.
+<img width="1792" height="1000" alt="Screenshot 10" src="https://github.com/user-attachments/assets/b3688890-e98e-4d3c-9971-fda1cd696526" />
 
 ---
 
@@ -143,15 +152,15 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Resource Group created (Screenshot 1)
-- [ ] Task 2: Ubuntu VM provisioned with correct NSG rules (Screenshots 2 & 3)
-- [ ] Task 3: SSH access verified (Screenshot 4)
-- [ ] Task 4: Git, Node.js, and npm installed (Screenshot 5)
-- [ ] Task 5: React app built successfully (Screenshot 6)
-- [ ] Task 6: Nginx configured with SPA routing support (Screenshots 7 & 8)
-- [ ] Task 7: App verified via the VM public IP, including route refresh (Screenshot 9)
-- [ ] Task 8: SSH hardening applied (Screenshot 10, optional)
-- [ ] No sensitive data exposed
+- [✅] Task 1: Resource Group created (Screenshot 1)
+- [✅] Task 2: Ubuntu VM provisioned with correct NSG rules (Screenshots 2 & 3)
+- [✅] Task 3: SSH access verified (Screenshot 4)
+- [✅] Task 4: Git, Node.js, and npm installed (Screenshot 5)
+- [✅] Task 5: React app built successfully (Screenshot 6)
+- [✅] Task 6: Nginx configured with SPA routing support (Screenshots 7 & 8)
+- [✅] Task 7: App verified via the VM public IP, including route refresh (Screenshot 9)
+- [✅] Task 8: SSH hardening applied (Screenshot 10, optional)
+- [✅] No sensitive data exposed
 
 ---
 
