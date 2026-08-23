@@ -20,19 +20,22 @@ Create a VNet (10.0.0.0/16) with a public subnet (10.0.1.0/24) for the VM and a 
 
 #### Screenshot 1 — Virtual Network overview showing the 10.0.0.0/16 address space and both subnets
 
-Add your screenshot here.
+<img width="1789" height="999" alt="1" src="https://github.com/user-attachments/assets/929eaba3-6415-4a48-acb1-9172fe865e48" />
+
 
 ---
 
 #### Screenshot 2 — Public and private NSG inbound rules showing ports 80, 22, and restricted 3306 access
 
-Add your screenshot here.
+<img width="1204" height="933" alt="2 0" src="https://github.com/user-attachments/assets/087ba212-47d9-4d7a-b8a1-c861beb3b7f7" />
+<img width="1055" height="968" alt="2 2" src="https://github.com/user-attachments/assets/c0e41255-c3ac-449d-bc6d-f4c975fb1f36" />
 
 ---
 
 #### Screenshot 3 — Public IP and Network Interface association for the Virtual Machine
 
-Add your screenshot here.
+<img width="1215" height="960" alt="3" src="https://github.com/user-attachments/assets/033bddeb-7922-48ee-862b-d131a93955a6" />
+
 
 ---
 
@@ -46,13 +49,15 @@ Launch an Ubuntu 22.04 LTS VM (Standard B1s or equivalent) in the public subnet,
 
 #### Screenshot 4 — Virtual Machine overview showing Ubuntu, size, public IP, and subnet
 
-Add your screenshot here.
+<img width="1792" height="991" alt="4" src="https://github.com/user-attachments/assets/5f8248b4-f311-48bf-a8ee-3b296af44c6d" />
+
 
 ---
 
 #### Screenshot 5 — Terminal showing successful software installation or installed-version checks
 
-Add your screenshot here.
+<img width="898" height="480" alt="5" src="https://github.com/user-attachments/assets/0f255bcc-c7e1-4c13-890f-e7dd0d6c1701" />
+
 
 ---
 
@@ -66,19 +71,22 @@ Clone the EpicBook repository, install dependencies, build the frontend, configu
 
 #### Screenshot 6 — Terminal showing the EpicBook repository cloned and dependencies installed
 
-Add your screenshot here.
+<img width="1033" height="973" alt="6" src="https://github.com/user-attachments/assets/7839ef80-4d45-4005-beeb-a6c460a69ba0" />
+
 
 ---
 
 #### Screenshot 7 — Nginx configuration or service status proving the frontend is configured to be served
 
-Add your screenshot here.
+<img width="751" height="588" alt="7" src="https://github.com/user-attachments/assets/c3ce58b1-c2db-4d77-a746-0fe82fd0682a" />
+
 
 ---
 
 #### Screenshot 8 — Backend process or listening-port evidence (without exposing environment-variable secrets)
 
-Add your screenshot here.
+<img width="866" height="588" alt="8" src="https://github.com/user-attachments/assets/a720c995-b573-424d-a64d-d7e0029dbfbf" />
+
 
 ---
 
@@ -92,19 +100,22 @@ Create a private Azure Database for MySQL Flexible Server (VNet Integration) in 
 
 #### Screenshot 9 — MySQL Flexible Server overview showing Private access (VNet Integration)
 
-Add your screenshot here.
+<img width="868" height="629" alt="9" src="https://github.com/user-attachments/assets/df971b29-cb80-45fb-9495-be78484d249a" />
+
 
 ---
 
 #### Screenshot 10 — Networking configuration showing the private subnet and restricted access
 
-Add your screenshot here.
+<img width="865" height="628" alt="10" src="https://github.com/user-attachments/assets/964dd5fd-a839-431c-82fe-505336a69872" />
+
 
 ---
 
 #### Screenshot 11 — MySQL Client output showing the EpicBook database or imported tables (no password visible)
 
-Add your screenshot here.
+<img width="882" height="578" alt="11" src="https://github.com/user-attachments/assets/4f1351e6-65ef-4025-a895-709367cbd25a" />
+
 
 ---
 
@@ -118,13 +129,15 @@ Confirm the EpicBook application loads through the VM's public IP and that viewi
 
 #### Screenshot 12 — Browser showing the EpicBook application with the Virtual Machine public IP visible
 
-Add your screenshot here.
+<img width="1792" height="1079" alt="12" src="https://github.com/user-attachments/assets/dd7a24bd-c3ba-4600-aa2d-51d3726cebff" />
+
 
 ---
 
 #### Screenshot 13 — Proof of a successful database-backed action (viewing products, adding to cart, or placing an order)
 
-Add your screenshot here.
+<img width="854" height="622" alt="13" src="https://github.com/user-attachments/assets/e998e894-2e2d-47ec-acbd-a3b275b63f18" />
+
 
 ---
 
@@ -132,7 +145,7 @@ Add your screenshot here.
 
 Paste the public IP URL of your Virtual Machine here:
 
-`Add your URL here`
+http://20.84.91.51
 
 ---
 
@@ -146,12 +159,12 @@ Paste the public IP URL of your Virtual Machine here:
 
 # Completion Checklist
 
-- [ ] Task 1: Network foundation created with public/private subnets and NSGs (Screenshots 1–3)
-- [ ] Task 2: VM provisioned and required software installed (Screenshots 4–5)
-- [ ] Task 3: EpicBook frontend and backend deployed (Screenshots 6–8)
-- [ ] Task 4: Private Azure Database for MySQL created and data imported (Screenshots 9–11)
-- [ ] Task 5: End-to-end functionality validated (Screenshots 12–13, Public IP URL)
-- [ ] No sensitive data exposed
+- [✅] Task 1: Network foundation created with public/private subnets and NSGs (Screenshots 1–3)
+- [✅] Task 2: VM provisioned and required software installed (Screenshots 4–5)
+- [✅] Task 3: EpicBook frontend and backend deployed (Screenshots 6–8)
+- [✅] Task 4: Private Azure Database for MySQL created and data imported (Screenshots 9–11)
+- [✅] Task 5: End-to-end functionality validated (Screenshots 12–13, Public IP URL)
+- [✅] No sensitive data exposed
 
 ---
 
