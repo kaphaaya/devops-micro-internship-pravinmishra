@@ -20,7 +20,8 @@ Confirm your Azure CLI is authenticated and can see the VM, network, storage acc
 
 #### Screenshot 1 — `az account show` and `az vm list -d -o table` confirming your subscription and running VM (subscription ID partially blurred)
 
-Add your screenshot here.
+<img width="1111" height="637" alt="1" src="https://github.com/user-attachments/assets/3dbd025b-218f-4f28-9997-5779e436a6ee" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Create a `CLAUDE.md` for this workspace that tells Claude what the audit covers 
 
 #### Screenshot 2 — `CLAUDE.md` open in your editor showing the project overview, audit workflow, and safety rules
 
-Add your screenshot here.
+<img width="1526" height="1032" alt="2" src="https://github.com/user-attachments/assets/be0293e7-4a74-47b3-a649-fd1ce835bc8b" />
+
 
 ---
 
@@ -48,7 +50,8 @@ Ask Claude Code to read `CLAUDE.md` and propose a read-only, four-check audit pl
 
 #### Screenshot 3 — Claude Code showing the four-check plan, with no files created or modified
 
-Add your screenshot here.
+<img width="1792" height="1117" alt="3" src="https://github.com/user-attachments/assets/ae1d0508-bf93-4e95-9971-65197bd10a55" />
+
 
 ---
 
@@ -62,13 +65,16 @@ Write a Bash script that runs the four checks from Task 3 using read-only `az` c
 
 #### Screenshot 4 — Your script open in your editor, showing the check functions and the `az` commands they call
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="4" src="https://github.com/user-attachments/assets/39e5917b-b18c-4ba7-a9e5-e171779c6964" />
+
+<img width="1792" height="1120" alt="4 1" src="https://github.com/user-attachments/assets/df2cfd07-dc64-4caa-a7e4-f382e59d4353" />
 
 ---
 
 #### Screenshot 5 — Output of `bash -n` (no syntax errors) and `ls -l` showing the script is executable
 
-Add your screenshot here.
+<img width="1104" height="196" alt="5" src="https://github.com/user-attachments/assets/8586575a-b1b9-4cca-ba43-1f30f9e94970" />
+
 
 ---
 
@@ -82,7 +88,8 @@ Run the script against your live resources and read the report honestly, even if
 
 #### Screenshot 6 — Script output showing your Full Name and all four checks with a PASS, WARN, or FAIL result
 
-Add your screenshot here.
+<img width="1107" height="639" alt="6" src="https://github.com/user-attachments/assets/6a8b6e0f-138d-484a-8778-29808f646928" />
+
 
 ---
 
@@ -96,13 +103,15 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 7 — Your skill file's frontmatter showing `allowed-tools` without `Write`
 
-Add your screenshot here.
+<img width="1485" height="208" alt="7" src="https://github.com/user-attachments/assets/883d5df4-ec2c-4b8e-af5c-a3f9edc21ca1" />
+
 
 ---
 
 #### Screenshot 8 — `/azure-audit` output showing the baseline findings and Claude's explanation
 
-Add your screenshot here.
+<img width="1785" height="1096" alt="8" src="https://github.com/user-attachments/assets/01a17075-b2ea-4e8a-aeeb-6fe36d2b9972" />
+
 
 ---
 
@@ -116,19 +125,22 @@ Pick one WARN or FAIL finding (or deliberately open an NSG rule to port 22 from 
 
 #### Screenshot 9 — Saved report showing the original finding before the fix
 
-Add your screenshot here.
+<img width="1221" height="783" alt="9" src="https://github.com/user-attachments/assets/e71b2862-f771-4bcf-ba15-9255679357d8" />
+
 
 ---
 
 #### Screenshot 10 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+<img width="1223" height="497" alt="10" src="https://github.com/user-attachments/assets/07a2f346-cca6-4229-9534-00f630761620" />
+
 
 ---
 
 #### Screenshot 11 — Second `/azure-audit` run (or report) showing the finding resolved
 
-Add your screenshot here.
+<img width="1225" height="749" alt="11" src="https://github.com/user-attachments/assets/ff3e5f05-d539-42ae-9ad1-fab2a7b1b5e7" />
+
 
 ---
 
@@ -136,7 +148,26 @@ Add your screenshot here.
 
 Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
 
-Add your answer here
+## AWS vs Azure Audit
+
+The Week 7 Azure audit follows the same workflow as the Week 6 AWS audit, but uses Azure resources and `az` commands instead of AWS resources and `aws` commands.
+
+### Finding Categories
+
+* **Compute:** AWS EC2 → Azure Virtual Machines
+* **Network Security:** AWS Security Groups → Azure Network Security Groups (NSGs)
+* **Storage:** AWS S3 → Azure Storage Accounts/Blob Storage
+* **Database:** AWS RDS → Azure database services
+* **Access & Exposure:** Public access and insecure configurations are checked in both clouds.
+
+### What Stayed the Same?
+
+The core workflow stayed exactly the same:
+
+**Gather → Analyze → Recommend → Human Approves → Execute → Verify**
+
+Only the cloud-specific commands and resource names changed. The audit logic, security reasoning, human approval step, remediation, and verification process remained the same. This shows that the workflow can be adapted across different cloud providers without changing its core methodology.
+
 
 ---
 
@@ -152,15 +183,15 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] Task 1: Azure resources confirmed and workspace created (Screenshot 1)
-- [ ] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 2)
-- [ ] Task 3: Claude produced a read-only four-check plan before any script existed (Screenshot 3)
-- [ ] Task 4: Audit script built, syntax-checked, and executable (Screenshots 4–5)
-- [ ] Task 5: Baseline audit run and reviewed honestly (Screenshot 6)
-- [ ] Task 6: `/azure-audit` skill created with no `Write` permission and run successfully (Screenshots 7–8)
-- [ ] Task 7: A real finding fixed by you (not Claude) and re-verified as resolved (Screenshots 9–11)
-- [ ] Notes comparing this to the Week 6 AWS audit completed
-- [ ] No subscription IDs, tenant IDs, or credentials exposed
+- [✅] Task 1: Azure resources confirmed and workspace created (Screenshot 1)
+- [✅] Task 2: `CLAUDE.md` created with project context and safety rules (Screenshot 2)
+- [✅] Task 3: Claude produced a read-only four-check plan before any script existed (Screenshot 3)
+- [✅] Task 4: Audit script built, syntax-checked, and executable (Screenshots 4–5)
+- [✅] Task 5: Baseline audit run and reviewed honestly (Screenshot 6)
+- [✅] Task 6: `/azure-audit` skill created with no `Write` permission and run successfully (Screenshots 7–8)
+- [✅] Task 7: A real finding fixed by you (not Claude) and re-verified as resolved (Screenshots 9–11)
+- [✅] Notes comparing this to the Week 6 AWS audit completed
+- [✅] No subscription IDs, tenant IDs, or credentials exposed
 
 ---
 
