@@ -116,8 +116,8 @@ This is not a course. It is an internship-style program — real deployments, re
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_week-4-of-dmi-microinternship-git-github-ugcPost-7485327772236640257-KGbG/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7485327774422065153&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://open.substack.com/pub/kaphaaya/p/muscle-memory-and-commands-why-git?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
 | 05 | DevOps Lifecycle & Agile | ⏳ Pending | ⏳ Pending | https://www.linkedin.com/posts/aziz-kafayat_devops-aws-cloudengineering-activity-7488603916989911041-g1r3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://open.substack.com/pub/kaphaaya/p/the-90-minute-sprint-what-happens?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_devops-aws-cloudengineering-ugcPost-7496253564076343296-2lnK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://kaphaaya.substack.com/p/from-a-budget-alert-to-a-three-tier?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
-| 07 | Azure Cloud | 🔄 In Progress | 🔄 In Progress| 🔄 In Progress | 🔄 In Progress |
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ✅ Completed | ✅ Completed| https://lnkd.in/p/eaqNSGNt | https://kaphaaya.substack.com/p/building-a-three-tier-architecture?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
+| 08 | Terraform | ⏳ Pending | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
