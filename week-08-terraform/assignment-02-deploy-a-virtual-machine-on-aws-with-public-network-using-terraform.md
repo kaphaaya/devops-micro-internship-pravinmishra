@@ -114,6 +114,8 @@ Review the Terraform execution plan, provision the AWS resources, and record the
 
 <img width="1395" height="1009" alt="6 3" src="https://github.com/user-attachments/assets/2548a1b2-0196-480e-9dad-ae57ae09e55a" />
 
+<img width="1792" height="535" alt="7" src="https://github.com/user-attachments/assets/ee4af6c4-cd33-4d97-9df0-3b76fc42a427" />
+
 ---
 
 #### Screenshot 7 — Terraform output showing the public IP address of the EC2 instance
