@@ -110,7 +110,7 @@ Add your screenshot here.
 
 Record the public IP address displayed by `terraform output`.
 
-**EC2 Public IP Address:** `Add the public IP address here`
+**EC2 Public IP Address:** 52.48.220.114
 
 ---
 
