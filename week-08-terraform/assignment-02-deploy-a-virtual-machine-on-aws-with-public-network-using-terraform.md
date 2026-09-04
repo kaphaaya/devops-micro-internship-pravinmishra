@@ -24,7 +24,8 @@ Prepare your local environment for Terraform deployment by installing Terraform,
 
 Ensure that your full name is visible and that no AWS credentials, account IDs, or other sensitive information are exposed.
 
-Add your screenshot here.
+<img width="1228" height="697" alt="1" src="https://github.com/user-attachments/assets/16c9464a-f87c-42f8-85df-7ae9591b2add" />
+
 
 ---
 
@@ -54,7 +55,13 @@ The configuration must include:
 
 #### Screenshot 2 — VS Code showing the AWS provider configuration and VPC configuration in `main.tf`
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="2" src="https://github.com/user-attachments/assets/b53e55eb-cfb6-4fce-ac65-da1f0cc15e58" />
+
+<img width="1792" height="1120" alt="2 1" src="https://github.com/user-attachments/assets/112cb7e4-943a-478c-96ad-a41530c9ea81" />
+
+<img width="1792" height="1120" alt="2 2" src="https://github.com/user-attachments/assets/2411ca7a-5d55-4bc0-a149-f21a227777d1" />
+
+<img width="1792" height="1120" alt="2 3" src="https://github.com/user-attachments/assets/3b3cfd01-d61d-42b8-a5f4-cba477cf782d" />
 
 ---
 
@@ -62,7 +69,8 @@ Add your screenshot here.
 
 Ensure that no AWS credentials, private keys, account IDs, or other sensitive information are visible.
 
-Add your screenshot here.
+<img width="1396" height="1005" alt="3" src="https://github.com/user-attachments/assets/2af6e22d-3b9e-44e4-afb4-6c77209b5dfd" />
+
 
 ---
 
@@ -76,7 +84,8 @@ Initialize the Terraform working directory and download the required provider co
 
 #### Screenshot 4 — Terminal showing the successful `terraform init` output
 
-Add your screenshot here.
+<img width="1086" height="946" alt="4" src="https://github.com/user-attachments/assets/985b263c-fae3-4412-af0c-58598280b098" />
+
 
 ---
 
@@ -90,19 +99,27 @@ Review the Terraform execution plan, provision the AWS resources, and record the
 
 #### Screenshot 5 — Terraform plan summary showing the proposed resources
 
-Add your screenshot here.
+<img width="1395" height="986" alt="5" src="https://github.com/user-attachments/assets/93257cad-bd6c-4130-984a-bdbfc2f44394" />
+
 
 ---
 
 #### Screenshot 6 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+<img width="1397" height="1009" alt="6" src="https://github.com/user-attachments/assets/5585d28d-f106-4d43-8629-3916269abbe6" />
+
+<img width="1399" height="1006" alt="6 1" src="https://github.com/user-attachments/assets/84f697a3-15d6-4fd9-beb4-289315c9d5ab" />
+
+<img width="1399" height="1006" alt="6 2" src="https://github.com/user-attachments/assets/d2e3a3f1-dbb1-4d7d-96f4-b518954162f9" />
+
+<img width="1395" height="1009" alt="6 3" src="https://github.com/user-attachments/assets/2548a1b2-0196-480e-9dad-ae57ae09e55a" />
 
 ---
 
 #### Screenshot 7 — Terraform output showing the public IP address of the EC2 instance
 
-Add your screenshot here.
+<img width="1792" height="535" alt="7" src="https://github.com/user-attachments/assets/e1bb1f13-49b1-474f-81a1-6a8364603fce" />
+
 
 ---
 
@@ -132,13 +149,15 @@ Confirm that:
 
 #### Screenshot 8 — AWS CLI output showing the EC2 instance ID, `running` state, and public IP address
 
-Add your screenshot here.
+<img width="1396" height="612" alt="8" src="https://github.com/user-attachments/assets/bc061b6a-7bff-417f-8bf2-3cb0f195b928" />
+
 
 ---
 
 #### Screenshot 9 — Browser showing the Nginx page successfully loaded using the EC2 instance public IP
 
-Add your screenshot here.
+<img width="1792" height="1049" alt="9 0" src="https://github.com/user-attachments/assets/c0d15f42-5657-41ff-a255-f461d1f902df" />
+
 
 ---
 
@@ -152,7 +171,8 @@ Remove all AWS resources created by Terraform after completing the deployment an
 
 #### Screenshot 10 — Terminal showing successful `terraform destroy` completion
 
-Add your screenshot here.
+<img width="1393" height="1007" alt="10" src="https://github.com/user-attachments/assets/11e2629b-efe8-4c24-98a0-897673d84154" />
+
 
 ---
 
