@@ -117,7 +117,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 05 | DevOps Lifecycle & Agile | ⏳ Pending | ⏳ Pending | https://www.linkedin.com/posts/aziz-kafayat_devops-aws-cloudengineering-activity-7488603916989911041-g1r3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://open.substack.com/pub/kaphaaya/p/the-90-minute-sprint-what-happens?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_devops-aws-cloudengineering-ugcPost-7496253564076343296-2lnK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://kaphaaya.substack.com/p/from-a-budget-alert-to-a-three-tier?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
 | 07 | Azure Cloud | ✅ Completed | ✅ Completed| https://lnkd.in/p/eaqNSGNt | https://kaphaaya.substack.com/p/building-a-three-tier-architecture?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
-| 08 | Terraform | ⏳ Pending | ⏳ Pending | https://lnkd.in/p/eF63RXN7 | https://kaphaaya.substack.com/p/before-terraform-your-devops-roadmap?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
+| 08 | Terraform | ⏳ Pending | ⏳ Pending | https://lnkd.in/p/exc-q_Q2 | https://kaphaaya.substack.com/p/before-terraform-your-devops-roadmap?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
