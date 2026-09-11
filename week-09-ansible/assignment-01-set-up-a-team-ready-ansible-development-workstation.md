@@ -156,25 +156,27 @@ Answer the following in your own words:
 
 **1. What is one feature that makes your workstation setup team-friendly?**
 
-Add your answer here.
+One feature that makes my workstation setup team-friendly is the use of requirements.txt. It records the Python packages and versions needed for the project, so another developer can create a virtual environment and install the same dependencies instead of guessing what needs to be installed. This helps keep everyone's setup consistent and reduces the "it works on my machine" problem.
 
 ---
 
 **2. What is one pitfall you avoided while completing the setup?**
 
-Add your answer here.
+One pitfall I avoided was using Linux-specific apt commands on my Mac. The original instructions used apt, but macOS does not use apt as its package manager. I used the appropriate macOS tools instead and created the Python virtual environment with python3 -m venv. This helped me avoid installing packages in the wrong way for my operating system.
 
 ---
 
 **3. Why should Ansible be installed inside a Python virtual environment?**
 
-Add your answer here.
+Ansible should be installed inside a Python virtual environment because the virtual environment isolates the project's Python packages from the rest of the computer. This means the Ansible version and its dependencies are specific to this project and will not interfere with other projects that may require different versions. It also makes the setup easier to reproduce because the required dependencies can be recorded and installed again on another machine.
 
 ---
 
 **4. Why must SSH private keys and `.venv/` remain outside version control?**
 
-Add your answer here.
+SSH private keys must remain outside version control because they are sensitive credentials that can be used to authenticate to remote systems. Sharing a private key in a Git repository could allow someone else to gain unauthorized access.
+
+The .venv/ directory should also remain outside version control, but for a different reason. It contains the local Python environment and installed packages for the project. It can be recreated on another machine using the project's dependency files, so there is no need to commit the entire virtual environment to Git. Keeping it out of version control also keeps the repository smaller and more portable.
 
 ---
 
