@@ -238,7 +238,7 @@ The biggest lesson for me was understanding the difference between provisioning 
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/eVuhmBh4
 
 ---
 
