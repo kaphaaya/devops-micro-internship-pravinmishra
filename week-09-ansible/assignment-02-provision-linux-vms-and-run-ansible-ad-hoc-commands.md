@@ -207,7 +207,26 @@ Add your screenshot here.
 
 ### Notes
 
-Add your task notes here.
+## Task Notes
+
+In this assignment, I learned how Terraform and Ansible can work together to provision and manage Linux servers.
+
+I first used Terraform to create the AWS infrastructure. This included a VPC, subnet, internet gateway, route table, security group, SSH key pair, and four Ubuntu EC2 instances with the roles `web1`, `web2`, `app1`, and `db1`.
+
+I used Terraform's `for_each` to create the four servers from a list of roles instead of writing the same EC2 configuration four different times. I also configured `web1` and `web2` with public IP addresses while `app1` and `db1` remained private.
+
+One important thing I learned was how SSH security works. Initially, SSH was open to `0.0.0.0/0`, which means any IP could attempt to connect. I changed this to my controller IP using `/32`, which restricted SSH access to my current public IP.
+
+After Terraform created the infrastructure, I manually tested SSH access to `web1` using my Terraform-generated SSH key. This helped me understand that Terraform creates the infrastructure, while SSH provides a way to access the server.
+
+I then installed Ansible inside a Python virtual environment so that the Ansible installation stayed isolated from my other Python projects.
+
+Next, I created an Ansible inventory and configured Ansible to use it. I tested the connection using the Ansible `ping` module and received `pong` from both web servers.
+
+I then used Ansible ad-hoc commands to check server uptime, install Nginx, start and enable the Nginx service, install `htop`, and verify that Nginx was active.
+
+The biggest lesson for me was understanding the difference between provisioning and configuration management. Terraform was responsible for building the infrastructure, while Ansible was responsible for connecting to the servers and managing what was installed and running on them.
+
 
 ---
 
@@ -235,37 +254,93 @@ Answer the following in your own words:
 
 **1. What is the purpose of an Ansible inventory file?**
 
-Add your answer here.
+An Ansible inventory file is basically Ansible's address book. It tells Ansible which servers it needs to manage and how those servers are organised.
+
+For example, in this assignment I used inventory.ini to tell Ansible where web1 and web2 were located by giving their IP addresses. I also specified the SSH user and the private key Ansible should use.
+
+Without an inventory, Ansible would not know which machines I wanted it to connect to.
 
 ---
 
 **2. What is the difference between the `web`, `app`, and `db` groups in your inventory?**
 
-Add your answer here.
+The groups are used to organise servers according to their roles.
+
+The web group represents servers responsible for web-related tasks, such as running Nginx. In my setup, web1 and web2 were the web servers.
+
+The app group represents application servers. These would normally contain servers running the application's backend or application logic, such as app1.
+
+The db group represents database servers. These would normally contain servers responsible for storing and managing application data, such as db1.
+
+The main idea is that groups allow me to target servers based on their job instead of having to manage every server individually. For example, I can run an Nginx installation command against the web group without accidentally installing it on a database server.
 
 ---
 
 **3. What does the Ansible `ping` module verify?**
 
-Add your answer here.
+The Ansible ping module verifies that Ansible can successfully connect to a server and execute an Ansible module on it.
+
+It is not the same as the normal network ping command.
+
+In this assignment, I ran:
+
+ansible all -i inventory.ini -m ping
+
+and received pong from both web1 and web2.
+
+This showed me that my inventory, SSH key, SSH connection, remote Python environment, and Ansible configuration were working together correctly.
 
 ---
 
 **4. Why do package installation commands require `--become`?**
 
-Add your answer here.
+Package installation normally requires administrator privileges because software is being installed into protected system locations.
+
+The --become option tells Ansible to temporarily use elevated privileges, similar to using sudo on Linux.
+
+For example, when I ran the Nginx installation command with --become, Ansible was able to install Nginx using the server's package manager.
+
+So, in simple terms, --become means:
+
+"Ansible, perform this task with administrator-level permissions."
 
 ---
 
 **5. When would you use an ad-hoc command instead of a playbook?**
 
-Add your answer here.
+I would use an ad-hoc command when I need to perform a quick, one-off task and don't need to create a complete reusable automation file.
+
+For example, in this assignment I used ad-hoc commands to:
+
+Check the servers' uptime
+Install Nginx
+Start and enable Nginx
+Install htop
+Check whether Nginx was active
+
+An ad-hoc command is useful when I want a quick answer or need to make a simple change.
+
+I would use a playbook when I have several tasks that need to be performed repeatedly, consistently, or in a particular order. A playbook would also be easier to save, share, review, and run again later.
+
+I think of it as the difference between sending someone a quick instruction and writing down a complete procedure that someone can follow again.
 
 ---
 
 **6. What is one challenge you faced while setting up SSH or inventory, and how did you fix it?**
 
-Add your answer here.
+One challenge I faced was making sure SSH access was configured correctly between my Mac and the AWS EC2 server.
+
+My Terraform security group initially allowed SSH from 0.0.0.0/0, which meant SSH was open to connections from any IP address. I changed this to my actual public IP with /32 so that SSH was restricted to my controller machine.
+
+I then used the Terraform-created SSH key to connect to web1:
+
+ssh -i ~/.ssh/terraform-aws-vm-key ubuntu@3.89.181.50
+
+The connection worked and I confirmed it by running hostname and whoami.
+
+After that, I used the same SSH configuration in my Ansible inventory. Ansible was then able to connect to both web servers and return pong when I ran the ping module.
+
+This helped me understand that SSH needs to work first because Ansible relies on SSH to communicate with the Linux servers.
 
 ---
 
