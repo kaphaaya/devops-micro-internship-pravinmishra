@@ -24,7 +24,8 @@ Create the assignment workspace, initialize a Git repository, prepare the requir
 
 #### Screenshot 1 — Terminal showing the `ansible-onboarding` path, `ls -la` output, and `git status` confirming the Git repository is on the `main` branch
 
-Add your screenshot here.
+<img width="832" height="729" alt="1" src="https://github.com/user-attachments/assets/569dcd79-de0e-4554-b749-bf2b701750e7" />
+
 
 ---
 
@@ -38,7 +39,8 @@ Create an isolated Python virtual environment and install Ansible and the requir
 
 #### Screenshot 2 — Terminal showing the active `(.venv)` environment, `which ansible`, `ansible --version`, `ansible-lint --version`, `yamllint --version`, and `pre-commit --version`
 
-Add your screenshot here.
+<img width="865" height="827" alt="2" src="https://github.com/user-attachments/assets/c4e0efa9-b102-4c31-8bcb-27985761893e" />
+
 
 ---
 
@@ -52,13 +54,15 @@ Configure Visual Studio Code to use the project’s Python virtual environment a
 
 #### Screenshot 3 — VS Code Extensions panel showing the Ansible, YAML, and Python extensions installed
 
-Add your screenshot here.
+<img width="1448" height="757" alt="3" src="https://github.com/user-attachments/assets/ded562ca-2b98-447b-8dcd-adb84f7c659e" />
+
 
 ---
 
 #### Screenshot 4 — VS Code showing `.vscode/settings.json` and `.editorconfig` open side by side, with the required settings clearly visible
 
-Add your screenshot here.
+<img width="767" height="735" alt="4" src="https://github.com/user-attachments/assets/ef8e256d-e12c-4ecd-bf9e-6fdc089250af" />
+
 
 ---
 
@@ -72,13 +76,15 @@ Create a reusable `ansible.cfg` file containing the default settings that will b
 
 #### Screenshot 5 — `ansible.cfg` open in VS Code or another editor, showing the complete configuration
 
-Add your screenshot here.
+<img width="488" height="786" alt="5" src="https://github.com/user-attachments/assets/31e94dea-c488-4bf7-8a44-0dae15ae94ea" />
+
 
 ---
 
 #### Screenshot 6 — Terminal showing `ansible --version` with the `ansible.cfg` path and the output of `ansible-config dump --only-changed`
 
-Add your screenshot here.
+<img width="492" height="789" alt="6" src="https://github.com/user-attachments/assets/521b3f3e-afbc-47f4-aaa3-19c7285892df" />
+
 
 ---
 
@@ -92,7 +98,9 @@ Prepare SSH key authentication, load the key into the SSH agent, configure reusa
 
 #### Screenshot 7 — Terminal showing `ssh-add -l` with the ED25519 key loaded and the SSH configuration verification output
 
-Add your screenshot here.
+<img width="787" height="587" alt="7" src="https://github.com/user-attachments/assets/c5d2f747-2c4e-4cb2-b8d3-3d61b255bbac" />
+
+<img width="794" height="786" alt="7 1" src="https://github.com/user-attachments/assets/c24dd212-9ab4-4a96-9ae1-9f089ae3fa4b" />
 
 ---
 
@@ -106,7 +114,8 @@ Configure your Git identity and install pre-commit hooks that validate YAML and 
 
 #### Screenshot 8 — Terminal showing your Git full name, Git email, default branch, successful `pre-commit install` output, and `.git/hooks/pre-commit`
 
-Add your screenshot here.
+<img width="789" height="444" alt="8" src="https://github.com/user-attachments/assets/32733bf9-dfce-4bfc-84a4-ac5ea0aa1991" />
+
 
 ---
 
@@ -120,13 +129,15 @@ Verify that Ansible, the linting tools, Git hooks, SSH agent, and Git ignore rul
 
 #### Screenshot 9 — Terminal showing `pre-commit run --all-files` completing successfully
 
-Add your screenshot here.
+<img width="834" height="247" alt="9" src="https://github.com/user-attachments/assets/a59b9a6c-62bd-4206-948b-0e9e6dbe6c7b" />
+
 
 ---
 
 #### Screenshot 10 — Terminal showing `ansible --version` with the project configuration path and `ssh-add -l` with the ED25519 key loaded
 
-Add your screenshot here.
+<img width="686" height="759" alt="10" src="https://github.com/user-attachments/assets/777e6db6-532a-4bba-bf2a-92bbf06c77e1" />
+
 
 ---
 
@@ -140,13 +151,15 @@ Document the completed Ansible workstation setup and create a reusable checklist
 
 #### Screenshot 11 — Terminal showing the final `ansible-onboarding` project structure
 
-Add your screenshot here.
+<img width="684" height="756" alt="11" src="https://github.com/user-attachments/assets/7a5a7319-bad1-4417-90d8-11ab16eb39ed" />
+
 
 ---
 
 #### Screenshot 12 — VS Code Markdown preview showing your full name, project summary, and part of the “New Machine? Do This” checklist
 
-Add your screenshot here.
+<img width="1426" height="1085" alt="12" src="https://github.com/user-attachments/assets/4099af2b-142a-4ae6-ba47-1a865ce73a7d" />
+<img width="1429" height="586" alt="12 1" src="https://github.com/user-attachments/assets/11753c18-d398-4745-81f4-13b559bc0ab3" />
 
 ---
 
