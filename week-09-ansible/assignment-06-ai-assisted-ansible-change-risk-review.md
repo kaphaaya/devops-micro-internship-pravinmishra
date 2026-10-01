@@ -222,7 +222,9 @@ The changed_tasks array stores task names that Ansible reports as changes during
 
 **2. Which function finds changed tasks from the Ansible output?**
 
-Add your answer here.
+The function that finds the changed tasks from the Ansible output is **`extract_changed_tasks()`**.
+
+It looks through the Ansible dry-run output and identifies tasks marked as **`changed`**, so the script can then analyse and classify those tasks for risk.
 
 ---
 
