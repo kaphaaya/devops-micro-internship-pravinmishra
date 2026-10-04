@@ -199,8 +199,6 @@ steps:
 
 # Assignment Summary
 
-Write a short summary of what you configured.
-
 In this assignment, I configured a self-hosted Azure DevOps agent on an Ubuntu 24.04 AWS EC2 instance. I created an Azure DevOps agent pool, provisioned and connected to the Ubuntu VM through SSH, verified the Linux environment and its connection to Azure DevOps, and registered the VM as a self-hosted agent using a Personal Access Token.
  
 I then configured the Azure DevOps agent to run as a system service and confirmed that it was online and available in the SelfHostedPool. Finally, I created an azure-pipelines.yml file and ran a test pipeline using the self-hosted agent. 
