@@ -58,7 +58,8 @@ Add a screenshot from AWS or Azure showing:
 * VM status as **Running**
 * Public IP address
 
-Add your screenshot here.
+<img width="881" height="764" alt="1" src="https://github.com/user-attachments/assets/fb21f8b3-0750-4885-bc80-00590af6248d" />
+
 
 ---
 
@@ -72,7 +73,8 @@ Add an SSH terminal screenshot showing the output of:
 
 The screenshot must confirm a supported Ubuntu version, `x86_64` architecture, and a successful HTTP response from Azure DevOps.
 
-Add your screenshot here.
+<img width="712" height="915" alt="2" src="https://github.com/user-attachments/assets/3f12724f-906c-4d30-ac50-b02fd916d865" />
+
 
 ---
 
@@ -93,7 +95,8 @@ Add a terminal screenshot showing:
 * Agent service start
 * `sudo ./svc.sh status` reporting that the service is running
 
-Add your screenshot here.
+<img width="1504" height="750" alt="3" src="https://github.com/user-attachments/assets/35fe2d2f-54c2-4bd2-b303-320b60f87a46" />
+
 
 > Ensure that the PAT is not visible.
 
@@ -116,7 +119,8 @@ Add a screenshot of the Azure DevOps Agent Pool **Agents** page showing:
 * Agent status as **Online**
 * Agent enabled and available
 
-Add your screenshot here.
+<img width="927" height="831" alt="4" src="https://github.com/user-attachments/assets/bc544bcc-8ac4-4699-81e1-52f30242b9ec" />
+
 
 ---
 
@@ -138,7 +142,8 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * Your Full Name
 * Linux verification commands
 
-Add your screenshot here.
+<img width="817" height="861" alt="5" src="https://github.com/user-attachments/assets/8d004d9f-8881-4ee8-8375-5742ea95f04d" />
+
 
 ---
 
@@ -156,7 +161,8 @@ Add a screenshot of the successful Azure DevOps pipeline run showing:
 * Output from `df -h`
 * Output from `pwd`
 
-Add your screenshot here.
+<img width="1296" height="912" alt="6" src="https://github.com/user-attachments/assets/80bd9e8b-cb3f-4e30-806e-ed3f78e00b9d" />
+
 
 ---
 
@@ -165,7 +171,26 @@ Add your screenshot here.
 Paste the contents of your completed `azure-pipelines.yml` file below.
 
 ```yaml
-# Paste your completed azure-pipelines.yml here
+trigger: none
+
+pool:
+  name: SelfHostedPool
+
+steps:
+  - bash: |
+      echo "Submitted by: Kafayat Olaide Aziz"
+      echo "Agent name: $AGENT_NAME"
+      echo "Machine name: $(hostname)"
+      echo "Linux verification:"
+      echo "uname -a:"
+      uname -a
+      echo "whoami:"
+      whoami
+      echo "df -h:"
+      df -h
+      echo "pwd:"
+      pwd
+    displayName: "Verify self-hosted Ubuntu agent"
 ```
 
 > Do not include your PAT, SSH private key, password, or cloud credentials in the YAML file.
@@ -176,7 +201,11 @@ Paste the contents of your completed `azure-pipelines.yml` file below.
 
 Write a short summary of what you configured.
 
-[Write your summary here.]
+In this assignment, I configured a self-hosted Azure DevOps agent on an Ubuntu 24.04 AWS EC2 instance. I created an Azure DevOps agent pool, provisioned and connected to the Ubuntu VM through SSH, verified the Linux environment and its connection to Azure DevOps, and registered the VM as a self-hosted agent using a Personal Access Token.
+ 
+I then configured the Azure DevOps agent to run as a system service and confirmed that it was online and available in the SelfHostedPool. Finally, I created an azure-pipelines.yml file and ran a test pipeline using the self-hosted agent. 
+
+The pipeline successfully executed Linux commands such as uname -a, whoami, df -h, and pwd directly on the AWS EC2 instance. This helped me understand how AWS infrastructure, Linux, Azure DevOps, agent pools, system services, authentication, and CI/CD pipelines connect together to execute automated workloads on infrastructure I control.
 
 ---
 
@@ -191,9 +220,10 @@ Add a screenshot of your LinkedIn post showing:
 * Three to five lines explaining your experience
 * A screenshot of the successful pipeline run with no secrets visible
 
-Add your screenshot here.
+<img width="558" height="794" alt="linkedinpost" src="https://github.com/user-attachments/assets/786aee2b-3265-4aaf-93bc-55f9db518be6" />
 
-**LinkedIn Post URL:** [Paste your LinkedIn post URL here]
+
+**LinkedIn Post URL:** https://lnkd.in/p/eZRjzwGd
 
 ---
 
