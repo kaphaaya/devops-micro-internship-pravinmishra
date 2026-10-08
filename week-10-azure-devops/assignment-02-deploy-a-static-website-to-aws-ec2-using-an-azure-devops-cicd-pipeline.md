@@ -143,6 +143,7 @@ Add a browser screenshot showing:
 
 <img width="1379" height="1043" alt="5" src="https://github.com/user-attachments/assets/d4d0ecfe-9344-44fc-9663-33554eaefae6" />
 
+<img width="1378" height="769" alt="5 1" src="https://github.com/user-attachments/assets/cc526dd9-d9b9-4304-a0e6-1970f0776220" />
 
 ## Final Website URL
 
