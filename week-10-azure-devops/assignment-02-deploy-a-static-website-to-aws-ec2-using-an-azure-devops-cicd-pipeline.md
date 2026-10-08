@@ -36,7 +36,8 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+<img width="1287" height="911" alt="1" src="https://github.com/user-attachments/assets/9b377850-6cbb-4281-acbd-3d807ec23e1b" />
+
 
 ---
 
@@ -65,7 +66,8 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+<img width="753" height="600" alt="2" src="https://github.com/user-attachments/assets/33a7f4d8-b7de-494d-aaa5-6dbdcdbe1c0c" />
+
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +93,8 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+<img width="1790" height="993" alt="3" src="https://github.com/user-attachments/assets/844a185d-bf4c-4014-b601-28d5aff6cb21" />
+
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +118,9 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+<img width="1791" height="968" alt="4" src="https://github.com/user-attachments/assets/b0ac0069-e8af-4f1d-8587-d2fa1363801b" />
+
+<img width="1376" height="970" alt="4 1" src="https://github.com/user-attachments/assets/8b19eac9-5960-4a1d-ba4b-90187edf276f" />
 
 ---
 
@@ -136,7 +141,8 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+<img width="1379" height="1043" alt="5" src="https://github.com/user-attachments/assets/d4d0ecfe-9344-44fc-9663-33554eaefae6" />
+
 
 ## Final Website URL
 
@@ -144,7 +150,7 @@ Add your screenshot here.
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+http://35.169.124.133/
 
 ---
 
@@ -152,7 +158,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+I completed a CI/CD workflow for deploying a static website to an AWS EC2 server. Terraform was used to provision the infrastructure, while Ansible installed and configured Nginx and deployed the initial website. Azure DevOps was then used to automate deployment through a self-hosted Ubuntu agent. The pipeline connects to the EC2 server over SSH, copies the updated index.html, verifies the Nginx configuration, checks the website response, and confirms a successful deployment.
 
 ---
 
@@ -167,11 +173,12 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+<img width="551" height="870" alt="linkedin" src="https://github.com/user-attachments/assets/1f353e3d-a6a8-4eda-86c8-b919135b3b8c" />
+
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+https://lnkd.in/p/edzCZm7w
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 
