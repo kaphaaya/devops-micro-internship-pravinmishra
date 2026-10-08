@@ -36,7 +36,8 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+<img width="1287" height="911" alt="1" src="https://github.com/user-attachments/assets/33ffcf58-ccd0-4056-881c-2f8d77d7acb7" />
+
 
 ---
 
@@ -65,7 +66,8 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+<img width="753" height="600" alt="2" src="https://github.com/user-attachments/assets/e2350ad3-c8d5-4d7e-9bbc-298069eccae9" />
+
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +93,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+<img width="1790" height="993" alt="3" src="https://github.com/user-attachments/assets/08ca25a0-c529-4a5b-b58d-5685f92c338a" />
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +117,10 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+<img width="1791" height="968" alt="4" src="https://github.com/user-attachments/assets/0d06b8dc-e07b-441c-b9d4-bcbade6ac8d4" />
+
+<img width="1376" height="970" alt="4 1" src="https://github.com/user-attachments/assets/10246e00-f633-4396-9811-dd1b87cd5b6f" />
+
 
 ---
 
@@ -136,7 +141,10 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+<img width="1379" height="1043" alt="5" src="https://github.com/user-attachments/assets/89dd9c6f-d2ec-4b9c-971a-360f80c6075a" />
+
+<img width="1378" height="769" alt="5 1" src="https://github.com/user-attachments/assets/af634460-34f8-483f-b0f8-f9c3302a421f" />
+
 
 ## Final Website URL
 
@@ -144,7 +152,7 @@ Add your screenshot here.
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+http://35.169.124.133/
 
 ---
 
@@ -152,7 +160,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+I completed a CI/CD workflow for deploying a static website to an AWS EC2 server. Terraform was used to provision the infrastructure, while Ansible installed and configured Nginx and deployed the initial website. Azure DevOps was then used to automate deployment through a self-hosted Ubuntu agent. The pipeline connects to the EC2 server over SSH, copies the updated index.html, verifies the Nginx configuration, checks the website response, and confirms a successful deployment.
 
 ---
 
