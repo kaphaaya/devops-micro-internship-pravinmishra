@@ -37,7 +37,8 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+<img width="1257" height="918" alt="1" src="https://github.com/user-attachments/assets/030d185b-81b1-4179-a9d8-2eedf8a8936c" />
+
 
 ---
 
@@ -81,7 +82,10 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+<img width="1791" height="1001" alt="2" src="https://github.com/user-attachments/assets/f7ecebc9-f243-417f-b6b6-304f433ea7e9" />
+
+<img width="1790" height="993" alt="2 1" src="https://github.com/user-attachments/assets/b135b64b-20ca-42a3-a812-093a99023704" />
+
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +108,8 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+<img width="1534" height="949" alt="3" src="https://github.com/user-attachments/assets/fa0839bf-5649-424e-b702-35a3ca4d03f1" />
+
 
 ---
 
@@ -122,7 +127,8 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+<img width="596" height="192" alt="4" src="https://github.com/user-attachments/assets/5adba8ae-8e50-4068-b39b-393568c5359b" />
+
 
 ---
 
@@ -143,11 +149,12 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+<img width="819" height="1048" alt="5" src="https://github.com/user-attachments/assets/0b606da2-a3ec-4a63-9a26-a9e44590a628" />
+
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
+http://98.87.18.254/
 
 Replace the placeholder and paste your final application URL below:
 
@@ -159,7 +166,28 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+### Assignment 3: Automating React App Deployment Using Azure DevOps CI/CD 🚀
+
+In this project, I built a CI/CD pipeline to automate the deployment of a React application to an AWS EC2 instance.
+
+**What I did:**
+
+- **Azure Repos:** Imported the React application and managed the source code.
+- **AWS EC2:** Set up an Ubuntu server to host the application.
+- **Nginx:** Configured the web server to serve the React production build.
+- **Azure Pipelines:** Created a YAML pipeline with four stages:
+  1. **Build** — Installed dependencies and built the React app.
+  2. **Test** — Ran the application's tests.
+  3. **Publish** — Published and verified the build artifact.
+  4. **Deploy** — Transferred the build to EC2 and deployed it using SSH.
+
+**What I learned:**
+
+I encountered repeated deployment failures caused by Linux file permissions. By investigating the logs and changing the deployment process to use a staging directory, I worked toward a more reliable deployment workflow.
+
+**Final outcome:** All four pipeline stages eventually completed successfully. ✅
+
+This project helped me understand how source control, automated testing, build artifacts, SSH, Linux permissions, and web server configuration work together in a CI/CD pipeline.
 
 ---
 
@@ -174,11 +202,12 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+<img width="553" height="919" alt="linkedin" src="https://github.com/user-attachments/assets/d320b373-a3a6-435b-99a1-585c60dce62d" />
+
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+https://lnkd.in/p/e-sryqvj
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 
