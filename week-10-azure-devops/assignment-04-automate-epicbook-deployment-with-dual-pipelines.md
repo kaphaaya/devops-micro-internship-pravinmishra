@@ -1,4 +1,4 @@
-<img width="390" height="840" alt="liendkin" src="https://github.com/user-attachments/assets/cc2d513f-3d6c-4033-972d-c9f94830d512" /># Assignment 4 — Automate EpicBook Deployment with Dual Pipelines
+# Assignment 4 — Automate EpicBook Deployment with Dual Pipelines
 
 Part of the DevOps Micro Internship (DMI) with Agentic AI
 
