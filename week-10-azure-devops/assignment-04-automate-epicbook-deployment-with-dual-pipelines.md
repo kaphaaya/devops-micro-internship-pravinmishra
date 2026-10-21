@@ -1,4 +1,4 @@
-# Assignment 4 — Automate EpicBook Deployment with Dual Pipelines
+<img width="390" height="840" alt="liendkin" src="https://github.com/user-attachments/assets/cc2d513f-3d6c-4033-972d-c9f94830d512" /># Assignment 4 — Automate EpicBook Deployment with Dual Pipelines
 
 Part of the DevOps Micro Internship (DMI) with Agentic AI
 
@@ -70,7 +70,7 @@ Add a screenshot of the Infrastructure Pipeline run showing:
 * `backend_private_ip`
 * `mysql_fqdn`
 
-Add your screenshot here.
+<img width="1743" height="948" alt="1" src="https://github.com/user-attachments/assets/d1b74a90-5925-4279-a891-d5a73c253201" />
 
 > Do not expose the MySQL password, Client Secret, Terraform state, SSH private key, or another sensitive value.
 
@@ -86,7 +86,8 @@ Add a screenshot of the Azure Portal Resource Group overview showing:
 * Azure Database for MySQL Flexible Server
 * Related EpicBook resources
 
-Add your screenshot here.
+<img width="1214" height="959" alt="2" src="https://github.com/user-attachments/assets/342ac838-2b5d-48ce-9a28-a7bc232fa0ce" />
+
 
 > Hide sensitive IDs, credentials, and database details.
 
@@ -124,7 +125,8 @@ Run the Application Pipeline to configure the VMs, deploy EpicBook, and verify t
 
 Add a screenshot of the Application Pipeline run summary showing all required stages or jobs succeeded.
 
-Add your screenshot here.
+<img width="739" height="845" alt="3" src="https://github.com/user-attachments/assets/cdb50f09-49bd-4d89-817c-150c445505ed" />
+
 
 ---
 
@@ -137,7 +139,8 @@ Add a screenshot of the Application Pipeline log showing:
 * Zero failed hosts
 * Zero unreachable hosts
 
-Add your screenshot here.
+<img width="1745" height="948" alt="4" src="https://github.com/user-attachments/assets/4f5eea80-6b1d-4ac9-91e5-a7435dcf8f02" />
+
 
 > Do not expose the SSH private key, MySQL password, Client Secret, or complete database connection string.
 
@@ -162,7 +165,10 @@ Add a browser screenshot showing:
 
 The screenshot may show a product, cart, or successful order view.
 
-Add your screenshot here.
+<img width="1792" height="1078" alt="5" src="https://github.com/user-attachments/assets/eaf436e5-d066-4421-919c-13c1dee8d104" />
+
+<img width="1757" height="1079" alt="5a" src="https://github.com/user-attachments/assets/05ea0a69-eec7-4ca5-8362-3ea6d13f363e" />
+
 
 > Do not expose credentials or sensitive information.
 
@@ -172,15 +178,15 @@ Add your screenshot here.
 
 ## Frontend Application URL
 
-[Paste your final EpicBook application URL here.]
+http://13.49.23.121
 
 ## Infrastructure Repository URL
 
-[Paste your Infrastructure Repository URL here.]
+https://github.com/kaphaaya/infra-epicbook
 
 ## Application Repository URL
 
-[Paste your Application Repository URL here.]
+https://github.com/kaphaaya/theepicbook
 
 ---
 
@@ -188,8 +194,11 @@ Add your screenshot here.
 
 Write a short explanation of why separate Infrastructure and Application Repositories were used.
 
-[Write your explanation here.]
+I used two separate repositories to keep infrastructure management and application deployment organised and independent.
 
+The Infrastructure Repository, `infra-epicbook`, contains the Terraform configuration used to provision the cloud resources required by EpicBook. The Application Repository, `theepicbook`, contains the application source code, Ansible configuration, and application deployment pipeline.
+
+I separated them because infrastructure provisioning and application deployment perform different tasks and may need to change independently. This structure makes the project easier to maintain, troubleshoot, and manage while keeping the responsibilities of each pipeline clear.
 ---
 
 # Manual Terraform-to-Ansible Handoff
@@ -201,7 +210,16 @@ Write a short explanation of how the following non-sensitive Terraform outputs w
 * `backend_private_ip`
 * `mysql_fqdn`
 
-[Write your explanation here.]
+After the Infrastructure Pipeline completed successfully, I retrieved four non-sensitive outputs from the Terraform Outputs stage and manually transferred the relevant values into the Application Repository.
+
+- `app_public_ip` provides the public IP address used to access the frontend application.
+- `backend_ansible_host` provides the address Ansible uses to connect to the backend server.
+- `backend_private_ip` provides the backend server's private IP address, which Nginx uses when forwarding requests to the backend application.
+- `mysql_fqdn` provides the hostname of the managed MySQL database used by the backend.
+
+I updated the Ansible inventory and the relevant group variables with these values, then committed and pushed the changes to the Application Repository. This allowed Ansible to target the correct servers and configure the application and database connection.
+
+The handoff transferred infrastructure addresses and connection details, not credentials. Database passwords and SSH private keys remained in protected Azure DevOps variables and Secure Files rather than being committed to Git.
 
 ---
 
@@ -216,11 +234,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+<img width="390" height="840" alt="liendkin" src="https://github.com/user-attachments/assets/24db53b8-3421-4f5f-93bf-2699840e8827" />
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+https://lnkd.in/p/ezucGxMR
 
 Your post must include:
 
