@@ -132,15 +132,19 @@ react-multistage:latest
 Record the image sizes and calculate the reduction using the same unit for both images.
 
 ```text
-Single-stage image size: Add size here
+Single-stage image size: 2.17 GB (approximately 2,170 MB)
 
-Multi-stage image size: Add size here
+Multi-stage image size: 95.1 MB
 
-Percentage reduction =
-((Single-stage image size − Multi-stage image size)
-÷ Single-stage image size) × 100
+Percentage reduction calculation:
 
-Percentage reduction: Add result here
+\\[ \frac{2170-95.1}{2170}\times100 \\]
+
+\\[ =\frac{2074.9}{2170}\times100 \\]
+
+\\[ =\boxed{95.62\\%} \\]
+
+Percentage reduction: 95.62% (approximately, using 1 GB = 1,000 MB).
 ```
 
 ---
