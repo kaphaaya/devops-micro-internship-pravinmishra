@@ -114,7 +114,6 @@ Editor showing the script configuration variables, report filenames, check-funct
 
 Terminal showing successful Bash syntax validation and executable file permission.
 
-Add your screenshot here.
 
 ## Notes
 
