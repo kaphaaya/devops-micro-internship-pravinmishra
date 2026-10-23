@@ -226,11 +226,12 @@ Create a LinkedIn post describing what you deployed, the deployment process, and
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn Post URL here`
+**LinkedIn Post URL:** https://lnkd.in/p/ey487XuR
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+<img width="482" height="876" alt="linkedin post" src="https://github.com/user-attachments/assets/6edd9c3a-e2e5-4533-a93f-768aff9c498a" />
+
 
 ---
 
