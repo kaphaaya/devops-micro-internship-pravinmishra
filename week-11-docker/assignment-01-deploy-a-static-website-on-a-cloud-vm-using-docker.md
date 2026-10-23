@@ -28,7 +28,11 @@ Add a screenshot of the cloud console showing:
 - SSH port 22 enabled from your IP address
 - HTTP port 80 enabled from Anywhere
 
-Add your screenshot here.
+<img width="1533" height="878" alt="1" src="https://github.com/user-attachments/assets/aae5348c-1f23-445a-be3e-cb033e8d16dc" />
+
+<img width="1552" height="902" alt="1 1" src="https://github.com/user-attachments/assets/15be4862-6408-4cce-94dd-9a22afb3c1f6" />
+
+
 
 ---
 
@@ -50,7 +54,13 @@ cat /var/log/cloud-init-output.log
 
 The visible output must show Docker installation activity.
 
-Add your screenshot here.
+<img width="1217" height="820" alt="2" src="https://github.com/user-attachments/assets/07694385-88fb-41a6-9cb2-62decd399d96" />
+
+<img width="1217" height="794" alt="2 1" src="https://github.com/user-attachments/assets/b1e6c0ba-ce16-4efc-8501-2eadf4cdbf44" />
+
+<img width="1214" height="872" alt="2 2" src="https://github.com/user-attachments/assets/a574d015-be06-4b5c-9bd0-3fbb67c334b2" />
+
+<img width="1218" height="874" alt="2 3" src="https://github.com/user-attachments/assets/73f99914-96a5-4af7-a8b5-e4af373d8431" />
 
 ---
 
@@ -76,7 +86,8 @@ and
 docker ps
 ```
 
-Add your screenshot here.
+<img width="833" height="70" alt="3" src="https://github.com/user-attachments/assets/23bb9948-fffb-4e2e-950b-86189242d9a2" />
+
 
 ---
 
@@ -92,7 +103,8 @@ Download the static website source code.
 
 Add a screenshot of the terminal showing the contents of the `Azure-Static-Website` project directory after cloning the repository.
 
-Add your screenshot here.
+<img width="1219" height="271" alt="4" src="https://github.com/user-attachments/assets/ebb7cd0d-6631-4d34-a76b-46464c41cb85" />
+
 
 ---
 
@@ -114,7 +126,8 @@ cat Dockerfile
 
 The Dockerfile must use `nginx:alpine`, copy the website files to the Nginx web root, and expose port 80.
 
-Add your screenshot here.
+<img width="1218" height="215" alt="5" src="https://github.com/user-attachments/assets/766c6441-ed87-4dda-9484-09cfac39099b" />
+
 
 ---
 
@@ -136,7 +149,8 @@ docker images
 
 The output must include the `static-site` image with the `latest` tag.
 
-Add your screenshot here.
+<img width="1214" height="113" alt="6" src="https://github.com/user-attachments/assets/f42e5d06-210c-434c-9476-246b89181fe3" />
+
 
 ---
 
@@ -162,7 +176,8 @@ The output must show the running `static-site` container with the port mapping:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<img width="1469" height="172" alt="7" src="https://github.com/user-attachments/assets/32df1264-e6f9-4b1c-ab58-1edf8616bfb3" />
+
 
 ---
 
@@ -182,7 +197,8 @@ Add a screenshot of the terminal showing the output of:
 curl ifconfig.me
 ```
 
-Add your screenshot here.
+<img width="1470" height="125" alt="8" src="https://github.com/user-attachments/assets/280add60-34d0-4260-83f6-111859fb4dfa" />
+
 
 ---
 
@@ -192,13 +208,13 @@ Add a screenshot of the browser showing the deployed static website.
 
 Ensure that the VM public IP address is visible in the browser address bar.
 
-Add your screenshot here.
+<img width="1456" height="1089" alt="9" src="https://github.com/user-attachments/assets/02f7eb10-dcd9-46ee-b68c-2132c0a8398a" />
 
 ---
 
 # Public Application URL
 
-**VM Public IP / Application URL:** `Add your application URL here`
+**VM Public IP / Application URL:** http://51.20.191.187
 
 ---
 
