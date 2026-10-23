@@ -30,7 +30,8 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+<img width="1214" height="456" alt="1" src="https://github.com/user-attachments/assets/2eda44df-30dd-4396-be68-812a2daf914c" />
+
 
 ---
 
@@ -46,7 +47,8 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+<img width="1211" height="405" alt="2" src="https://github.com/user-attachments/assets/1102297a-65c4-4769-b84a-2ef64642e364" />
+
 
 ---
 
@@ -60,7 +62,8 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+<img width="949" height="1048" alt="3" src="https://github.com/user-attachments/assets/890bfea1-ea62-408a-8f28-369742b7ecc6" />
+
 
 ---
 
@@ -76,7 +79,8 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+<img width="808" height="274" alt="4" src="https://github.com/user-attachments/assets/b5644e7f-4814-46da-b700-1fa74633aafb" />
+
 
 ---
 
@@ -90,7 +94,8 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+<img width="944" height="1044" alt="5" src="https://github.com/user-attachments/assets/7bcc171b-14f6-4483-923d-458592e84a57" />
+
 
 ---
 
@@ -117,7 +122,8 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+<img width="805" height="102" alt="6" src="https://github.com/user-attachments/assets/4241edd2-7421-465c-80f0-52ec81d3da27" />
+
 
 ---
 
@@ -156,7 +162,7 @@ Write a short analysis of 5–8 lines covering:
 - How smaller images improve image pull and deployment speed
 - One Docker build-caching optimization you used
 
-Write your analysis here.
+The single-stage Docker image was 2.17 GB, while the multi-stage image was 95.1 MB, representing an approximate 95.62% reduction in image size. The single-stage image contains Node.js, npm, application dependencies, and build tools, whereas the multi-stage image uses Nginx to serve the completed React build. Removing unnecessary build tools and dependencies from the runtime image reduces its attack surface and the number of packages that need security updates. The smaller image also requires less data to transfer, which can improve image-pull and deployment speeds. One build-caching optimization I used was copying `package*.json` before the application source code and installing dependencies before `COPY . .`. This allows Docker to reuse the dependency-installation layer when the dependency files have not changed.
 
 ---
 
@@ -175,7 +181,13 @@ You may choose to:
 - Experiment with a lighter runtime image
 - Compare the resulting image size with your original multi-stage image
 
-Screenshots are optional.
+<img width="824" height="380" alt="7" src="https://github.com/user-attachments/assets/f8deb998-1194-4611-915c-4ba725a7d30f" />
+
+<img width="804" height="367" alt="7 1" src="https://github.com/user-attachments/assets/5c5225c5-cc35-4b43-9e2a-4d081d157821" />
+
+<img width="804" height="226" alt="7 2" src="https://github.com/user-attachments/assets/2cbdaa41-9cea-4e67-98a9-8f19bdddf5c0" />
+
+
 
 ---
 
@@ -191,13 +203,14 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/eu27SaEF
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+<img width="471" height="524" alt="linkedin" src="https://github.com/user-attachments/assets/ed71c41b-4ef8-4bb1-ac2a-609c35a665c3" />
+
 
 ---
 
