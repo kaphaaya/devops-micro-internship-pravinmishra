@@ -105,7 +105,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 08 | Terraform | 🔄 In Progress | 🔄 In Progress | https://www.linkedin.com/posts/aziz-kafayat_most-devops-postings-ask-for-terraformrarely-ugcPost-7501647336918478849-WP3d/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://kaphaaya.substack.com/p/before-terraform-your-devops-roadmap?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
 | 09 | Ansible | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_stop-managing-servers-manually-build-them-ugcPost-7514317397806243840-4Qfu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU |  https://kaphaaya.substack.com/p/from-terraform-to-ansible-building?r=4va47r |
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_ai-assisted-azure-devops-dual-pipeline-failure-ugcPost-7519057326125883392-KWtY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://kaphaaya.substack.com/p/from-a-self-hosted-agent-to-ai-assisted?r=4va47r&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true |
-| 11 | Docker | 🔄 In Progress | 🔄 In Progress | — | — |
+| 11 | Docker | 🔄 In Progress | 🔄 In Progress | https://www.linkedin.com/posts/aziz-kafayat_introduction-to-docker-ugcPost-7519408839780229121-P3Sg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
