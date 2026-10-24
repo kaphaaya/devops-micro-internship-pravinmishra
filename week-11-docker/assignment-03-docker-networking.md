@@ -28,7 +28,8 @@ docker network ls
 
 The output must include the default `bridge`, `host`, and `none` networks.
 
-Add your screenshot here.
+<img width="754" height="468" alt="1" src="https://github.com/user-attachments/assets/0667acb4-a349-4f12-85d1-96e8f9008e5e" />
+
 
 ---
 
@@ -40,7 +41,8 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+<img width="774" height="197" alt="2" src="https://github.com/user-attachments/assets/62bfc97b-465e-44a6-9ad8-2c4fc81aee7f" />
+
 
 ---
 
@@ -58,7 +60,8 @@ The output must show the running `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<img width="765" height="192" alt="3" src="https://github.com/user-attachments/assets/7bfd0a76-dcdd-432b-a3fe-a8d7931b27d1" />
+
 
 ---
 
@@ -72,7 +75,8 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="990" height="1049" alt="4" src="https://github.com/user-attachments/assets/1a06757f-a50a-4743-9b4a-0b84c9d33afd" />
+
 
 ---
 
@@ -92,7 +96,8 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+<img width="773" height="162" alt="5" src="https://github.com/user-attachments/assets/5dca5c9b-ffc7-4e84-b154-6df30dd8a805" />
+
 
 ---
 
@@ -106,7 +111,8 @@ docker ps
 
 The output must show both `web` and `client` containers running without published host ports.
 
-Add your screenshot here.
+<img width="923" height="87" alt="6" src="https://github.com/user-attachments/assets/a7e3a7d2-321e-459f-b95a-eaf4d3da45ed" />
+
 
 ---
 
@@ -120,7 +126,8 @@ docker exec client wget -qO- http://web
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+<img width="926" height="446" alt="7" src="https://github.com/user-attachments/assets/2cfe5c66-944e-4679-8b4c-6903f65fdd9d" />
+
 
 ---
 
@@ -134,7 +141,8 @@ docker network inspect mynetwork
 
 The output must show both `web` and `client` connected to `mynetwork`.
 
-Add your screenshot here.
+<img width="990" height="773" alt="8" src="https://github.com/user-attachments/assets/af3c3e4d-3bfc-4610-a71d-cec19533675c" />
+
 
 ---
 
@@ -156,7 +164,8 @@ docker network ls
 
 The output must include both `frontend-network` and `backend-network`.
 
-Add your screenshot here.
+<img width="985" height="190" alt="9" src="https://github.com/user-attachments/assets/fbccc13c-3443-4e3b-a225-c3c4bcbf3622" />
+
 
 ---
 
@@ -174,7 +183,7 @@ The output must show:
 - `backend` without a published host port
 - `db` without a published host port
 
-Add your screenshot here.
+<img width="762" height="158" alt="10" src="https://github.com/user-attachments/assets/1c40a935-5f2f-4ebd-b206-d2c38e96ad13" />
 
 ---
 
@@ -188,7 +197,8 @@ docker network inspect frontend-network
 
 The output must show `frontend` and `backend`.
 
-Add your screenshot here.
+<img width="768" height="783" alt="11" src="https://github.com/user-attachments/assets/4492c563-229d-4a55-92fe-9f0c3ba13593" />
+
 
 ---
 
@@ -202,7 +212,8 @@ docker network inspect backend-network
 
 The output must show `backend` and `db`.
 
-Add your screenshot here.
+<img width="761" height="188" alt="12" src="https://github.com/user-attachments/assets/89db376b-47f0-4f6d-9be6-7d40ae34280a" />
+
 
 ---
 
@@ -216,7 +227,8 @@ docker exec frontend wget -qO- http://backend
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+<img width="591" height="583" alt="13" src="https://github.com/user-attachments/assets/5b4ab3e8-d2bd-47d4-b267-0e61767be376" />
+
 
 ---
 
@@ -224,7 +236,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing a successful connection to `db` on port `27017` from the `backend` container.
 
-Add your screenshot here.
+<img width="748" height="69" alt="14" src="https://github.com/user-attachments/assets/5b610dec-7bde-4cf6-8aeb-5d699675c5b5" />
+
 
 ---
 
@@ -238,7 +251,8 @@ The output must include:
 Expected result: frontend cannot reach db
 ```
 
-Add your screenshot here.
+<img width="745" height="84" alt="15" src="https://github.com/user-attachments/assets/29b08c5b-9cf1-4d9e-a3cb-6479311d4b63" />
+
 
 ---
 
@@ -247,12 +261,13 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page from the `frontend` container at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://16.171.171.231/
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="924" height="492" alt="16" src="https://github.com/user-attachments/assets/c912b52d-342d-4bd6-9944-ba601c4b5239" />
+
 
 ---
 
@@ -274,7 +289,8 @@ docker ps
 
 The output must show the running `fastapp` container.
 
-Add your screenshot here.
+<img width="990" height="109" alt="17" src="https://github.com/user-attachments/assets/ba1de29b-046f-4ffa-a838-1497a7fd40d3" />
+
 
 ---
 
@@ -292,7 +308,8 @@ The output must confirm:
 "NetworkMode": "host"
 ```
 
-Add your screenshot here.
+<img width="987" height="63" alt="18" src="https://github.com/user-attachments/assets/209e7ad0-795b-4779-93e1-ca5f63100a2d" />
+
 
 ---
 
@@ -301,12 +318,13 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://16.171.171.231
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="986" height="634" alt="19" src="https://github.com/user-attachments/assets/28c3ca93-637a-446b-acc0-4fc690291829" />
+
 
 ---
 
@@ -319,7 +337,7 @@ docker stop fastapp
 docker rm fastapp
 ```
 
-Add your screenshot here.
+<img width="989" height="96" alt="20" src="https://github.com/user-attachments/assets/8bafe932-505b-4121-b79b-572c8f011abd" />
 
 ---
 
@@ -332,7 +350,116 @@ Write a short note explaining:
 - Why the frontend could not access the database in Task 3
 - The difference between bridge mode and host network mode
 
-Write your note here.
+# Docker Networking: What I Did, What I Tested, and What Finally Made Sense
+
+**Name:** Aziz Olaide Kafayat  
+**Programme:** DevOps Micro Internship (DMI), Cohort 3  
+**Week:** 11 — Assignment 03
+
+## Introduction
+
+Before this assignment, it was easy to think of Docker networking as simply making containers communicate. This practical took that idea further. I had to understand *which* containers could communicate, *how* they found one another, and *why* some connections should work while others should fail.
+
+I worked through four areas: the default bridge network, custom bridge networking, multi-tier network isolation, and host networking.
+
+## 1. Default bridge networking
+
+I started by checking Docker's available networks, pulling the Nginx image, and running a web server named `myweb`.
+
+```bash
+docker network ls
+docker pull nginx:alpine
+docker run -d -p 80:80 --name myweb nginx:alpine
+docker ps
+```
+
+The important part was `-p 80:80`. It publishes port 80 inside the container on port 80 of the host, allowing a browser to reach the Nginx page through the host.
+
+**What I learned:** A running container is not automatically accessible from a browser. Port publishing creates the host-to-container access path.
+
+## 2. Custom bridge networking
+
+Next, I created a custom bridge network called `mynetwork` and connected two containers, `web` and `client`, to it.
+
+```bash
+docker network create mynetwork
+```
+
+I tested communication from the client container to the web container:
+
+```bash
+docker exec client wget -qO- http://web
+```
+
+Using `web` as the destination demonstrated Docker's service-name resolution on a user-defined bridge network.
+
+**What I learned:** Containers on a user-defined bridge network can communicate using container names, rather than requiring me to hard-code container IP addresses.
+
+## 3. Multi-tier networking and isolation
+
+This was the part that connected networking to security for me.
+
+I worked with three services:
+
+- **Frontend:** The user-facing application.
+- **Backend:** The service that handles application logic.
+- **Database:** The service that stores application data.
+
+The network design used two custom networks:
+
+- `frontend-network` connected the frontend and backend.
+- `backend-network` connected the backend and database.
+
+The backend belonged to both networks, while the frontend and database did not share a direct network.
+
+The intended communication rules were:
+
+| Connection | Expected result |
+|---|---|
+| Frontend → Backend | Allowed |
+| Backend → Database on port 27017 | Allowed |
+| Frontend → Database | Blocked |
+
+I verified these paths with container-level connectivity tests and network inspection.
+
+**What I learned:** Network membership can help enforce boundaries between application layers. The frontend does not need direct database access simply because both services are part of the same application.
+
+Network isolation is useful, but it should be combined with authentication, firewall rules where appropriate, and other security controls. Being on a private Docker network does not replace database access controls.
+
+## 4. Host networking on AWS EC2
+
+For the final task, I used an Ubuntu instance on AWS EC2 to run Nginx with Docker's host network mode.
+
+```bash
+docker run -d --network host --name fastapp nginx:alpine
+docker inspect fastapp
+```
+
+I checked the container's network configuration and verified that the reported network mode was `host`. I then completed the required cleanup:
+
+```bash
+docker stop fastapp
+docker rm fastapp
+```
+
+Unlike bridge networking, host networking shares the host's network namespace. On Linux, this means the application uses the host's networking directly, rather than relying on Docker's usual bridge-and-port-publishing arrangement.
+
+**What I learned:** Host networking behaves differently from bridge networking. Testing it on a native Linux host also helped me appreciate why results on macOS with Docker Desktop can differ from results on an Ubuntu EC2 instance.
+
+## Key takeaways
+
+1. **Port publishing controls access from outside the container.** The `-p` flag maps a host port to a container port.
+2. **Custom bridge networks support name-based communication.** This makes container-to-container communication easier to manage.
+3. **Network design affects security.** Separating application layers can reduce unnecessary direct access.
+4. **Network inspection matters.** Commands such as `docker network inspect` and `docker inspect` help verify the actual configuration instead of relying on assumptions.
+5. **The environment matters.** Docker Desktop on macOS and Docker running natively on Linux do not behave identically in every networking scenario.
+
+## Final reflection
+
+The biggest lesson from this assignment was that getting a container to run is only one part of the job. I also need to understand how it communicates, what it can reach, what should remain inaccessible, and how to prove that the configuration behaves as intended.
+
+That is the difference between simply running containers and beginning to understand how to operate them properly.
+
 
 ---
 
@@ -348,13 +475,14 @@ Create a LinkedIn post about the Docker networking modes explored, one key lesso
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/e--dP3xA
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+<img width="550" height="946" alt="LINKEDINPOST" src="https://github.com/user-attachments/assets/6e79441d-94d1-433f-9542-e6a6d68a56cc" />
+
 
 ---
 
