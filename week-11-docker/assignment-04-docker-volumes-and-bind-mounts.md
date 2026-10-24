@@ -26,7 +26,8 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+<img width="817" height="165" alt="1" src="https://github.com/user-attachments/assets/6bbc45a1-93fe-4fac-a8b7-f0f6bc1434e8" />
+
 
 ---
 
@@ -38,7 +39,8 @@ Add a screenshot of the terminal showing the created host directory:
 $HOME/nginx-logs
 ```
 
-Add your screenshot here.
+<img width="764" height="193" alt="2" src="https://github.com/user-attachments/assets/fa42662d-4843-4d2a-a7aa-d853c7a76ff8" />
+
 
 ---
 
@@ -56,7 +58,8 @@ The output must show the `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<img width="763" height="226" alt="3" src="https://github.com/user-attachments/assets/205df832-e588-4f00-b02a-dae754bf66e1" />
+
 
 ---
 
@@ -65,12 +68,12 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://16.171.171.231/
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="953" height="790" alt="4" src="https://github.com/user-attachments/assets/c5ec7d11-3b26-4816-aaf2-d708ba3545c8" />
 
 ---
 
@@ -84,7 +87,8 @@ $HOME/nginx-logs
 
 The output must show `access.log`, `error.log`, and an access-log entry created when you opened the Nginx page.
 
-Add your screenshot here.
+<img width="764" height="188" alt="5" src="https://github.com/user-attachments/assets/eb532f38-240f-4430-9314-5879e1ffefdb" />
+
 
 ---
 
@@ -97,7 +101,8 @@ docker stop myweb
 docker rm myweb
 ```
 
-Add your screenshot here.
+<img width="765" height="87" alt="6" src="https://github.com/user-attachments/assets/cd58df93-1ee1-44f9-9b78-ede1e7bdb3c9" />
+
 
 ---
 
@@ -111,7 +116,7 @@ $HOME/nginx-logs
 
 The access log must retain its content after the container has been removed.
 
-Add your screenshot here.
+<img width="765" height="134" alt="7" src="https://github.com/user-attachments/assets/1e58ee31-8529-4458-9ff2-fcb464b51dcb" />
 
 ---
 
@@ -127,7 +132,7 @@ Deploy backend and frontend containers that share data through a named Docker Vo
 
 Add a screenshot of the terminal showing the `two-tier-app` project structure, including separate `backend` and `frontend` directories with a `Dockerfile` and `index.js` file in each.
 
-Add your screenshot here.
+<img width="765" height="102" alt="8" src="https://github.com/user-attachments/assets/1c24a96d-f7ad-41ba-a3fc-bbc649b0fda7" />
 
 ---
 
@@ -139,7 +144,8 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+<img width="764" height="117" alt="9" src="https://github.com/user-attachments/assets/793f779f-4854-4a88-8668-702f598dfde5" />
+
 
 ---
 
@@ -151,7 +157,8 @@ Add a screenshot of the terminal showing `shared-data` in:
 docker volume ls
 ```
 
-Add your screenshot here.
+<img width="764" height="100" alt="10" src="https://github.com/user-attachments/assets/e0c68edd-245e-4fae-8d65-5e9c5cd29944" />
+
 
 ---
 
@@ -159,7 +166,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed backend `Dockerfile`.
 
-Add your screenshot here.
+<img width="765" height="429" alt="11" src="https://github.com/user-attachments/assets/80a77280-9149-4f60-ab51-de0ae3e8fecb" />
+
 
 ---
 
@@ -167,7 +175,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `backend-app:latest` image build.
 
-Add your screenshot here.
+<img width="777" height="676" alt="12" src="https://github.com/user-attachments/assets/8327bedf-7773-47b7-a0ea-35d0c9e56b14" />
+
 
 ---
 
@@ -181,7 +190,7 @@ docker ps
 
 The output must show the running `backend` container.
 
-Add your screenshot here.
+<img width="780" height="129" alt="13" src="https://github.com/user-attachments/assets/d7073b47-aeec-4c43-b348-94bba47da7f0" />
 
 ---
 
@@ -189,7 +198,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed frontend `Dockerfile`.
 
-Add your screenshot here.
+<img width="777" height="457" alt="14" src="https://github.com/user-attachments/assets/226523ce-5a00-4c75-bf5a-56d07aa72b00" />
 
 ---
 
@@ -197,7 +206,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `frontend-app:latest` image build.
 
-Add your screenshot here.
+<img width="776" height="469" alt="15" src="https://github.com/user-attachments/assets/d093f40c-72b3-4f12-983c-a7979dee9b08" />
+
 
 ---
 
@@ -215,7 +225,8 @@ The output must show both `backend` and `frontend` containers running. Only `fro
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<img width="776" height="132" alt="16" src="https://github.com/user-attachments/assets/41e28419-027e-4eb9-bb4a-1a2cde89fb3e" />
+
 
 ---
 
@@ -229,7 +240,8 @@ The output must include:
 Data written: Hello from Backend!
 ```
 
-Add your screenshot here.
+<img width="774" height="54" alt="17" src="https://github.com/user-attachments/assets/f742619a-e13e-4a9d-ab7c-309437f5bf56" />
+
 
 ---
 
@@ -243,7 +255,8 @@ Hello from Backend!
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="953" height="296" alt="18" src="https://github.com/user-attachments/assets/81e63b37-5295-4072-b32b-c10ce94a4af0" />
+
 
 ---
 
@@ -257,7 +270,8 @@ Test Data 1
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="958" height="481" alt="19" src="https://github.com/user-attachments/assets/c288cc4a-9460-4388-a159-77b07e430534" />
+
 
 ---
 
@@ -271,7 +285,8 @@ Test Data 2 - New Update
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="957" height="423" alt="20" src="https://github.com/user-attachments/assets/7fee3d59-494c-4bef-80c7-2b14f8011ae6" />
+
 
 ---
 
@@ -279,7 +294,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the `frontend` and `backend` containers removed and recreated using the same `shared-data` Docker Volume.
 
-Add your screenshot here.
+<img width="778" height="372" alt="21" src="https://github.com/user-attachments/assets/0fa71b7a-ad75-4bea-9319-8595740eec52" />
+
 
 ---
 
@@ -295,7 +311,7 @@ This proves that the `shared-data` Docker Volume outlived both application conta
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="955" height="392" alt="22" src="https://github.com/user-attachments/assets/6447e3d3-2fb3-4cb3-b5d0-03c913d6fd80" />
 
 ---
 
@@ -308,13 +324,73 @@ Write a short explanation covering:
 - How Task 2 proved Docker Volume persistence
 - Why Docker Volumes are commonly used for application data
 
-Write your explanation here.
+## Docker Volumes and Bind Mounts
+
+### 1. Introduction
+
+This assignment demonstrates how Docker bind mounts and Docker volumes provide persistent storage for containerised applications. It covers two practical tasks: storing Nginx logs on the host machine using a bind mount, and sharing application data between a frontend and backend using a Docker volume.
+
+### 2. Task 1 — Persistent Nginx Logs Using a Bind Mount
+
+I deployed an Nginx container named `myweb` using the `nginx:alpine` image. I mapped port 80 on the EC2 host to port 80 inside the container and mounted the host directory `~/nginx-logs` to `/var/log/nginx` inside the container.
+
+The bind mount allowed Nginx to write its logs to files stored on the EC2 host. After accessing the application through the EC2 public IP, I verified that `access.log` contained a browser request and that the log files remained available after I stopped and removed the `myweb` container.
+
+**Key learning:** A bind mount connects a specific host directory to a directory inside a container. This is useful when files need to remain accessible directly on the host, including application logs and development files.
+
+### 3. Task 2 — Sharing Persistent Data Using Docker Volumes
+
+I created a project named `two-tier-app`, with separate `backend` and `frontend` directories. Each service has its own Dockerfile and Node.js application.
+
+I created a custom Docker network named `mynetwork` and a named Docker volume called `shared-data`.
+
+The backend container uses the `backend-app:latest` image and mounts `shared-data` at `/data`. Its `/write` endpoint writes `Hello from Backend!` to `/data/message.txt`.
+
+The frontend container uses the `frontend-app:latest` image and mounts the same volume at `/data`. It reads the message file and displays its current contents in a browser. I published the frontend on port 80, while the backend remained accessible through the Docker network without publishing its port to the host.
+
+### 4. Testing Data Sharing
+
+I tested the application by updating the shared file and refreshing the frontend through the EC2 public IP.
+
+| Test | Expected frontend output |
+|---|---|
+| Initial backend write | `Hello from Backend!` |
+| First data update | `Test Data 1` |
+| Second data update | `Test Data 2 - New Update` |
+| After container recreation | `Test Data 2 - New Update` |
+
+These tests demonstrated that the frontend could read data written by the backend and display subsequent changes. After removing and recreating both containers with the same `shared-data` volume, the latest message remained available.
+
+### 5. Bind Mounts Versus Docker Volumes
+
+A **bind mount** maps a specific path on the host machine into a container. In this assignment, the `nginx-logs` directory stored Nginx log files outside the container.
+
+A **Docker volume** is managed by Docker and exists independently of the containers that use it. In this assignment, `shared-data` was mounted into both the frontend and backend containers, allowing them to share the same message file.
+
+The main difference is that bind mounts use a host path selected by the user, while named volumes are managed by Docker. Both can preserve data beyond a container's lifecycle, but named volumes are particularly useful for application data shared across services.
+
+### 6. Conclusion
+
+This assignment provided practical experience with Docker images, containers, bind mounts, named volumes, custom networks, port mapping, and persistent application data.
+
+The Nginx task demonstrated that host-mounted log files remain available after a container is removed. The two-tier application demonstrated that separate frontend and backend containers can share a Docker volume and retain their data even after both containers are removed and recreated.
+
+The exercise reinforced the importance of separating application containers from persistent storage so that container replacement does not automatically destroy required data.
+
+### 7. Application and Evidence
+
+**Application URL:** [Insert the EC2 public application URL]
+
+**LinkedIn post URL:** [Insert the published LinkedIn post URL]
+
+**Evidence:** Attach the numbered screenshots for the assignment, including the public application displaying the shared data and the final persistence test.
+
 
 ---
 
 # Public Application URL
 
-**Application URL:** `Add your VM public IP URL here`
+**Application URL:** http://16.171.171.231/
 
 ---
 
@@ -330,13 +406,14 @@ Create a LinkedIn post about Docker Volumes and Bind Mounts, including one diffe
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://lnkd.in/p/e4Hkuu8A
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here. Include a screenshot of the application displaying shared data.
+<img width="475" height="766" alt="linkedin post" src="https://github.com/user-attachments/assets/01532735-d907-466d-9c66-8e6603aef781" />
+
 
 ---
 
