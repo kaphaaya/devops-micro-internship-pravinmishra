@@ -232,7 +232,8 @@ Add a screenshot showing:
 - Reverse-proxy health check
 - `depends_on` conditions using `service_healthy`
 
-<img width="657" height="115" alt="14" src="https://github.com/user-attachments/assets/ec54c853-459c-45ee-a5a3-4c8e12c470d3" />
+<img width="1090" height="597" alt="14" src="https://github.com/user-attachments/assets/04a3a5db-dd67-4406-bfbd-bdfc4254644e" />
+
 
 
 ---
@@ -241,7 +242,8 @@ Add a screenshot showing:
 
 Add a terminal screenshot showing Docker Compose service status. The database, backend, frontend, and reverse proxy must be running successfully.
 
-<img width="1730" height="310" alt="15" src="https://github.com/user-attachments/assets/28bd8180-09cb-44e7-aa24-a70bf2b17029" />
+<img width="1090" height="122" alt="15" src="https://github.com/user-attachments/assets/bd5ae7dd-cd0f-46ff-8e47-7d8402be2733" />
+
 
 
 ---
@@ -250,7 +252,8 @@ Add a terminal screenshot showing Docker Compose service status. The database, b
 
 Add a terminal screenshot showing a successful response from the public application health endpoint through the reverse proxy.
 
-<img width="793" height="71" alt="16" src="https://github.com/user-attachments/assets/a428b755-914e-43f2-85e2-6e29281b0251" />
+<img width="1092" height="159" alt="16" src="https://github.com/user-attachments/assets/6777a5b2-40be-4b22-a51a-8375e577f138" />
+
 
 
 ---
@@ -265,7 +268,7 @@ docs/03-healthchecks-and-depends-on.md
 
 Explain the health-check method for each service and the startup dependency order.
 
-<img width="791" height="191" alt="17" src="https://github.com/user-attachments/assets/e2ce1d51-7600-42b6-b704-46a7fe400798" />
+<img width="1096" height="554" alt="17" src="https://github.com/user-attachments/assets/38600c52-db6e-4083-93f6-d8f9d445542c" />
 
 
 ---
@@ -289,7 +292,7 @@ It must show routes for:
 - API requests
 - Health endpoint
 
-<img width="790" height="174" alt="18" src="https://github.com/user-attachments/assets/ad7fd5ac-dd62-4c8f-9366-58cc7808c0ca" />
+<img width="1097" height="782" alt="18" src="https://github.com/user-attachments/assets/a8a8b7bf-ecd5-4ac5-9b47-dfff68f508b8" />
 
 
 ---
@@ -298,8 +301,9 @@ It must show routes for:
 
 Add a screenshot of `docker-compose.yml` showing that only the `reverse-proxy` service publishes port 80.
 
-<img width="793" height="194" alt="19" src="https://github.com/user-attachments/assets/5267bdce-d8f5-41ce-92f5-0edb2f35e378" />
+<img width="1792" height="1120" alt="19" src="https://github.com/user-attachments/assets/6b85b6f9-5505-432d-8d7d-3d1f858b13d4" />
 
+<img width="1792" height="430" alt="19 1" src="https://github.com/user-attachments/assets/80ed835d-9f05-4bd2-a96b-253b92a33698" />
 
 ---
 
@@ -312,7 +316,7 @@ Add a terminal screenshot showing successful requests through the selected rever
 - One static asset
 - Health endpoint
 
-<img width="790" height="394" alt="20" src="https://github.com/user-attachments/assets/9831cc3c-e197-4405-a5bf-26efd007fae4" />
+<img width="1064" height="334" alt="20" src="https://github.com/user-attachments/assets/eb2538e4-bdee-41f9-af6b-176ee68ab6f6" />
 
 
 ---
@@ -323,7 +327,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-<img width="791" height="73" alt="21" src="https://github.com/user-attachments/assets/fae1ae32-9fbe-4823-8283-f052aeda7006" />
+<img width="1792" height="1080" alt="21" src="https://github.com/user-attachments/assets/dc9520f1-fb53-406e-8bb3-09a84b8bd6e3" />
 
 ---
 
@@ -337,7 +341,7 @@ docs/04-proxy-routing-and-cors.md
 
 Explain the proxy routes and state whether CORS was required and why.
 
-<img width="791" height="67" alt="22" src="https://github.com/user-attachments/assets/de01064a-a2e2-46e8-832c-ca785bc75892" />
+<img width="1087" height="416" alt="22" src="https://github.com/user-attachments/assets/1dcc1d72-d301-4c33-84d0-a1b48ff91ede" />
 
 
 ---
@@ -354,7 +358,7 @@ Verify MySQL persistence and perform a controlled backup and restore drill.
 
 Add a terminal screenshot showing the `db_data` named volume and its MySQL mount configuration.
 
-<img width="789" height="176" alt="23" src="https://github.com/user-attachments/assets/b60c6bd1-7f91-4e9a-868d-3c66fde3dbc9" />
+<img width="1086" height="353" alt="23" src="https://github.com/user-attachments/assets/6bd49e95-0227-44ce-a4bd-b2b2b80de4a3" />
 
 
 ---
@@ -363,7 +367,8 @@ Add a terminal screenshot showing the `db_data` named volume and its MySQL mount
 
 Add a terminal screenshot showing the selected test data before the backup and restore drill.
 
-<img width="797" height="71" alt="24" src="https://github.com/user-attachments/assets/b21b103c-761c-4ade-b148-3fc5ea7280b8" />
+<img width="1084" height="223" alt="24" src="https://github.com/user-attachments/assets/f49b7f9f-6dc6-4c43-bf1c-212ad49be8b0" />
+
 
 
 ---
@@ -372,7 +377,7 @@ Add a terminal screenshot showing the selected test data before the backup and r
 
 Add a terminal screenshot showing successful backup creation and the backup file stored in the host backup directory.
 
-<img width="791" height="101" alt="25" src="https://github.com/user-attachments/assets/f30e8999-30a3-46ce-bb73-75548c21ee03" />
+<img width="1080" height="125" alt="25" src="https://github.com/user-attachments/assets/85e750a2-988f-4d6b-ac79-89fb33ea8b1a" />
 
 
 ---
@@ -381,7 +386,8 @@ Add a terminal screenshot showing successful backup creation and the backup file
 
 Add a terminal screenshot showing that the selected test record was removed during the controlled data-loss test.
 
-<img width="789" height="297" alt="26" src="https://github.com/user-attachments/assets/0c3ccddd-d86d-44a5-ab61-908cc86ebcf3" />
+<img width="1088" height="136" alt="26" src="https://github.com/user-attachments/assets/75e7426c-0ec2-49c4-bb9e-cfa378c152aa" />
+
 
 
 ---
@@ -390,7 +396,7 @@ Add a terminal screenshot showing that the selected test record was removed duri
 
 Add a terminal screenshot showing successful restore and verification that the deleted test record is available again.
 
-<img width="804" height="57" alt="27" src="https://github.com/user-attachments/assets/16c9e93d-0e24-4c20-aaaa-a3357b9490b4" />
+<img width="543" height="185" alt="27" src="https://github.com/user-attachments/assets/3d846508-c50a-4ebe-9e8f-48ac8fccaa85" />
 
 
 ---
@@ -401,7 +407,8 @@ Add a terminal screenshot showing that database data remains available after a n
 
 Do not use `docker compose down -v`.
 
-<img width="800" height="824" alt="28" src="https://github.com/user-attachments/assets/d3372550-2550-4586-98f7-0d4b6bdd7210" />
+<img width="1083" height="251" alt="28" src="https://github.com/user-attachments/assets/3487391a-1bd5-4cbc-b3b4-6bbd2be78fa5" />
+
 
 
 ---
@@ -416,7 +423,9 @@ docs/05-persistence-and-backup.md
 
 Include the backup plan and restore procedure.
 
-<img width="790" height="100" alt="29" src="https://github.com/user-attachments/assets/b1a0f9b6-86a9-40fb-80d8-28c68629b3c5" />
+<img width="1098" height="929" alt="29" src="https://github.com/user-attachments/assets/d0cc2ebc-8c78-408e-8a5b-b6346e723d31" />
+
+<img width="1102" height="371" alt="29 1" src="https://github.com/user-attachments/assets/e48857ea-3aef-464b-9221-4f7786d9f5b2" />
 
 
 ---
@@ -437,7 +446,7 @@ Add a screenshot showing:
 - Proxy log format
 - Docker Compose host log-directory bind mount
 
-<img width="807" height="655" alt="30" src="https://github.com/user-attachments/assets/9a359ec1-47d7-4f1c-9117-8da118235f7c" />
+<img width="1073" height="95" alt="30" src="https://github.com/user-attachments/assets/516e4571-a214-4e83-bcd2-63f0a73e88da" />
 
 
 ---
@@ -449,7 +458,8 @@ Add a terminal screenshot showing:
 - Selected reverse-proxy logs available from the host directory after a proxy restart
 - Backend logs displayed through Docker Compose
 
-<img width="792" height="828" alt="31" src="https://github.com/user-attachments/assets/07bdb35e-47ae-47f6-b570-b46b18860142" />
+<img width="1082" height="349" alt="31" src="https://github.com/user-attachments/assets/32142399-0053-4be1-a703-ceb1f8ef903b" />
+
 
 ---
 
@@ -678,11 +688,13 @@ Your post must include:
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** https://lnkd.in/p/eZJ6ks_xl
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post showing the text body and deployment verification image.
+
+<img width="547" height="744" alt="linekdin" src="https://github.com/user-attachments/assets/feac68eb-2baa-4e92-ad74-c3161ebca85b" />
 
 ---
 
