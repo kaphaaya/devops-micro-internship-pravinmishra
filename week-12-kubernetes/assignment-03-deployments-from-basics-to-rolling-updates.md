@@ -32,7 +32,7 @@ Create and enter the dedicated Deployment lab directory.
 
 #### Screenshot 01 — Output of `pwd` showing the directory ending in `/k8s-labs/deployments`
 
-Add your screenshot here.
+<img width="633" height="48" alt="1" src="https://github.com/user-attachments/assets/22581447-2920-425b-bd6d-23bf2366f30a" />
 
 ---
 
@@ -46,15 +46,15 @@ Create a two-replica NGINX Deployment and verify the automatically managed Repli
 
 #### Screenshot 02 — Completed basic `nginx-deployment.yaml` showing two replicas and the initial NGINX image
 
-Add your screenshot here.
+<img width="633" height="329" alt="2" src="https://github.com/user-attachments/assets/b1a9e714-14db-4032-90a2-d328d6b90158" />
+
 
 ---
 
 #### Screenshot 03 — Successful apply output and verification output showing the Deployment, its automatically created ReplicaSet, and two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+<img width="631" height="167" alt="3" src="https://github.com/user-attachments/assets/36699915-5cd4-4ae6-ab09-6649625f1a69" />
 
----
 
 # Task 3 — Configure the RollingUpdate Strategy
 
@@ -66,13 +66,14 @@ Configure RollingUpdate to maintain the desired available replica count during a
 
 #### Screenshot 04 — Updated YAML showing `RollingUpdate`, `maxSurge: 1`, and `maxUnavailable: 0`
 
-Add your screenshot here.
+<img width="631" height="403" alt="4" src="https://github.com/user-attachments/assets/3bdc5fae-e963-44cb-ac06-157a9c272376" />
+
 
 ---
 
 #### Screenshot 05 — Successful apply output and Deployment details showing the configured rolling-update strategy
 
-Add your screenshot here.
+<img width="635" height="123" alt="5" src="https://github.com/user-attachments/assets/562b7f51-3205-4a11-bab7-a3dda2465359" />
 
 ---
 
@@ -86,25 +87,29 @@ Update NGINX to 1.23.1, observe the rollout, and return to the previous stable r
 
 #### Screenshot 06 — Image-update command and rollout status showing successful completion
 
-Add your screenshot here.
+<img width="634" height="233" alt="6" src="https://github.com/user-attachments/assets/fb195456-2987-40a3-84fe-402a780c4cbf" />
+
 
 ---
 
 #### Screenshot 07 — ReplicaSet output showing the previous and updated ReplicaSets, and Deployment details showing `nginx:1.23.1`
 
-Add your screenshot here.
+<img width="625" height="707" alt="7" src="https://github.com/user-attachments/assets/c53f4efd-6845-41b4-98db-b9d681cdf4fb" />
+
 
 ---
 
 #### Screenshot 08 — Rollback command and rollout status showing successful completion
 
-Add your screenshot here.
+<img width="634" height="108" alt="8" src="https://github.com/user-attachments/assets/f3763edf-529c-4b1a-8fbf-1f41c63aae37" />
+
 
 ---
 
 #### Screenshot 09 — Rollout history and Deployment details showing the restored `nginx:1.21.1` image
 
-Add your screenshot here.
+<img width="626" height="834" alt="9" src="https://github.com/user-attachments/assets/8a9f6518-66e0-4079-8a7d-a2226a517cf0" />
+
 
 ---
 
@@ -118,13 +123,15 @@ Scale the workload to five replicas and return it to two.
 
 #### Screenshot 10 — Scale-up command and output showing five Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+<img width="629" height="162" alt="10" src="https://github.com/user-attachments/assets/2ce7dad4-60d6-437a-8f60-6d79ef9e6de7" />
+
 
 ---
 
 #### Screenshot 11 — Scale-down command and output showing the final two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+<img width="620" height="120" alt="11" src="https://github.com/user-attachments/assets/b93c8c5c-b331-4569-a9d0-a1f8e1b9944b" />
+
 
 ---
 
@@ -154,7 +161,7 @@ Today, I deployed NGINX, configured rolling updates, updated the container image
 
 I also scaled my Deployment from two Pods to five and back to two!
 
-[PASTE YOUR GENERATED LEADERBOARD MESSAGE AND LINK HERE]
+https://dmi.pravinmishra.com/s/kaphaaya.html?utm
 
 #DMIByPravinMishra #DevOps #Kubernetes
 
@@ -162,9 +169,8 @@ I also scaled my Deployment from two Pods to five and back to two!
 
 #### Screenshot 12 — Published WhatsApp Status showing your Kubernetes Deployment message and generated DMI leaderboard progress link
 
-Add your screenshot here.
+<img width="914" height="1082" alt="whatsapp post" src="https://github.com/user-attachments/assets/3d55c0df-52d9-415f-b61f-6fb98f3273a7" />
 
-A draft or editing screen is not sufficient.
 
 ---
 
@@ -172,7 +178,11 @@ A draft or editing screen is not sufficient.
 
 Write a short note explaining how Deployments manage ReplicaSets, perform rolling updates and rollbacks, and scale Pods.
 
-Add your answer here.
+A Kubernetes Deployment manages ReplicaSets, which maintain the desired number of Pods. When the Pod template changes, the Deployment creates a new ReplicaSet and performs a rolling update, gradually replacing old Pods with new ones.
+
+The RollingUpdate strategy, configured with `maxSurge: 1` and `maxUnavailable: 0`, allows updates while maintaining the desired available replica count. If an update causes problems, `kubectl rollout undo` restores the previous revision.
+
+Deployments also make scaling easy. Using `kubectl scale`, I increased the workload from two to five Pods and then reduced it back to two.
 
 ---
 
