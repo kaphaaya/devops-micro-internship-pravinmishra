@@ -255,6 +255,7 @@ Task status: Completed
 
 <img width="623" height="389" alt="12" src="https://github.com/user-attachments/assets/d24d32e8-db4c-488b-8b35-73bf3a813137" />
 
+<img width="627" height="249" alt="12 1" src="https://github.com/user-attachments/assets/797c2862-8aea-4bfb-a698-1b0147fed2ba" />
 
 ---
 
@@ -286,7 +287,8 @@ It reduces unnecessary resource consumption and infrastructure costs when demand
 
 #### Screenshot 13 — Published LinkedIn post showing your name, the required explanation, and the attached Kubernetes screenshot
 
-<img width="634" height="139" alt="12" src="https://github.com/user-attachments/assets/0a5e54c4-0c2e-4b42-bf0c-10479d20db64" />
+<img width="472" height="741" alt="linkedin post" src="https://github.com/user-attachments/assets/5eb71ea7-f3e6-4bc4-a776-762e5578eeff" />
+
 
 
 #### Linkedin Post Link
