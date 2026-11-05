@@ -6,10 +6,10 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
-**Cloud Platform:** AWS or Azure  
-**GitHub Repository URL:** Add your repository URL here  
-**Public Application URL / Load-Balancer DNS:** Add the public URL or DNS here
+**Full Name:** Aziz Olaide Kafayat 
+**Cloud Platform:** AWS  
+**GitHub Repository URL:** https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-08-terraform/assignment-05-deploy-book-review-app-in-your-favorite-cloud-agentic-terraform-project.md
+**Public Application URL / Load-Balancer DNS:** http://book-review-dev-public-alb-1403149350.us-east-1.elb.amazonaws.com/book/1
 
 ---
 
@@ -95,7 +95,6 @@ The diagram must show:
 
 ## Architecture Diagram
 
-Add the completed architecture diagram here.
 
 ---
 
@@ -111,7 +110,6 @@ Create the modular Terraform project and implement the network and security laye
 
 Add a screenshot showing the modular Terraform project structure.
 <img width="1789" height="1087" alt="6" src="https://github.com/user-attachments/assets/e6cf3aea-60b8-4b44-b2f8-07c6d2b97a74" />
-
 
 ---
 
@@ -160,7 +158,7 @@ Add a screenshot showing the internet-facing public load balancer.
 
 <img width="1792" height="1095" alt="10 1" src="https://github.com/user-attachments/assets/8bcb03cd-0af7-4b31-9a57-82711f90cad5" />
 
-<img width="1792" height="934" alt="10 2" src="https://github.com/user-attachments/assets/030b6775-0bc5-4796-a71f-62ea51088a4f" />
+
 
 ---
 
@@ -355,7 +353,7 @@ Add a screenshot showing successful database reads and writes.
 
 ## Public Application URL
 
-**Public Application URL / DNS:** Add the working public application URL or load-balancer DNS here
+**Public Application URL / DNS:** http://book-review-dev-public-alb-1403149350.us-east-1.elb.amazonaws.com/book/1
 
 ---
 
