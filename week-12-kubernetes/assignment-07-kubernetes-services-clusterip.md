@@ -30,7 +30,8 @@ Create and enter a dedicated directory for the ClusterIP Service lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/services/clusterip`
 
-Add your screenshot here.
+<img width="857" height="222" alt="1" src="https://github.com/user-attachments/assets/122a4752-e615-4155-b734-a5b10d80b25f" />
+
 
 ---
 
@@ -38,11 +39,11 @@ Add your screenshot here.
 
 **1. Why is it not reliable to communicate with an application using a Pod IP address?**
 
-Add your answer here.
+Pod IP addresses are temporary and can change whenever a Pod is deleted, recreated or replaced. Therefore, applications should not rely on individual Pod IP addresses for communication.
 
 **2. What Kubernetes resource provides a stable internal address for a group of Pods?**
 
-Add your answer here.
+A Kubernetes Service provides a stable internal IP address and DNS name for accessing a group of Pods.
 
 ---
 
@@ -56,13 +57,15 @@ Create an NGINX Deployment with labels, readiness probes, and liveness probes th
 
 #### Screenshot 2 — Completed `00-nginx-deploy.yaml` manifest
 
-Add your screenshot here.
+<img width="863" height="742" alt="2" src="https://github.com/user-attachments/assets/eb32676c-1f24-405c-83f3-b7b5f132c370" />
+
 
 ---
 
 #### Screenshot 3 — Output showing successful rollout and two ready NGINX Pods
 
-Add your screenshot here.
+<img width="860" height="225" alt="3" src="https://github.com/user-attachments/assets/3e2bb0f3-8a2a-4261-af98-28b88833acf1" />
+
 
 ---
 
@@ -70,15 +73,15 @@ Add your screenshot here.
 
 **1. Which label will the Service use to find these Pods?**
 
-Add your answer here.
+The label used is app: nginx.
 
 **2. Why is readiness important before connecting Pods to a Service?**
 
-Add your answer here.
+The readiness probe determines whether a Pod is ready to receive traffic. Kubernetes only sends normal Service traffic to Pods that pass their readiness checks.
 
 **3. What port does the NGINX container listen on?**
 
-Add your answer here.
+NGINX listens on port 80.
 
 ---
 
@@ -92,13 +95,14 @@ Create a stable internal Service that routes traffic to the NGINX Pods.
 
 #### Screenshot 4 — Completed `01-nginx-svc-clusterip.yaml` manifest
 
-Add your screenshot here.
+<img width="870" height="212" alt="4" src="https://github.com/user-attachments/assets/7357aaee-5c85-412b-8d26-9381c5fe9e58" />
+
 
 ---
 
 #### Screenshot 5 — Output showing the ClusterIP Service, endpoints, or EndpointSlices
 
-Add your screenshot here.
+<img width="861" height="323" alt="5" src="https://github.com/user-attachments/assets/53db229a-0499-4c92-9777-143a07369429" />
 
 ---
 
@@ -106,19 +110,21 @@ Add your screenshot here.
 
 **1. What is the purpose of a ClusterIP Service?**
 
-Add your answer here.
+A ClusterIP Service provides a stable internal IP address and DNS name that allows applications within the Kubernetes cluster to communicate with a group of Pods.
 
 **2. What is the difference between `port` and `targetPort`?**
 
-Add your answer here.
+port is the port exposed by the Service that clients use to access it.
+
+targetPort is the port on the backend container where the application receives traffic.
 
 **3. Why must the Service selector match the Pod labels?**
 
-Add your answer here.
+The Service selector must match the labels assigned to the Pods so Kubernetes can identify and connect the correct Pods as Service backends.
 
 **4. What information do EndpointSlices contain?**
 
-Add your answer here.
+An EndpointSlice stores information about the backend endpoints associated with a Service, including their IP addresses, ports and readiness conditions.
 
 ---
 
@@ -132,19 +138,20 @@ Create a client Pod and access the NGINX Service using DNS and its ClusterIP.
 
 #### Screenshot 6 — Output showing the `tester` Pod running
 
-Add your screenshot here.
+<img width="856" height="136" alt="6" src="https://github.com/user-attachments/assets/26cbd872-7dae-4dc8-82d2-e8aa4d5f2f14" />
+
 
 ---
 
 #### Screenshot 7 — Successful Service request using DNS name and ClusterIP
 
-Add your screenshot here.
+<img width="860" height="807" alt="7" src="https://github.com/user-attachments/assets/d3e63217-0a6e-46d1-89c7-35b12d4e0414" />
 
 ---
 
 #### Screenshot 8 — Successful DNS lookup for the Service
+<img width="866" height="210" alt="8" src="https://github.com/user-attachments/assets/2adaba8b-6dcc-4275-a129-16e6a8a15ae2" />
 
-Add your screenshot here.
 
 ---
 
@@ -152,15 +159,15 @@ Add your screenshot here.
 
 **1. Why should an application use `nginx-svc` instead of a Pod IP address?**
 
-Add your answer here.
+Service DNS names provide stable access to applications even when individual Pods are replaced or their IP addresses change.
 
 **2. What does the DNS name `nginx-svc.default.svc.cluster.local` represent?**
 
-Add your answer here.
+It is the fully qualified DNS name of the nginx-svc Service in the default namespace, using the cluster DNS domain cluster.local.
 
 **3. Why can the client access the Service even if the backend Pod IPs change?**
 
-Add your answer here.
+Kubernetes automatically updates the Service's EndpointSlices when Pods are created, deleted or replaced. Applications can continue using the same Service IP address and DNS name without needing to know the new Pod IP addresses.
 
 ---
 
@@ -174,25 +181,25 @@ Break the Service selector, observe that usable endpoints disappear, and then re
 
 #### Screenshot 9 — `02-nginx-svc-selector-broken.yaml` showing the incorrect selector
 
-Add your screenshot here.
+<img width="857" height="313" alt="9" src="https://github.com/user-attachments/assets/fb281418-fa72-4f88-ac49-ae4d8b55da6a" />
 
 ---
 
 #### Screenshot 10 — Empty endpoints or EndpointSlice output after applying the broken selector
+<img width="861" height="519" alt="10" src="https://github.com/user-attachments/assets/300c575e-2c10-4307-85a9-251c43feb4e1" />
 
-Add your screenshot here.
 
 ---
 
 #### Screenshot 11 — Failed request output from the `tester` Pod
 
-Add your screenshot here.
+<img width="852" height="86" alt="11" src="https://github.com/user-attachments/assets/fab6ea89-4ec1-4e02-b334-a9f30d0697cc" />
 
 ---
 
 #### Screenshot 12 — Restored endpoints and successful Service request
 
-Add your screenshot here.
+<img width="857" height="552" alt="12" src="https://github.com/user-attachments/assets/5ed67408-dea9-4b16-8482-8df1e47244c7" />
 
 ---
 
@@ -200,15 +207,14 @@ Add your screenshot here.
 
 **1. Why did the Service endpoints become empty?**
 
-Add your answer here.
-
+The Service selector was changed from app: nginx to app: does-not-match. Since no Pods had the new label, Kubernetes could not find matching backend Pods, resulting in an empty endpoint list.
 **2. What caused the request from the client Pod to fail?**
 
-Add your answer here.
+The Service still had its ClusterIP and DNS resolution continued to work, but it had no backend endpoints to forward traffic to. Therefore, the request failed.
 
 **3. How did you restore connectivity to the NGINX Pods?**
 
-Add your answer here.
+The original Service manifest was reapplied, restoring the selector to app: nginx. Kubernetes then identified the matching Pods, repopulated the EndpointSlice and restored successful Service connectivity.
 
 ---
 
@@ -222,31 +228,35 @@ Observe how a new Pod that fails readiness is excluded from ready Service backen
 
 #### Screenshot 13 — Output showing the Deployment scaled to one ready Pod
 
-Add your screenshot here.
+<img width="856" height="547" alt="13" src="https://github.com/user-attachments/assets/1ff65fca-f9b3-4f6b-bd8f-8f826a06f731" />
+
 
 ---
 
 #### Screenshot 14 — Completed `03-readiness-broken.yaml` patch file
 
-Add your screenshot here.
+<img width="857" height="169" alt="14" src="https://github.com/user-attachments/assets/a6866bec-1f47-423e-9102-f0a0c270e2dd" />
 
 ---
 
 #### Screenshot 15 — Output showing the expected incomplete rollout or NotReady Pod
 
-Add your screenshot here.
+<img width="861" height="175" alt="15" src="https://github.com/user-attachments/assets/f103fdc8-8b96-4e5d-a8a1-10e573350f0f" />
+
 
 ---
 
 #### Screenshot 16 — EndpointSlice output showing the healthy Pod with `ready: true` and the new NotReady Pod with `ready: false`
 
-Add your screenshot here.
+<img width="861" height="899" alt="16" src="https://github.com/user-attachments/assets/40bc7d4f-e3d8-480c-9ec0-e77a4a752a32" />
+
 
 ---
 
 #### Screenshot 17 — Service EndpointSlice output showing ready backends after restoring the Deployment
 
-Add your screenshot here.
+<img width="858" height="223" alt="17" src="https://github.com/user-attachments/assets/23b180ee-3de2-46a1-80a2-3bc6259ffcae" />
+
 
 ---
 
@@ -254,16 +264,15 @@ Add your screenshot here.
 
 **1. Why was the new NotReady Pod excluded from ready Service backends?**
 
-Add your answer here.
+The new Pod failed its readiness probe because the configured HTTP path /does-not-exist did not return a successful response. Kubernetes therefore marked the Pod as NotReady and excluded it from normal Service traffic.
 
 **2. What is the relationship between readiness probes and Service routing?**
 
-Add your answer here.
+A readiness probe determines whether a Pod is ready to receive application traffic. Kubernetes uses this readiness information to determine which Pods should receive traffic through a Service.
 
 **3. Why does this behavior protect users from unhealthy application instances?**
 
-Add your answer here.
-
+Readiness checking prevents traffic from being sent to application instances that are still starting up or are not functioning correctly. It helps ensure that only healthy, ready Pods receive normal traffic while other healthy instances continue serving requests.
 ---
 
 # Task 7 — Share Your ClusterIP Service Learning on LinkedIn
@@ -276,11 +285,11 @@ Share what you learned about ClusterIP Services, Kubernetes DNS, selectors, and 
 
 #### Screenshot 18 — Published LinkedIn post
 
-Add your screenshot here.
+<img width="473" height="739" alt="linkedin post" src="https://github.com/user-attachments/assets/566f10a4-623d-4430-bb2a-d6a798fd2c11" />
 
 #### Linkedin post link
 
-Paste your link here
+https://lnkd.in/p/eiy746jw
 
 ---
 
