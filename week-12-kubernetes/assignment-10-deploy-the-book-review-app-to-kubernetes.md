@@ -22,7 +22,7 @@ Deploy the Book Review App as a production-style three-tier application using Ku
 
 **Access Method:** Public AWS LoadBalancer
 
-**GitHub Manifests or Helm Chart URL:** https://github.com/kaphaaya/kubernetes_manifests
+**GitHub Manifests or Helm Chart URL:** https://github.com/kaphaaya/dmi-kubernetes-assignments/tree/main/book-review/k8s
 
 **Architecture Diagram:**
 
