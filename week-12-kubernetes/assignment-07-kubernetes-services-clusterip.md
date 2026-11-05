@@ -208,6 +208,7 @@ Break the Service selector, observe that usable endpoints disappear, and then re
 **1. Why did the Service endpoints become empty?**
 
 The Service selector was changed from app: nginx to app: does-not-match. Since no Pods had the new label, Kubernetes could not find matching backend Pods, resulting in an empty endpoint list.
+
 **2. What caused the request from the client Pod to fail?**
 
 The Service still had its ClusterIP and DNS resolution continued to work, but it had no backend endpoints to forward traffic to. Therefore, the request failed.
