@@ -231,7 +231,7 @@ Delete one NGINX Pod and observe its replacement while the Service continues rou
 
 #### Screenshot 13 — Output showing the replacement Pod and two running, ready Pods
 
-Add your screenshot here.
+<img width="839" height="337" alt="13" src="https://github.com/user-attachments/assets/2afd3944-4419-4f8d-bcff-0b1d57a57ffb" />
 
 ### Notes
 
