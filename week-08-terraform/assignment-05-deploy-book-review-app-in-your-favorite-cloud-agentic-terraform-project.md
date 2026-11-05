@@ -9,6 +9,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 **Full Name:** Aziz Olaide Kafayat 
 **Cloud Platform:** AWS  
 **GitHub Repository URL:** https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-08-terraform/assignment-05-deploy-book-review-app-in-your-favorite-cloud-agentic-terraform-project.md
+
 **Public Application URL / Load-Balancer DNS:** http://book-review-dev-public-alb-1403149350.us-east-1.elb.amazonaws.com/book/1
 
 ---
