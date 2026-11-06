@@ -96,6 +96,7 @@ The diagram must show:
 
 ## Architecture Diagram
 
+<img width="1672" height="941" alt="2e9c2168-32e9-44e8-8d05-6b9eda81a205" src="https://github.com/user-attachments/assets/f47d94e0-262e-4509-8a5c-b7f8bd651e55" />
 
 ---
 
