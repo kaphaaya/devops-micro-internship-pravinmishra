@@ -22,7 +22,7 @@ Configure a read-only Bash triage script for your Book Review App, connect it to
 
 **Namespace:** book-review
 
-**GitHub Repository URL:** https://github.com/kaphaaya/ai-assisted-kubernetes-triage
+**GitHub Repository URL:** https://github.com/pravinmishraaws/book-review-app/tree/84280063bea7ccd5144dafa2b969ec4e2e69ffbb
 
 **Simulated Incident:** Invalid container image tag — kaphaaya/book-review-backend:does-not-exist
 
