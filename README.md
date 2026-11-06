@@ -106,7 +106,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 09 | Ansible | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_stop-managing-servers-manually-build-them-ugcPost-7514317397806243840-4Qfu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU |  https://kaphaaya.substack.com/p/from-terraform-to-ansible-building?r=4va47r |
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_ai-assisted-azure-devops-dual-pipeline-failure-ugcPost-7519057326125883392-KWtY/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://kaphaaya.substack.com/p/from-terraform-to-ansible-building?r=4va47r |
 | 11 | Docker | 🔄 ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aziz-kafayat_introduction-to-docker-ugcPost-7519408839780229121-P3Sg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAu6SE0BOKqgQlVpcQ8NlGMolDXlxFlEySU | https://kaphaaya.substack.com/p/from-terraform-to-ansible-building?r=4va47r |
-| 12 | Kubernetes | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:activity:7524209281869672448/ |https://kaphaaya.substack.com/p/from-terraform-to-ansible-building?r=4va47r |
+| 12 | Kubernetes | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:activity:7524209281869672448 | https://kaphaaya.substack.com/p/kubernetes-explained-what-it-is-why |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
