@@ -12,19 +12,22 @@ Deploy the Book Review App as a production-style three-tier application using Ku
 
 ## Submission Details
 
-**Full Name:** Add your full name here.
+**Full Name:** Aziz Olaide Kafayat
 
-**Kubernetes Platform:** Add your platform here.
+**Kubernetes Platform:** Amazon EKS (AWS Elastic Kubernetes Service)
 
 **Namespace:** book-review
 
-**Frontend URL or IP:** Add the working endpoint here.
+**Frontend URL or IP:** http://a5e7dfdbabc274fee8e92a993cb447f5-290084377.us-east-1.elb.amazonaws.com/
 
-**Access Method:** Public LoadBalancer, Ingress, or documented local access.
+**Access Method:** Public AWS LoadBalancer
 
-**GitHub Manifests or Helm Chart URL:** Add your repository link here.
+**GitHub Manifests or Helm Chart URL:** https://github.com/kaphaaya/dmi-kubernetes-assignments/tree/main/book-review/k8s
 
-**Architecture Diagram:** Add your diagram or link here.
+**Architecture Diagram:**
+
+<img width="1672" height="941" alt="Kubernetes Book Review Deployment Overview" src="https://github.com/user-attachments/assets/6fb9d990-38b6-42bc-b4b6-0c5ae40f4c50" />
+
 
 ---
 
@@ -38,7 +41,8 @@ Prepare the cluster, application source, container images, and tooling needed fo
 
 #### Screenshot 1 — Active Kubernetes context and Ready nodes
 
-Add your screenshot here.
+<img width="792" height="148" alt="1" src="https://github.com/user-attachments/assets/a778cb74-ac0e-4be9-aa93-4a0bc648f6d0" />
+
 
 ---
 
@@ -46,7 +50,7 @@ Add your screenshot here.
 
 Required only if you choose Helm. Skip this screenshot if using YAML manifests.
 
-Add your screenshot here, or write “Not applicable — using YAML manifests.”
+Not applicable — using YAML manifests.
 
 ---
 
@@ -60,7 +64,8 @@ Document the workloads, networking, configuration, storage, and permitted commun
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
-Add your screenshot here.
+<img width="1672" height="941" alt="3" src="https://github.com/user-attachments/assets/756e03d7-a04c-4146-9266-b1b7d68ec8a2" />
+
 
 ---
 
@@ -74,13 +79,15 @@ Provide application configuration and credentials without embedding sensitive va
 
 #### Screenshot 4 — ConfigMap configuration or describe output showing non-sensitive values
 
-Add your screenshot here.
+<img width="787" height="642" alt="4" src="https://github.com/user-attachments/assets/1af5232e-fae5-4011-b937-14b7e826d8dc" />
+
 
 ---
 
 #### Screenshot 5 — Secret references or describe output showing names and keys without sensitive values
 
-Add your screenshot here.
+<img width="791" height="238" alt="5" src="https://github.com/user-attachments/assets/cc585eea-e112-4265-a4ac-e474b0259773" />
+
 
 ---
 
@@ -94,13 +101,14 @@ Provide persistent MySQL storage and allow the backend to connect without exposi
 
 #### Screenshot 6 — Managed MySQL status or MySQL StatefulSet and PVC status
 
-Add your screenshot here.
+<img width="790" height="466" alt="6" src="https://github.com/user-attachments/assets/d0fa1ddf-6d44-4283-a01c-6e9efeefd35b" />
 
 ---
 
 #### Screenshot 7 — Successful database connectivity or schema verification with credentials hidden
 
-Add your screenshot here.
+<img width="861" height="318" alt="7" src="https://github.com/user-attachments/assets/5f423758-d2a7-4e3a-9ca6-470799e09943" />
+
 
 ---
 
@@ -114,7 +122,8 @@ Run one or two Node.js/Express backend replicas on port 3001 and expose them thr
 
 #### Screenshot 8 — Backend Deployment, ready Pods, and internal Service
 
-Add your screenshot here.
+<img width="861" height="318" alt="7" src="https://github.com/user-attachments/assets/01f20643-5b5a-43f1-991d-8544d4b64c26" />
+
 
 ---
 
@@ -122,7 +131,8 @@ Add your screenshot here.
 
 If the application does not log successful database connections, provide a successful database-backed request alongside the startup logs.
 
-Add your screenshot here.
+<img width="859" height="219" alt="9" src="https://github.com/user-attachments/assets/902d65a0-9823-46e7-bf1d-ec4010fd44c1" />
+
 
 ---
 
@@ -136,13 +146,14 @@ Run the Next.js frontend behind Nginx on port 80 and proxy API requests to the i
 
 #### Screenshot 10 — Frontend Deployment and Ready Pods
 
-Add your screenshot here.
+<img width="861" height="101" alt="10" src="https://github.com/user-attachments/assets/26b7e76b-baca-4c18-84c1-2c912c231901" />
+
 
 ---
 
 #### Screenshot 11 — Nginx reverse-proxy configuration showing the internal backend Service name and port 3001
 
-Add your screenshot here.
+<img width="872" height="690" alt="11" src="https://github.com/user-attachments/assets/cd999e4f-579e-40d2-a6ad-dd62ae42cf61" />
 
 ---
 
@@ -156,13 +167,15 @@ Expose the frontend and enforce the intended communication path between applicat
 
 #### Screenshot 12 — Frontend LoadBalancer or Ingress configuration and assigned endpoint, or documented local access method
 
-Add your screenshot here.
+<img width="874" height="100" alt="12" src="https://github.com/user-attachments/assets/ceccca92-de62-4d0e-8f00-a30c436138e5" />
+
 
 ---
 
 #### Screenshot 13 — Internal backend Service and NetworkPolicy or equivalent restriction, with access-test evidence
 
-Add your screenshot here.
+<img width="865" height="952" alt="13" src="https://github.com/user-attachments/assets/98c5a6d0-a3bc-4b03-ba2d-4537ec57e314" />
+
 
 ---
 
@@ -176,31 +189,33 @@ Prove that the frontend, backend, and MySQL database work together and collect o
 
 #### Screenshot 14 — `kubectl get all` output for the book-review namespace
 
-Add your screenshot here.
+<img width="871" height="733" alt="14" src="https://github.com/user-attachments/assets/a29a7759-28b1-409a-b146-57f6ded775ef" />
 
 ---
 
 #### Screenshot 15 — Functional Book Review App in the browser with the URL visible, including evidence of a successful user flow
 
-Add your screenshot here.
+<img width="874" height="931" alt="15" src="https://github.com/user-attachments/assets/8ae17e24-32aa-4dde-b4a8-d2a9297b84fd" />
+
 
 ---
 
 #### Screenshot 16 — Frontend or Nginx container logs
 
-Add your screenshot here.
+<img width="873" height="169" alt="16" src="https://github.com/user-attachments/assets/842c6fc7-faab-4a6c-8fec-14ac6f52af0f" />
 
 ---
 
 #### Screenshot 17 — Backend logs and evidence of a successful database-backed operation
 
-Add your screenshot here.
+<img width="857" height="112" alt="17" src="https://github.com/user-attachments/assets/a1828d10-397d-4398-b277-56cd1cd03b3d" />
+
 
 ---
 
 #### Screenshot 18 — Optional: Kubernetes dashboard
 
-Add your screenshot here, or write “Not attempted.”
+Not attempted.
 
 Multiple images may be included under a screenshot number when needed to demonstrate the complete user flow.
 
@@ -216,7 +231,7 @@ Add selected improvements without breaking the required three-tier architecture.
 
 #### Screenshot 19 — Optional: Evidence of selected Helm, HPA, probe, or TLS improvements
 
-Add your screenshot here, or write “Not attempted.”
+Not attempted.
 
 ---
 
@@ -230,11 +245,11 @@ Explain your three-tier architecture, demonstrate the working application, and s
 
 #### Screenshot 20 — Published LinkedIn post about your Book Review App deployment on Kubernetes
 
-Add your screenshot here.
+<img width="553" height="883" alt="linkedin post" src="https://github.com/user-attachments/assets/729cb571-474b-4196-a56a-0563f56921b3" />
 
 ### LinkedIn Post URL
 
-Add your published LinkedIn post URL here.
+https://lnkd.in/p/eau56j7z
 
 ---
 
@@ -244,31 +259,74 @@ Add your published LinkedIn post URL here.
 
 Describe the application components and user flows you successfully deployed and tested.
 
-Add your summary here.
+Successfully deployed the Book Review Application on Amazon EKS using Kubernetes. The deployment consisted of a Next.js frontend, Nginx reverse proxy, Node.js backend and MySQL database.
+
+Built and pushed the frontend and backend Docker images to Docker Hub, deployed the application workloads, and configured Kubernetes Services for internal communication and public access through an AWS LoadBalancer.
+
+Configured MySQL using a StatefulSet with persistent EBS storage through a 5Gi gp3 PersistentVolumeClaim. Verified that the database was accessible and contained the Books, Reviews and Users tables, including seeded book records.
+
+Configured Kubernetes ConfigMaps and Secrets for application settings and credentials. Also implemented Kubernetes networking controls and verified the running application components and database connectivity.
 
 ## Issues and Fixes
 
 Describe the main issues encountered, their causes, and how you resolved them.
 
-Add your summary here.
+Insufficient worker node memory: The original t3.small worker node did not have sufficient memory to schedule the MySQL Pod. Addressed the resource constraint by adjusting workload resource requirements and adding worker capacity.
+
+EBS CSI driver configuration: Encountered IAM policy and add-on configuration conflicts while setting up persistent storage. Resolved these by using the correct EBS CSI IAM policy and configuring the EKS add-on.
+
+PersistentVolumeClaim pending: The PVC initially remained pending because the MySQL Pod could not be scheduled. Once sufficient capacity was available, the volume was provisioned and the PVC became Bound.
+
+MySQL authentication: An incorrectly formatted terminal command caused authentication and shell errors. Corrected the command and successfully accessed the database using credentials from the Kubernetes Secret.
+
+CloudFormation nodegroup creation: An additional managed nodegroup creation exceeded the CloudFormation maximum wait time during infrastructure troubleshooting.
+
 
 ## Tools and Sources Used
 
 List the documentation and tools that helped you complete the assignment.
 
-Add your tools and sources here.
+Amazon Web Services (AWS)
+
+Amazon Elastic Kubernetes Service (EKS)
+
+Kubernetes and kubectl
+
+eksctl
+
+AWS CLI
+
+Docker and Docker Hub
+
+MySQL 8.0
+
+Amazon EBS and gp3 StorageClass
+
+Kubernetes StatefulSets, Deployments, Services, ConfigMaps, Secrets, PersistentVolumeClaims and NetworkPolicies
+
+Nginx
+
+Git and GitHub
+
+Official AWS, Kubernetes and Docker documentation
+
+DevOps Micro Internship Assignment 10 guide
 
 ## Optional Improvements
 
 Describe any optional improvements implemented, or write “Not attempted.”
 
-Add your summary here.
+Not attempted.
 
 ## Cleanup or Reuse Plan
 
 State which resources were removed or why the environment is being retained.
 
-Add your cleanup status or reuse plan here.
+The public frontend LoadBalancer Service was deleted to release the associated AWS load balancer. The book-review namespace was subsequently deleted, removing the application Deployments, Pods, StatefulSet, Services, ConfigMaps, Secrets and PVC resources.
+
+The remaining EKS worker nodegroup and control plane cleanup is being completed after application evidence was captured. The final cleanup of the worker nodegroup, EKS cluster, associated EBS volumes and other billable AWS resources is intended to prevent unnecessary charges.
+
+Local project files, Kubernetes manifests, screenshots and Docker Hub images are retained for documentation, GitHub submission and future reuse.
 
 ---
 

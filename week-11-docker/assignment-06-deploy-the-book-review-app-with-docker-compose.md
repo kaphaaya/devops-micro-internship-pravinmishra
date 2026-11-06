@@ -30,7 +30,8 @@ backend/
 docker-compose.yml
 ```
 
-Add your screenshot here.
+<img width="779" height="285" alt="1" src="https://github.com/user-attachments/assets/97a130fc-aa93-4ee6-bba0-2e94dcab3f67" />
+
 
 ---
 
@@ -47,7 +48,7 @@ backend/.dockerignore
 
 Ensure that no real passwords, tokens, or secrets are visible.
 
-Add your screenshot here.
+<img width="778" height="640" alt="2" src="https://github.com/user-attachments/assets/43790c6e-aa06-4fcc-90d8-2ccc6306ea8e" />
 
 ---
 
@@ -63,7 +64,8 @@ Prepare Dockerfiles for the frontend and backend services and build both service
 
 Add a screenshot showing the completed `frontend/Dockerfile`.
 
-Add your screenshot here.
+<img width="780" height="443" alt="3" src="https://github.com/user-attachments/assets/9fdd3858-7baa-422c-8262-81ec755ed8be" />
+
 
 ---
 
@@ -71,7 +73,8 @@ Add your screenshot here.
 
 Add a screenshot showing the completed `backend/Dockerfile`.
 
-Add your screenshot here.
+<img width="778" height="234" alt="4" src="https://github.com/user-attachments/assets/75630255-3096-4412-be0f-7442462b5fda" />
+
 
 ---
 
@@ -83,7 +86,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker compose build
 ```
 
-Add your screenshot here.
+<img width="779" height="678" alt="5" src="https://github.com/user-attachments/assets/caae302f-04a9-4927-bdfa-3966f80a6c83" />
 
 ---
 
@@ -105,7 +108,8 @@ Add a screenshot showing the MySQL service in `docker-compose.yml`, including:
 - `mysql_data` volume mount
 - No published MySQL port
 
-Add your screenshot here.
+<img width="780" height="344" alt="6" src="https://github.com/user-attachments/assets/e6b9b2b9-b4e3-42e8-a3b9-82b822a59a39" />
+
 
 ---
 
@@ -118,7 +122,7 @@ Add a screenshot showing the backend service configuration, including:
 - Browser frontend origin configured for CORS
 - Published backend port
 
-Add your screenshot here.
+<img width="778" height="332" alt="7" src="https://github.com/user-attachments/assets/07fc9532-1b5c-4054-8f5a-4c506f233747" />
 
 ---
 
@@ -130,7 +134,8 @@ Add a screenshot showing the frontend service configuration, including:
 - `depends_on` for the backend service
 - Browser-facing `NEXT_PUBLIC_API_URL`
 
-Add your screenshot here.
+<img width="779" height="253" alt="8" src="https://github.com/user-attachments/assets/6d73b0ff-9d7a-4d85-803e-834639481b5b" />
+
 
 ---
 
@@ -138,7 +143,8 @@ Add your screenshot here.
 
 Add a screenshot showing the `mysql_data` volume definition in `docker-compose.yml`.
 
-Add your screenshot here.
+<img width="780" height="115" alt="9" src="https://github.com/user-attachments/assets/2da9c4ba-0ca0-4e4e-a3c7-d7eacdd604c5" />
+
 
 ---
 
@@ -160,7 +166,8 @@ docker compose ps
 
 The output must show the MySQL, backend, and frontend services running. MySQL must show as healthy.
 
-Add your screenshot here.
+<img width="780" height="166" alt="10" src="https://github.com/user-attachments/assets/7c1f1270-b82a-4d64-8267-f93840195c11" />
+
 
 ---
 
@@ -174,7 +181,8 @@ docker compose logs mysql backend --tail=50
 
 The logs must show MySQL readiness and successful backend database connection.
 
-Add your screenshot here.
+<img width="774" height="1037" alt="11" src="https://github.com/user-attachments/assets/8b9bb589-765e-4e31-a92e-009d52616da7" />
+
 
 ---
 
@@ -192,7 +200,7 @@ Add a browser screenshot showing successful user registration or login.
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="854" height="969" alt="12" src="https://github.com/user-attachments/assets/a6993218-4ba0-4a50-a9ef-4efd79fae551" />
 
 ---
 
@@ -202,7 +210,8 @@ Add a browser screenshot showing a created book review visible in the applicatio
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="869" height="858" alt="13" src="https://github.com/user-attachments/assets/680d8088-46ec-464e-a81b-f42c8cc9b085" />
+
 
 ---
 
@@ -213,7 +222,8 @@ Add a browser developer-tools screenshot with:
 - The Network tab showing a successful API request
 - The Console drawer showing no CORS error after the API interaction
 
-Add your screenshot here.
+<img width="1790" height="1078" alt="14" src="https://github.com/user-attachments/assets/c11f0a58-b7af-47d1-8839-e83a7fa2d991" />
+
 
 ---
 
@@ -231,7 +241,7 @@ Add a browser screenshot showing the registered user or created review before th
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="867" height="1046" alt="15" src="https://github.com/user-attachments/assets/722bb193-a7d0-4af4-88ec-577513f6e255" />
 
 ---
 
@@ -247,7 +257,8 @@ docker compose ps
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+<img width="775" height="344" alt="16" src="https://github.com/user-attachments/assets/31712c10-1909-466b-85b3-476dd31a021c" />
+
 
 ---
 
@@ -257,7 +268,8 @@ Add a browser screenshot showing the same registered user or review after the st
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="867" height="969" alt="17" src="https://github.com/user-attachments/assets/810b8970-ef46-4d1f-b977-6a2d80d359ce" />
+
 
 ---
 
@@ -277,13 +289,25 @@ Write a short explanation of 5–8 lines covering:
 - When a full reset is useful
 - Why a full reset must not be used before persistence evidence is captured
 
-Write your explanation here.
+`docker compose down` stops and removes the containers and networks created by Docker Compose, but preserves named volumes by default.\
+
+Named volumes should be kept because MySQL stores its database files there, allowing data to survive container removal and recreation.\
+
+If named volumes are removed using `docker compose down -v`, the stored MySQL data is deleted along with them.\
+
+A full reset is useful when you need a clean environment to troubleshoot issues or start the application from scratch.\
+
+However, removing volumes permanently deletes persisted database data unless it has been backed up.\
+
+A full reset must not be used before capturing persistence evidence because it would destroy the data needed to prove that reviews survive a restart.\
+
+For this assignment, preserve the named volume and verify that the saved review remains after restarting the services.
 
 ---
 
 # Final Public Frontend URL
 
-**Frontend URL:** `http://<VM_PUBLIC_IP>:<FRONTEND_PORT>`
+**Frontend URL:** http://16.171.171.231:3000
 
 Replace the placeholder with your working application URL.
 
@@ -291,7 +315,7 @@ Replace the placeholder with your working application URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** https://github.com/kaphaaya/book-review-app
 
 ---
 
@@ -303,11 +327,12 @@ Create a LinkedIn post about the Book Review App deployment and what you learned
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** https://lnkd.in/p/eV4WSRbm
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of your published LinkedIn post here.
+<img width="551" height="946" alt="linkedin post " src="https://github.com/user-attachments/assets/113f1c3c-e636-4284-a90e-5f0750870a8c" />
+
 
 ---
 

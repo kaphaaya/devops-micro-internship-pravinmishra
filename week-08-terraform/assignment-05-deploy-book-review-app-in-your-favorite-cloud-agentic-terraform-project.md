@@ -6,10 +6,11 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
-**Cloud Platform:** AWS or Azure  
-**GitHub Repository URL:** Add your repository URL here  
-**Public Application URL / Load-Balancer DNS:** Add the public URL or DNS here
+**Full Name:** Aziz Olaide Kafayat 
+**Cloud Platform:** AWS  
+**GitHub Repository URL:** https://github.com/kaphaaya/devops-micro-internship-pravinmishra/edit/main/week-08-terraform/assignment-05-deploy-book-review-app-in-your-favorite-cloud-agentic-terraform-project.md
+
+**Public Application URL / Load-Balancer DNS:** http://book-review-dev-public-alb-1403149350.us-east-1.elb.amazonaws.com/book/1
 
 ---
 
@@ -31,7 +32,8 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="1" src="https://github.com/user-attachments/assets/b7917969-7ad2-462c-8cb7-6449ad134305" />
+
 
 ---
 
@@ -39,7 +41,8 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
-Add your screenshot here.
+<img width="1792" height="609" alt="2" src="https://github.com/user-attachments/assets/c4a2270e-5b90-4a4a-834f-1fec9160a4fa" />
+
 
 ---
 
@@ -47,7 +50,8 @@ Add your screenshot here.
 
 Add a screenshot showing the Architecture and Security Reviewer subagent configuration.
 
-Add your screenshot here.
+<img width="993" height="838" alt="3" src="https://github.com/user-attachments/assets/3f0a1dce-370a-4601-9989-ce7284a1f1a5" />
+
 
 ---
 
@@ -55,7 +59,8 @@ Add your screenshot here.
 
 Add a screenshot showing Terraform MCP connected and available.
 
-Add your screenshot here.
+<img width="994" height="560" alt="4" src="https://github.com/user-attachments/assets/476434c8-2e60-4506-9f84-f92d6d77b9ac" />
+
 
 ---
 
@@ -63,7 +68,8 @@ Add your screenshot here.
 
 Add a screenshot showing the configured Claude Code validation hooks.
 
-Add your screenshot here.
+<img width="992" height="808" alt="5" src="https://github.com/user-attachments/assets/d28daa9d-9694-418a-acc1-09d8ffee640e" />
+
 
 ---
 
@@ -90,7 +96,7 @@ The diagram must show:
 
 ## Architecture Diagram
 
-Add the completed architecture diagram here.
+<img width="1672" height="941" alt="2e9c2168-32e9-44e8-8d05-6b9eda81a205" src="https://github.com/user-attachments/assets/f47d94e0-262e-4509-8a5c-b7f8bd651e55" />
 
 ---
 
@@ -105,8 +111,7 @@ Create the modular Terraform project and implement the network and security laye
 ### Screenshot 6 — Modular Terraform Project Structure
 
 Add a screenshot showing the modular Terraform project structure.
-
-Add your screenshot here.
+<img width="1789" height="1087" alt="6" src="https://github.com/user-attachments/assets/e6cf3aea-60b8-4b44-b2f8-07c6d2b97a74" />
 
 ---
 
@@ -114,7 +119,9 @@ Add your screenshot here.
 
 Add a screenshot showing the six-subnet architecture across two availability locations.
 
-Add your screenshot here.
+<img width="1792" height="1060" alt="7 1" src="https://github.com/user-attachments/assets/44706689-ba68-4567-a89d-54fb8cfa6209" />
+
+<img width="1792" height="703" alt="7 2" src="https://github.com/user-attachments/assets/bf2e4d61-0a0e-41c5-8fc4-360ae4e395de" />
 
 ---
 
@@ -122,7 +129,8 @@ Add your screenshot here.
 
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
-Add your screenshot here.
+<img width="989" height="760" alt="8" src="https://github.com/user-attachments/assets/fbbeffdd-723a-4ddb-923b-eeb2418a64fc" />
+
 
 ---
 
@@ -138,7 +146,9 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-Add your screenshot here.
+<img width="1792" height="995" alt="9 1" src="https://github.com/user-attachments/assets/65b0c553-5bef-401a-92ac-a1bd0753f992" />
+
+<img width="1792" height="1104" alt="9 2" src="https://github.com/user-attachments/assets/9171e724-cdd2-47fd-bc8a-d92d4205a86b" />
 
 ---
 
@@ -146,7 +156,11 @@ Add your screenshot here.
 
 Add a screenshot showing the internet-facing public load balancer.
 
-Add your screenshot here.
+<img width="1792" height="1082" alt="10" src="https://github.com/user-attachments/assets/8197e4a4-6218-45e7-a8e0-1d1f96fbae2f" />
+
+<img width="1792" height="1095" alt="10 1" src="https://github.com/user-attachments/assets/8bcb03cd-0af7-4b31-9a57-82711f90cad5" />
+
+
 
 ---
 
@@ -154,7 +168,13 @@ Add your screenshot here.
 
 Add a screenshot showing the private internal load balancer.
 
-Add your screenshot here.
+<img width="1792" height="1120" alt="11" src="https://github.com/user-attachments/assets/e3d4b8f3-8c59-4d82-bab9-5c3e4fe0d03e" />
+
+<img width="1792" height="1119" alt="11 1" src="https://github.com/user-attachments/assets/451a5f26-8991-4438-9e0a-3ce79e3d0b96" />
+
+<img width="1792" height="1089" alt="11 2" src="https://github.com/user-attachments/assets/705a7b25-5d41-4cba-b81e-e40ab5413c4b" />
+
+<img width="1792" height="337" alt="11 3" src="https://github.com/user-attachments/assets/b12505a8-be34-4b91-9f97-4b181f028bb7" />
 
 ---
 
@@ -162,7 +182,15 @@ Add your screenshot here.
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
+<img width="992" height="961" alt="12" src="https://github.com/user-attachments/assets/f3af3f4c-65ae-409a-b8ab-2d6e944dc373" />
+
+<img width="988" height="960" alt="12 1" src="https://github.com/user-attachments/assets/951c7bd0-63a9-476a-aecf-60f622e85f75" />
+
+<img width="991" height="961" alt="12 2" src="https://github.com/user-attachments/assets/c5f2733e-0475-4a7e-925f-0dcab6a0c7a4" />
+
+<img width="989" height="962" alt="12 3" src="https://github.com/user-attachments/assets/d5d019b7-940c-4a4e-811e-ffdcd92dd90f" />
+
+<img width="988" height="611" alt="12 4" src="https://github.com/user-attachments/assets/208c15b9-c02e-424e-be20-01ad41cf5508" />
 
 ---
 
@@ -178,7 +206,15 @@ Deploy a private, highly available managed MySQL database with a read replica an
 
 Add a screenshot showing the managed MySQL database deployment.
 
-Add your screenshot here.
+<img width="940" height="1057" alt="13" src="https://github.com/user-attachments/assets/73b462db-8103-4d1d-a1b2-56fe14679165" />
+
+<img width="938" height="1032" alt="13 1" src="https://github.com/user-attachments/assets/c9c3aecf-c71d-4391-b444-d828b9d96f45" />
+
+<img width="940" height="1058" alt="13 2" src="https://github.com/user-attachments/assets/eebc0d1d-9241-4b81-b52c-3108df8cbd39" />
+
+<img width="940" height="1059" alt="13 3" src="https://github.com/user-attachments/assets/b498eab7-48f8-4d5f-833b-fb1c67f1dd95" />
+
+<img width="940" height="777" alt="13 4" src="https://github.com/user-attachments/assets/7ff56e55-6aa5-4f5f-a66e-88f2a4386504" />
 
 ---
 
@@ -186,7 +222,13 @@ Add your screenshot here.
 
 Add a screenshot showing the Multi-AZ or high-availability configuration.
 
-Add your screenshot here.
+<img width="941" height="1057" alt="14" src="https://github.com/user-attachments/assets/f4eaac5f-bfe2-4473-b396-2a066014addc" />
+
+<img width="939" height="1057" alt="14 1" src="https://github.com/user-attachments/assets/07a8540f-c8fc-4c9c-b39c-b905b4ed6a11" />
+
+<img width="944" height="1058" alt="14 2" src="https://github.com/user-attachments/assets/b4abd727-0677-46e2-97f3-a6892265534b" />
+
+<img width="941" height="1058" alt="14 3" src="https://github.com/user-attachments/assets/a657992f-1afa-44bd-aab3-664c973ec2e5" />
 
 ---
 
@@ -194,7 +236,17 @@ Add your screenshot here.
 
 Add a screenshot showing the read replica configuration.
 
-Add your screenshot here.
+<img width="939" height="1058" alt="15" src="https://github.com/user-attachments/assets/d19ba534-9177-4b71-864b-6b179059d7d2" />
+
+<img width="940" height="1057" alt="15 1" src="https://github.com/user-attachments/assets/93aab131-e2d2-412e-9a35-4eb3c21f29bd" />
+
+<img width="942" height="1058" alt="15 2" src="https://github.com/user-attachments/assets/5d50c25e-61bc-46ed-95d5-b4e5f1ca19e1" />
+
+<img width="942" height="1061" alt="15 3" src="https://github.com/user-attachments/assets/b891eda6-7fe5-4aec-a9d3-723829b67fc9" />
+
+<img width="939" height="1057" alt="15 4" src="https://github.com/user-attachments/assets/fae0d011-38ed-4a5d-849d-410d93072d01" />
+
+<img width="941" height="791" alt="15 5" src="https://github.com/user-attachments/assets/114cb92c-73f9-4a48-833e-efcd069b7fef" />
 
 ---
 
@@ -202,7 +254,9 @@ Add your screenshot here.
 
 Add a screenshot showing that the database is private and accepts MySQL traffic only from the Application Tier.
 
-Add your screenshot here.
+<img width="938" height="1047" alt="16 1" src="https://github.com/user-attachments/assets/0e5d1d27-d2a7-489a-a5cd-027c5e1819df" />
+
+<img width="939" height="298" alt="16 2" src="https://github.com/user-attachments/assets/ee4a2dcb-2e44-4467-b30b-668f8afb518f" />
 
 ---
 
@@ -218,7 +272,8 @@ Validate the Terraform configuration, review the execution plan using both Agent
 
 Add a screenshot showing successful `terraform validate` output.
 
-Add your screenshot here.
+<img width="877" height="735" alt="17" src="https://github.com/user-attachments/assets/e1b18578-f8bd-463d-bdfc-410ac3cc9ec6" />
+
 
 ---
 
@@ -226,7 +281,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform plan output.
 
-Add your screenshot here.
+<img width="529" height="317" alt="18" src="https://github.com/user-attachments/assets/69c38808-70ed-4c57-8056-038b8618a369" />
 
 ---
 
@@ -234,7 +289,7 @@ Add your screenshot here.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+<img width="1555" height="708" alt="19" src="https://github.com/user-attachments/assets/54e61e8c-2ee2-4665-a206-24d955d8bb42" />
 
 ---
 
@@ -250,7 +305,8 @@ Deploy and configure the Book Review App across the Web, Application, and Databa
 
 Add a screenshot showing the Book Review App homepage through the public endpoint.
 
-Add your screenshot here.
+<img width="963" height="1050" alt="20-t" src="https://github.com/user-attachments/assets/5de0feb6-f86d-42ad-8b8f-54eb5d76c647" />
+
 
 ---
 
@@ -258,7 +314,8 @@ Add your screenshot here.
 
 Add a screenshot showing successful login or authentication.
 
-Add your screenshot here.
+<img width="956" height="1080" alt="21" src="https://github.com/user-attachments/assets/3f4f2da8-9510-4ae3-948d-c6f5e0f783d1" />
+
 
 ---
 
@@ -266,7 +323,8 @@ Add your screenshot here.
 
 Add a screenshot showing the book listing or book details.
 
-Add your screenshot here.
+<img width="948" height="956" alt="22" src="https://github.com/user-attachments/assets/eb9fed47-76c6-4438-bda7-e3ac8e77f996" />
+
 
 ---
 
@@ -274,7 +332,8 @@ Add your screenshot here.
 
 Add a screenshot showing the review functionality working successfully.
 
-Add your screenshot here.
+<img width="952" height="869" alt="23" src="https://github.com/user-attachments/assets/fc7dbf41-728f-4086-8a42-bcc4deb684ee" />
+
 
 ---
 
@@ -282,7 +341,8 @@ Add your screenshot here.
 
 Add a screenshot showing that the backend or API is working successfully.
 
-Add your screenshot here.
+<img width="712" height="434" alt="24" src="https://github.com/user-attachments/assets/08d0cc31-249c-493c-bf18-b98342aabe39" />
+
 
 ---
 
@@ -290,11 +350,12 @@ Add your screenshot here.
 
 Add a screenshot showing successful database reads and writes.
 
-Add your screenshot here.
+<img width="1124" height="569" alt="25" src="https://github.com/user-attachments/assets/d4aa320f-90d2-4a45-87e9-7240fb5dee5e" />
+
 
 ## Public Application URL
 
-**Public Application URL / DNS:** Add the working public application URL or load-balancer DNS here
+**Public Application URL / DNS:** http://book-review-dev-public-alb-1403149350.us-east-1.elb.amazonaws.com/book/1
 
 ---
 
@@ -312,7 +373,8 @@ You do not need to submit your complete Claude Code conversation history. Includ
 
 Add a screenshot showing one useful example of AI-assisted Terraform generation or improvement.
 
-Add your screenshot here.
+<img width="850" height="791" alt="26" src="https://github.com/user-attachments/assets/534524e8-8003-4363-9134-1ba27ffe71a9" />
+
 
 ---
 
@@ -320,7 +382,8 @@ Add your screenshot here.
 
 Add a screenshot showing one structured architecture or security review result.
 
-Add your screenshot here.
+<img width="1792" height="1084" alt="27" src="https://github.com/user-attachments/assets/fc08d265-b3a3-4769-b43d-ea6e2b3f2962" />
+
 
 ---
 
@@ -328,7 +391,8 @@ Add your screenshot here.
 
 Add a screenshot showing one AI-assisted troubleshooting interaction based on collected evidence.
 
-Add your screenshot here.
+<img width="852" height="580" alt="28" src="https://github.com/user-attachments/assets/0138bdd0-ee14-4bdf-90f3-3941c0ba5c2b" />
+
 
 ---
 
@@ -365,69 +429,98 @@ Reflect on the architecture, Terraform implementation, and Agentic AI workflow. 
 
 ## Architecture
 
-### 1. Why did you separate the Web, Application, and Database tiers?
+1. Why did you separate the Web, Application, and Database tiers?                                 
+  I separated them so each tier only has access to what it needs. The web tier faces the internet,
+  the app tier stays private and handles the logic, and the database never touches the internet at  
+  all. If something goes wrong in one layer, it doesn't automatically compromise the others.        
+                                                                                                    
+  2. Why is the Application Tier private?                                                           
+  I didn't want the backend directly reachable from the internet. I set it up so traffic has to come
+   through the internal load balancer, which only accepts requests from the web tier. That way      
+  nobody can hit the API endpoints directly from outside.                                           
+                                                                                                    
+  3. Why is MySQL private?                                                                          
+  I put the database in private subnets with no internet gateway route and locked the security group
+   to only allow port 3306 from the app tier. There's no way to reach it from outside the VPC, which
+   is exactly what I wanted.                                                                        
+                                                                                                    
+  4. Why are multiple Availability Zones used?                                                      
+  I spread everything across two AZs so if one data center goes down, the app keeps running. I did
+  this for the web instances, app instances, NAT gateways, and the RDS standby — so a single AZ     
+  failure doesn't take everything offline.                                                          
+                                                                                                    
+  5. What is the difference between Multi-AZ/high availability and a read replica?                  
+  Multi-AZ is about keeping the database up — AWS runs a silent standby in the second AZ and fails
+  over automatically if the primary dies. The read replica is different, it's a copy I can send read
+   queries to so I'm not hammering the primary with everything. One is for availability, the other  
+  is for performance.                                                                               
+                                                                                                    
+  ---                                                                                               
+  Terraform
+                                                                                                    
+  6. How did you divide your Terraform into modules?                                                
+  I created six modules: network for the VPC and subnets, security for all the security groups, iam 
+  for instance roles, rds for the database, web for the frontend tier and public ALB, and app for   
+  the backend tier and internal ALB. Each one handles one concern.                                  
+                                                                                                    
+  7. How do the modules communicate through variables and outputs?                                  
+  I wired them together in the root main.tf. For example, the network module outputs the subnet IDs
+  and VPC ID, and I passed those into the security module as variables. Then the security module    
+  outputs the security group IDs, which I passed into the web and app modules. Nothing references   
+  another module's resources directly.                                                              
+                                                                                                    
+  8. What did you specifically check in terraform plan?                                             
+  I looked for any unexpected replacements that would cause downtime, checked that RDS wasn't marked
+   publicly_accessible, made sure no security group rules were opening 0.0.0.0/0 on the wrong       
+  resources, confirmed ports 3001 and 3306 were only where they should be, and made sure no         
+  passwords were showing up in plain text in the plan output.                                       
+                                                                                                    
+  ---
+  Agentic AI
+                                                                                                    
+  9. What was the purpose of CLAUDE.md?
+  It was how I gave Claude persistent instructions for the whole project — the required             
+  architecture, the rules around secrets, the validation steps before any apply, and the safety     
+  constraints like never auto-approving terraform apply. Without it I'd have to re-explain the      
+  context every conversation.                                                                       
+                                                                                                    
+  10. What work did the Terraform Engineer subagent perform?                                        
+  I used it to write and refactor the Terraform modules, look up current provider documentation so
+  the resource arguments were correct for AWS provider v5, run validation, and analyze plan output. 
+  It kept that work in its own context so it didn't clutter the main conversation.                  
+                                                                                                    
+  11. What did the Architecture and Security Reviewer identify?                                     
+  It found that my Terraform state was local with plaintext secrets inside it, that my tfplan files
+  weren't in .gitignore, that CORS was set to a wildcard in the app user data, and that I had no    
+  HTTPS on the public ALB. It also caught smaller things like an unused variable in the web module  
+  and no auto-scaling policies wired up.                                                            
+                                                                                                    
+  12. Why did you use Terraform MCP instead of relying only on Claude's existing Terraform          
+  knowledge?
+  Because the AWS provider changes between versions and I didn't want to use outdated arguments. The
+   MCP server pulls from the live Terraform Registry so I knew the resource blocks matched the      
+  actual provider version I was running (AWS 5.x), not something from training data that might be
+  deprecated.                                                                                       
+                                                                                                    
+  13. What was the purpose of your validation hooks?                                                
+  To make sure I never skipped the fmt → validate → plan sequence before applying anything. It kept
+  the workflow consistent and made sure I always reviewed the plan output before any infrastructure 
+  change went through.                                                                              
 
-Write your answer here.
+                                                                                          
+  14. Describe one real issue Claude helped you troubleshoot.                                       
+  The frontend was loading but showing "Loading books..." with nothing appearing. Claude walked me
+  through it — the API wasn't reachable from the browser because NEXT_PUBLIC_API_URL was pointing to
+   the internal ALB, which is a private address. The fix was adding an nginx reverse proxy on the   
+  web tier to route /api/* calls to the internal ALB, and rebuilding the frontend with a relative   
+  URL instead.                                                                                      
 
-### 2. Why is the Application Tier private?
-
-Write your answer here.
-
-### 3. Why is MySQL private?
-
-Write your answer here.
-
-### 4. Why are multiple Availability Zones used?
-
-Write your answer here.
-
-### 5. What is the difference between Multi-AZ/high availability and a read replica?
-
-Write your answer here.
-
-## Terraform
-
-### 6. How did you divide your Terraform into modules?
-
-Write your answer here.
-
-### 7. How do the modules communicate through variables and outputs?
-
-Write your answer here.
-
-### 8. What did you specifically check in `terraform plan`?
-
-Write your answer here.
-
-## Agentic AI
-
-### 9. What was the purpose of `CLAUDE.md`?
-
-Write your answer here.
-
-### 10. What work did the Terraform Engineer subagent perform?
-
-Write your answer here.
-
-### 11. What did the Architecture and Security Reviewer identify?
-
-Write your answer here.
-
-### 12. Why did you use Terraform MCP instead of relying only on Claude's existing Terraform knowledge?
-
-Write your answer here.
-
-### 13. What was the purpose of your validation hooks?
-
-Write your answer here.
-
-### 14. Describe one real issue Claude helped you troubleshoot.
-
-Write your answer here.
-
-### 15. Describe one recommendation you reviewed, modified, or rejected instead of accepting blindly.
-
-Write your answer here.
+  15. Describe one recommendation you reviewed, modified, or rejected instead of accepting blindly. 
+  The reviewer flagged that my cross-tier security group egress rules used protocol = -1 which
+  allows all traffic instead of locking it down to specific ports. I looked at it and understood the
+   concern, but since the rules were scoped to specific security groups rather than open CIDRs, I   
+  decided to leave it for now and log it as a future hardening item rather than risk introducing a  
+  problem mid-deployment.   
 
 ---
 
@@ -441,7 +534,8 @@ Write the post in your own words, include at least one project image or other pr
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
+**LinkedIn Post URL:** https://lnkd.in/p/e2PDRfTx
+
 
 ---
 

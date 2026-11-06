@@ -32,7 +32,8 @@ Create and enter a dedicated directory for this ReplicaSet lab.
 
 #### Screenshot 01 — Output of `pwd` showing the working directory ending in `/k8s-labs/replicasets`
 
-Add your screenshot here.
+<img width="598" height="353" alt="1" src="https://github.com/user-attachments/assets/815dcf85-6a41-4839-83fe-c869c649406b" />
+
 
 ---
 
@@ -40,13 +41,12 @@ Add your screenshot here.
 
 **1. Why is it useful to keep Kubernetes manifests in organized directories?**
 
-Add your answer here.
-
+It keeps related configuration files together, makes projects easier to navigate and reduces confusion between assignments.
 ---
 
 **2. What file will you create in this directory for this assignment?**
 
-Add your answer here.
+nginx-replicaset.yaml
 
 ---
 
@@ -60,19 +60,21 @@ Create a ReplicaSet that maintains three NGINX Pods.
 
 #### Screenshot 02 — Completed `nginx-replicaset.yaml` manifest showing `replicas: 3`
 
-Add your screenshot here.
+<img width="597" height="350" alt="2" src="https://github.com/user-attachments/assets/6a944198-9ab4-4c01-bc00-e4b473b1229c" />
+
 
 ---
 
 #### Screenshot 03 — Output of `kubectl apply -f nginx-replicaset.yaml`
 
-Add your screenshot here.
+<img width="595" height="410" alt="3" src="https://github.com/user-attachments/assets/6065797a-2955-4f93-b2ed-f1c5e80872cb" />
+
 
 ---
 
 #### Screenshot 04 — Output of `kubectl get pods` showing three NGINX Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+<img width="595" height="138" alt="4" src="https://github.com/user-attachments/assets/facbf365-014a-4a3f-b7f7-45e37ccf8447" />
 
 ---
 
@@ -80,19 +82,25 @@ Add your screenshot here.
 
 **1. What does `replicas: 3` mean in this manifest?**
 
-Add your answer here.
+It means the ReplicaSet is configured to maintain three identical NGINX Pods at all times. If one Pod is deleted or fails, Kubernetes automatically creates a replacement to maintain the desired number of three.
 
 ---
 
 **2. Why must `selector.matchLabels` match `template.metadata.labels`?**
 
-Add your answer here.
+The selector tells the ReplicaSet which Pods it should manage, while the template defines the labels assigned to the Pods it creates. They must match so that the ReplicaSet can identify and manage its Pods correctly.
+
+In our assignment, both use app: nginx.
 
 ---
 
 **3. What image and image tag are used for the NGINX container?**
 
-Add your answer here.
+The image is nginx and the image tag is 1.21.1.
+
+The complete image reference is:
+
+nginx:1.21.1
 
 ---
 
@@ -106,19 +114,21 @@ Delete one Pod managed by the ReplicaSet and observe Kubernetes automatically cr
 
 #### Screenshot 05 — Output of the command deleting one ReplicaSet-managed Pod
 
-Add your screenshot here.
+<img width="629" height="70" alt="5" src="https://github.com/user-attachments/assets/b3ec61f7-9d84-4063-adb4-3555feb7899d" />
+
 
 ---
 
 #### Screenshot 06 — Output of `kubectl get pods` showing the replacement Pod with a different name from the deleted Pod
 
-Add your screenshot here.
+<img width="629" height="133" alt="6" src="https://github.com/user-attachments/assets/d1769f34-d226-4955-89f1-24d14767e5b0" />
 
 ---
 
 #### Screenshot 07 — Output showing three NGINX Pods with `1/1` under `READY` and `Running` under `STATUS` again
 
-Add your screenshot here.
+<img width="628" height="97" alt="7" src="https://github.com/user-attachments/assets/2fe45295-ef8f-46b6-a39a-10050af3ba22" />
+
 
 ---
 
@@ -126,19 +136,19 @@ Add your screenshot here.
 
 **1. What happened after you deleted one Pod?**
 
-Add your answer here.
+After I deleted one of the three NGINX Pods, the ReplicaSet detected that only two Pods remained and automatically created a replacement Pod. The replacement had a different name from the deleted Pod, restoring the total number to three.
 
 ---
 
 **2. How does the ReplicaSet know that a replacement Pod is needed?**
 
-Add your answer here.
+The ReplicaSet continuously compares the desired number of Pods defined by replicas: 3 with the actual number of running Pods matching its selector. When the actual number drops below three, it creates another Pod using its Pod template.
 
 ---
 
 **3. What proves that auto-healing worked successfully?**
 
-Add your answer here.
+The kubectl get pods output showed that a new Pod with a different name was created and that all three Pods returned to 1/1 READY and Running status. This confirms that the ReplicaSet successfully maintained the desired number of Pods.
 
 ---
 
@@ -152,13 +162,15 @@ Scale the ReplicaSet from three NGINX Pods to five NGINX Pods by changing the YA
 
 #### Screenshot 08 — Updated `nginx-replicaset.yaml` showing `replicas: 5`
 
-Add your screenshot here.
+<img width="631" height="343" alt="8" src="https://github.com/user-attachments/assets/02ba221a-4670-4a0d-a908-44c5b836fc58" />
+
 
 ---
 
 #### Screenshot 09 — Output of `kubectl get pods` showing five NGINX Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+<img width="631" height="154" alt="9" src="https://github.com/user-attachments/assets/640a37cd-a542-4e15-bc53-79401c782541" />
+
 
 ---
 
@@ -166,20 +178,19 @@ Add your screenshot here.
 
 **1. What change did you make to scale the ReplicaSet?**
 
-Add your answer here.
+I edited the nginx-replicaset.yaml manifest and changed replicas: 3 to replicas: 5. I then ran kubectl apply -f nginx-replicaset.yaml to apply the updated configuration.
 
 ---
 
 **2. Did you manually create the additional Pods? Explain why or why not.**
 
-Add your answer here.
+No. Kubernetes automatically created the two additional Pods because the ReplicaSet detected that the desired number had increased from three to five. It used its existing Pod template to create them.
 
 ---
 
 **3. What would happen if you changed the replica count from five back to three?**
 
-Add your answer here.
-
+Kubernetes would automatically remove two Pods until only three remained. The ReplicaSet would continuously reconcile the actual number of Pods with the desired replica count specified in the YAML manifest.
 ---
 
 # LinkedIn Requirement
@@ -200,13 +211,14 @@ Do not share sensitive information, cluster credentials, tokens, or kubeconfig d
 
 #### Screenshot 10 — Published LinkedIn post showing your name, the required explanation, and the attached Pod screenshot
 
-Add your screenshot here.
+<img width="472" height="740" alt="linkedinpost" src="https://github.com/user-attachments/assets/40ac2311-662b-4b0d-ad6e-80972754ac68" />
+
 
 ---
 
 ### Post Link
 
-Add the URL of your published LinkedIn post here.
+https://lnkd.in/p/eg7YaWsE
 
 ---
 

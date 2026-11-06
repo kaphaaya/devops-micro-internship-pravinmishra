@@ -12,7 +12,7 @@ In this assignment, you will build a read-only Bash script that audits a running
 
 # Target Container
 
-**Target Container Name:** `Add the exact container name here`
+**Target Container Name:* epicbook-backend
 
 ---
 
@@ -33,7 +33,8 @@ docker-audit.sh
 SKILL.md
 ```
 
-Add your screenshot here.
+<img width="844" height="114" alt="1" src="https://github.com/user-attachments/assets/e359a274-5650-44fc-971b-2c0f654b56d1" />
+
 
 ---
 
@@ -49,7 +50,8 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
-Add your screenshot here.
+<img width="841" height="930" alt="2" src="https://github.com/user-attachments/assets/e1b66833-dfb1-4ca0-b420-504d03632c5a" />
+
 
 ---
 
@@ -70,7 +72,8 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
-Add your screenshot here.
+<img width="843" height="235" alt="3" src="https://github.com/user-attachments/assets/566bd041-8199-40fa-842f-af39ecf67359" />
+
 
 ---
 
@@ -90,7 +93,8 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
-Add your screenshot here.
+<img width="836" height="231" alt="4" src="https://github.com/user-attachments/assets/0f7c6cee-08b8-4538-8f6a-9cd72f14cf99" />
+
 
 ---
 
@@ -98,7 +102,8 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the initial Docker audit results.
 
-Add your screenshot here.
+<img width="843" height="364" alt="5" src="https://github.com/user-attachments/assets/71179edd-1e47-419e-8f83-f38ff229e8bb" />
+
 
 ---
 
@@ -119,7 +124,8 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
-Add your screenshot here.
+<img width="842" height="727" alt="6" src="https://github.com/user-attachments/assets/c85b764c-8a77-4e57-8673-d1b4dd3548cc" />
+
 
 ---
 
@@ -135,7 +141,9 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
-Add your screenshot here.
+<img width="842" height="559" alt="7" src="https://github.com/user-attachments/assets/516f5a8b-c48d-43f8-869c-5eede4d32ed6" />
+
+<img width="842" height="503" alt="7 1" src="https://github.com/user-attachments/assets/8ac7240f-862f-4135-93fd-6991c838661c" />
 
 ---
 
@@ -143,7 +151,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
-Add your screenshot here.
+<img width="842" height="179" alt="8" src="https://github.com/user-attachments/assets/72866b57-a044-480c-9569-6b03c2020996" />
 
 ---
 
@@ -163,7 +171,8 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
-Add your screenshot here.
+<img width="838" height="532" alt="9" src="https://github.com/user-attachments/assets/5b261bfc-265c-4f6d-b481-802e20c20289" />
+
 
 ---
 
@@ -176,7 +185,15 @@ Write a short comparison covering:
 - Final audit result
 - Security benefit of the improvement
 
-Write your comparison here.
+### Before-and-After Comparison
+
+**Initial audit finding:** The initial container hardening audit returned five PASS results and one WARN. The warning identified that the backend image, `epicbook-production-backend`, did not have an explicit image tag.
+
+**Hardening change applied:** I updated the backend service in `docker-compose.yml` to use the explicit image tag `epicbook-backend:20261027`. I then built the tagged image and recreated only the backend service.
+
+**Final audit result:** Pending confirmation from the final audit report.
+
+**Security benefit:** Explicit image tags improve image identification and deployment traceability, making it easier to distinguish versions and manage deployments consistently. However, tags alone do not guarantee that an image is immutable; using an image digest provides stronger assurance of the exact image content.
 
 ---
 
@@ -188,13 +205,13 @@ Create a LinkedIn post about the container security checks you performed, one ha
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** https://lnkd.in/p/eicgFZdD
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post, including the final audit result.
 
-Add your screenshot here.
+<img width="469" height="602" alt="linkedin post" src="https://github.com/user-attachments/assets/995bb30a-c00a-419a-875e-12d84035cfce" />
 
 ---
 
